@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SupervisedLearning.iml" filepath="$PROJECT_DIR$/SupervisedLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WekaClassifiers.iml" filepath="$PROJECT_DIR$/WekaClassifiers.iml" />
     </modules>
   </component>
 </project>

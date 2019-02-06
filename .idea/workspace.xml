@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97ffdb81-b637-489e-9b51-34d52b9f792b" name="Default Changelist" comment="" />
+    <list default="true" id="97ffdb81-b637-489e-9b51-34d52b9f792b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/splitData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/SupervisedLearning.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,14 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotAllResults.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="88" column="27" lean-forward="true" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+              <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/splitData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -39,6 +56,9 @@
       <find>test</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -52,13 +72,14 @@
         <option value="$PROJECT_DIR$/datasets/wine/svm/gridsearch.txt" />
         <option value="$PROJECT_DIR$/datasets/wine/splits/80.csv" />
         <option value="$PROJECT_DIR$/datasets/wine/splits/100.csv" />
-        <option value="$PROJECT_DIR$/split_data.py" />
         <option value="$PROJECT_DIR$/weka.py" />
         <option value="$PROJECT_DIR$/knn.py" />
         <option value="$PROJECT_DIR$/decision_tree_with_pruning.py" />
         <option value="$PROJECT_DIR$/consolidateWeka.py" />
         <option value="$PROJECT_DIR$/plot_data.py" />
         <option value="$PROJECT_DIR$/plotAllResults.py" />
+        <option value="$PROJECT_DIR$/split_data.py" />
+        <option value="$PROJECT_DIR$/splitData.py" />
       </list>
     </option>
   </component>
@@ -67,6 +88,7 @@
     <option name="width" value="720" />
     <option name="height" value="824" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -78,17 +100,6 @@
             <path>
               <item name="SupervisedLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="SupervisedLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SupervisedLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SupervisedLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="WekaClassifiers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SupervisedLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SupervisedLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="WekaClassifiers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -103,6 +114,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/datasets/wine/splits" />
     </key>
   </component>
@@ -118,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plotAllResults">
+  <component name="RunManager" selected="Python.split_data">
     <configuration name="consolidateWeka" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SupervisedLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,27 +165,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decision_tree_with_pruning.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="knn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SupervisedLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,20 +215,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="split_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SupervisedLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/splitData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.plot_data" />
-      <item itemvalue="Python.knn" />
       <item itemvalue="Python.decision_tree_with_pruning" />
       <item itemvalue="Python.consolidateWeka" />
       <item itemvalue="Python.plotAllResults" />
+      <item itemvalue="Python.split_data" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.split_data" />
         <item itemvalue="Python.plotAllResults" />
         <item itemvalue="Python.plot_data" />
         <item itemvalue="Python.consolidateWeka" />
         <item itemvalue="Python.decision_tree_with_pruning" />
-        <item itemvalue="Python.knn" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +268,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="720" height="824" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -299,7 +312,6 @@
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/arff.py" />
     <entry file="file://$PROJECT_DIR$/datasets/germancredit/data.arff" />
     <entry file="file://$PROJECT_DIR$/weka.py" />
-    <entry file="file://$PROJECT_DIR$/split_data.py" />
     <entry file="file://$PROJECT_DIR$/decision_tree_with_pruning.py" />
     <entry file="file://$PROJECT_DIR$/dataFormatter.py" />
     <entry file="file://$PROJECT_DIR$/results/wine/decision tree/pruning/40 cv" />
@@ -325,10 +337,17 @@
     <entry file="file://$PROJECT_DIR$/plotAllResults.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="88" column="27" lean-forward="true" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splitData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
