@@ -1,0 +1,152 @@
+AdaBoostM1: Base classifiers and their weights: 
+
+J48 pruned tree
+------------------
+: good (112.0/31.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Weight: 0.96
+
+J48 pruned tree
+------------------
+
+checking_status = <0: bad (39.27/10.37)
+checking_status = 0<=X<200: bad (31.2/13.14)
+checking_status = >=200: good (9.14/3.61)
+checking_status = no checking: good (32.38/5.42)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	5
+
+
+Weight: 0.89
+
+J48 pruned tree
+------------------
+
+age <= 39
+|   existing_credits <= 1: bad (43.36/16.77)
+|   existing_credits > 1: good (36.39/16.97)
+age > 39: good (32.25/5.09)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Weight: 0.63
+
+J48 pruned tree
+------------------
+
+credit_history = no credits/all paid: bad (4.8/1.99)
+credit_history = all paid: bad (6.81/0.37)
+credit_history = existing paid: good (53.98/21.96)
+credit_history = delayed previously: good (12.9/6.32)
+credit_history = critical/other existing credit: good (33.52/14.64)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	6
+
+
+Weight: 0.39
+
+J48 pruned tree
+------------------
+
+housing = rent: bad (31.98/10.03)
+housing = own
+|   credit_amount <= 1393: bad (27.17/8.51)
+|   credit_amount > 1393: good (39.96/12.6)
+housing = for free: bad (12.89/5.26)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	6
+
+
+Weight: 0.73
+
+J48 pruned tree
+------------------
+
+personal_status = male div/sep: bad (12.26/2.7)
+personal_status = female div/dep/mar: good (32.29/12.0)
+personal_status = male single: bad (55.65/26.46)
+personal_status = male mar/wid: good (11.8/4.36)
+personal_status = female single: good (0.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	6
+
+
+Weight: 0.38
+
+J48 pruned tree
+------------------
+
+credit_history = no credits/all paid: good (3.72/1.47)
+credit_history = all paid: bad (7.28/0.6)
+credit_history = existing paid: good (54.24/24.4)
+credit_history = delayed previously: good (11.14/4.88)
+credit_history = critical/other existing credit: good (35.62/15.35)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	6
+
+
+Weight: 0.34
+
+J48 pruned tree
+------------------
+
+employment = unemployed: good (8.69/2.23)
+employment = <1: bad (17.54/4.04)
+employment = 1<=X<4: bad (38.81/18.39)
+employment = 4<=X<7: good (15.95/7.62)
+employment = >=7: bad (31.01/13.77)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	6
+
+
+Weight: 0.36
+
+J48 pruned tree
+------------------
+
+age <= 39: bad (84.56/36.46)
+age > 39: good (27.44/7.33)
+
+Number of Leaves  : 	2
+
+Size of the tree : 	3
+
+
+Weight: 0.44
+
+J48 pruned tree
+------------------
+
+job = unemp/unskilled non res: good (3.33/1.32)
+job = unskilled resident: good (27.76/11.45)
+job = skilled: good (61.55/23.01)
+job = high qualif/self emp/mgmt: bad (19.36/6.28)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	5
+
+
+Weight: 0.51
+
+Number of performed Iterations: 10

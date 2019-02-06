@@ -1,0 +1,51 @@
+import weka.classifiers.Classifier;
+import weka.classifiers.lazy.IBk;
+import weka.core.Instances;
+import weka.core.SelectedTag;
+
+public class knnDistance extends LearningAlgorithm {
+
+    Integer k = null;
+
+    @Override
+    protected GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train) throws Exception {
+        GridSearchParameters p1 = new GridSearchParameters("k", 1, 50, 1);
+
+        double bestAccuracy = 0;
+        String bestParameters = "";
+        for (int i = (int) p1.low; i <= (int) p1.high; i += (int) p1.step) {
+            ((IBk) model).setKNN(i);
+            double accuracy = Utils.CVTest(model, train, null);
+            if (accuracy > bestAccuracy) {
+                bestAccuracy = accuracy;
+                bestParameters = p1.parameter + ": " + i;
+            }
+        }
+        return new GridSearchResult(bestAccuracy, bestParameters);
+    }
+
+    public knnDistance(int k) {
+        this.k = k;
+    }
+
+    public knnDistance() {
+    }
+
+    @Override
+    protected Classifier getModel() {
+        IBk model = new IBk();
+        model.setDistanceWeighting(new SelectedTag(IBk.WEIGHT_INVERSE, IBk.TAGS_WEIGHTING));
+
+        if (k == null) {
+            System.out.println("WARNING: No model parameters set");
+        } else {
+            model.setKNN(k);
+        }
+        return model;
+    }
+
+    @Override
+    protected String getName() {
+        return "knnDistance";
+    }
+}

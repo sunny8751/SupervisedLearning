@@ -1,0 +1,159 @@
+AdaBoostM1: Base classifiers and their weights: 
+
+J48 pruned tree
+------------------
+: good (140.0/37.0)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Weight: 1.02
+
+J48 pruned tree
+------------------
+
+checking_status = <0: bad (50.75/12.91)
+checking_status = 0<=X<200: bad (38.48/17.67)
+checking_status = >=200: good (11.79/5.68)
+checking_status = no checking: good (38.98/5.68)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	5
+
+
+Weight: 0.85
+
+J48 pruned tree
+------------------
+
+age <= 37
+|   checking_status = <0: bad (31.6/11.34)
+|   checking_status = 0<=X<200: good (29.39/13.5)
+|   checking_status = >=200: bad (11.9/2.43)
+|   checking_status = no checking: good (17.47/6.32)
+age > 37: good (49.64/11.26)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	7
+
+
+Weight: 0.75
+
+J48 pruned tree
+------------------
+
+purpose = new car: bad (47.1/15.2)
+purpose = used car: good (12.58/3.1)
+purpose = furniture/equipment: good (19.12/6.2)
+purpose = radio/tv: good (29.29/11.84)
+purpose = domestic appliance: good (2.59/0.99)
+purpose = repairs: good (0.83)
+purpose = education: bad (8.06/2.86)
+purpose = vacation: bad (0.0)
+purpose = retraining: good (1.67)
+purpose = business: bad (17.09/5.96)
+purpose = other: good (1.67)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	12
+
+
+Weight: 0.71
+
+J48 pruned tree
+------------------
+
+credit_history = no credits/all paid: bad (5.5/2.42)
+credit_history = all paid: bad (9.09/1.53)
+credit_history = existing paid
+|   age <= 28: bad (34.64/9.65)
+|   age > 28: good (33.71/13.53)
+credit_history = delayed previously: good (11.44/5.25)
+credit_history = critical/other existing credit: good (45.61/15.16)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	8
+
+
+Weight: 0.67
+
+J48 pruned tree
+------------------
+
+personal_status = male div/sep: bad (12.88/1.33)
+personal_status = female div/dep/mar: good (39.19/15.26)
+personal_status = male single: bad (68.41/28.83)
+personal_status = male mar/wid: bad (19.52/8.97)
+personal_status = female single: bad (0.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	6
+
+
+Weight: 0.45
+
+J48 pruned tree
+------------------
+
+employment = unemployed: good (13.31/3.16)
+employment = <1: bad (21.24/6.67)
+employment = 1<=X<4: bad (51.47/22.63)
+employment = 4<=X<7: good (14.79/5.21)
+employment = >=7: good (39.2/18.29)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	6
+
+
+Weight: 0.41
+
+J48 pruned tree
+------------------
+
+installment_commitment <= 3: good (66.63/25.42)
+installment_commitment > 3
+|   credit_amount <= 1905: good (35.61/16.05)
+|   credit_amount > 1905: bad (37.75/9.71)
+
+Number of Leaves  : 	3
+
+Size of the tree : 	5
+
+
+Weight: 0.55
+
+J48 pruned tree
+------------------
+
+checking_status = <0: bad (52.55/19.32)
+checking_status = 0<=X<200: bad (46.18/21.74)
+checking_status = >=200: bad (14.77/4.51)
+checking_status = no checking: good (26.49/10.88)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	5
+
+
+Weight: 0.39
+
+J48 pruned tree
+------------------
+: bad (140.0/69.59)
+
+Number of Leaves  : 	1
+
+Size of the tree : 	1
+
+
+Weight: 0.01
+
+Number of performed Iterations: 10

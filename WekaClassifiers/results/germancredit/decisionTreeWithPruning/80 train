@@ -1,0 +1,20 @@
+J48 pruned tree
+------------------
+
+checking_status = <0
+|   credit_history = no credits/all paid: bad (8.0/2.0)
+|   credit_history = all paid: bad (14.0/3.0)
+|   credit_history = existing paid
+|   |   installment_commitment <= 3: good (43.0/18.0)
+|   |   installment_commitment > 3: bad (53.0/19.0)
+|   credit_history = delayed previously: bad (5.0/2.0)
+|   credit_history = critical/other existing credit: good (41.0/9.0)
+checking_status = 0<=X<200
+|   duration <= 20: good (82.0/19.0)
+|   duration > 20: bad (69.0/33.0)
+checking_status = >=200: good (33.0/6.0)
+checking_status = no checking: good (212.0/20.0)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	14

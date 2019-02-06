@@ -1,0 +1,36 @@
+J48 pruned tree
+------------------
+
+checking_status = <0
+|   duration <= 30
+|   |   credit_history = no credits/all paid: bad (6.0/2.0)
+|   |   credit_history = all paid: bad (15.0/5.0)
+|   |   credit_history = existing paid
+|   |   |   purpose = new car: bad (29.0/10.0)
+|   |   |   purpose = used car: good (8.0/2.0)
+|   |   |   purpose = furniture/equipment: good (29.0/11.0)
+|   |   |   purpose = radio/tv: good (23.0/10.0)
+|   |   |   purpose = domestic appliance: bad (2.0)
+|   |   |   purpose = repairs: good (0.0)
+|   |   |   purpose = education: bad (5.0/1.0)
+|   |   |   purpose = vacation: good (0.0)
+|   |   |   purpose = retraining: good (0.0)
+|   |   |   purpose = business: good (1.0)
+|   |   |   purpose = other: good (1.0)
+|   |   credit_history = delayed previously: good (5.0/2.0)
+|   |   credit_history = critical/other existing credit: good (43.0/7.0)
+|   duration > 30: bad (32.0/6.0)
+checking_status = 0<=X<200
+|   savings_status = <100
+|   |   duration <= 22: good (72.0/18.0)
+|   |   duration > 22: bad (44.0/13.0)
+|   savings_status = 100<=X<500: bad (30.0/14.0)
+|   savings_status = 500<=X<1000: good (8.0/2.0)
+|   savings_status = >=1000: good (11.0/3.0)
+|   savings_status = no known savings: good (29.0/3.0)
+checking_status = >=200: good (42.0/7.0)
+checking_status = no checking: good (265.0/25.0)
+
+Number of Leaves  : 	24
+
+Size of the tree : 	30

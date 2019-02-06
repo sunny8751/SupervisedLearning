@@ -1,0 +1,207 @@
+AdaBoostM1: Base classifiers and their weights: 
+
+J48 pruned tree
+------------------
+
+checking_status = <0
+|   duration <= 16: good (33.0/11.0)
+|   duration > 16: bad (31.0/13.0)
+checking_status = 0<=X<200: good (57.0/18.0)
+checking_status = >=200: good (16.0/3.0)
+checking_status = no checking: good (87.0/9.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	7
+
+
+Weight: 1.15
+
+J48 pruned tree
+------------------
+
+other_payment_plans = bank: bad (34.01/11.3)
+other_payment_plans = stores: bad (8.1/3.29)
+other_payment_plans = none
+|   age <= 34
+|   |   installment_commitment <= 2: good (35.23/12.44)
+|   |   installment_commitment > 2: bad (65.1/24.57)
+|   age > 34: good (81.55/16.4)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	8
+
+
+Weight: 0.83
+
+J48 pruned tree
+------------------
+
+savings_status = <100
+|   purpose = new car: bad (46.05/16.67)
+|   purpose = used car: good (16.06/6.83)
+|   purpose = furniture/equipment: bad (28.69/12.12)
+|   purpose = radio/tv: good (37.24/10.79)
+|   purpose = domestic appliance: good (1.56)
+|   purpose = repairs: good (0.0)
+|   purpose = education: good (6.23/0.47)
+|   purpose = vacation: good (0.0)
+|   purpose = retraining: good (0.47)
+|   purpose = business: good (11.1/5.15)
+|   purpose = other: good (1.49)
+savings_status = 100<=X<500: bad (21.46/7.18)
+savings_status = 500<=X<1000: good (12.96/6.39)
+savings_status = >=1000: good (9.68/1.49)
+savings_status = no known savings: good (31.0/5.01)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	17
+
+
+Weight: 0.74
+
+J48 pruned tree
+------------------
+
+checking_status = <0
+|   duration <= 12: bad (35.52/12.34)
+|   duration > 12: good (42.47/13.96)
+checking_status = 0<=X<200
+|   duration <= 21: good (32.76/11.86)
+|   duration > 21: bad (29.84/5.82)
+checking_status = >=200: good (15.77/6.94)
+checking_status = no checking: good (67.62/20.58)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	9
+
+
+Weight: 0.76
+
+J48 pruned tree
+------------------
+
+credit_history = no credits/all paid: good (7.85/3.31)
+credit_history = all paid: bad (12.83/2.57)
+credit_history = existing paid
+|   own_telephone = none: bad (84.45/28.53)
+|   own_telephone = yes: good (43.68/17.81)
+credit_history = delayed previously: bad (18.17/8.16)
+credit_history = critical/other existing credit: good (57.02/20.9)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	8
+
+
+Weight: 0.56
+
+J48 pruned tree
+------------------
+
+purpose = new car
+|   credit_amount <= 1552: bad (34.71/8.92)
+|   credit_amount > 1552: good (31.74/14.18)
+purpose = used car: good (19.61/9.76)
+purpose = furniture/equipment: good (35.67/12.69)
+purpose = radio/tv
+|   credit_amount <= 1979: good (29.17/10.28)
+|   credit_amount > 1979: bad (30.28/10.73)
+purpose = domestic appliance: good (1.5/0.63)
+purpose = repairs: good (2.61)
+purpose = education: bad (13.92/4.38)
+purpose = vacation: bad (0.0)
+purpose = retraining: good (0.4)
+purpose = business: bad (21.89/7.49)
+purpose = other: good (2.52/0.9)
+
+Number of Leaves  : 	13
+
+Size of the tree : 	16
+
+
+Weight: 0.59
+
+J48 pruned tree
+------------------
+
+job = unemp/unskilled non res: good (2.34/0.7)
+job = unskilled resident: good (53.62/24.65)
+job = skilled
+|   purpose = new car: bad (30.09/10.08)
+|   purpose = used car: bad (14.17/4.79)
+|   purpose = furniture/equipment: good (16.81/2.63)
+|   purpose = radio/tv: bad (43.3/19.84)
+|   purpose = domestic appliance: bad (1.56/0.67)
+|   purpose = repairs: good (2.03)
+|   purpose = education: good (8.04/3.88)
+|   purpose = vacation: bad (0.0)
+|   purpose = retraining: bad (0.0)
+|   purpose = business: bad (16.35/6.89)
+|   purpose = other: bad (0.0)
+job = high qualif/self emp/mgmt: bad (35.69/9.06)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	16
+
+
+Weight: 0.53
+
+J48 pruned tree
+------------------
+
+job = unemp/unskilled non res: good (2.25/0.95)
+job = unskilled resident: bad (56.22/23.04)
+job = skilled
+|   housing = rent: bad (32.93/15.45)
+|   housing = own: good (82.31/29.66)
+|   housing = for free: bad (16.91/5.0)
+job = high qualif/self emp/mgmt: bad (33.38/12.2)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	8
+
+
+Weight: 0.47
+
+J48 pruned tree
+------------------
+
+savings_status = <100
+|   duration <= 16: good (70.1/24.86)
+|   duration > 16
+|   |   credit_amount <= 2235: bad (36.89/6.87)
+|   |   credit_amount > 2235: good (44.79/20.21)
+savings_status = 100<=X<500: bad (17.99/8.74)
+savings_status = 500<=X<1000: bad (13.86/3.41)
+savings_status = >=1000: good (9.38/4.25)
+savings_status = no known savings: good (30.99/8.78)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	10
+
+
+Weight: 0.64
+
+J48 pruned tree
+------------------
+
+checking_status = <0: bad (82.29/34.62)
+checking_status = 0<=X<200: bad (61.71/24.28)
+checking_status = >=200: bad (20.77/6.52)
+checking_status = no checking: good (59.23/22.96)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	5
+
+
+Weight: 0.43
+
+Number of performed Iterations: 10

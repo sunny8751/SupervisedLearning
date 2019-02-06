@@ -1,0 +1,72 @@
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: good, bad
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.6632 * (normalized) checking_status=<0
+ +       0.1126 * (normalized) checking_status=0<=X<200
+ +       0.4255 * (normalized) checking_status=>=200
+ +      -3.2013 * (normalized) checking_status=no checking
+ +      -1.3317 * (normalized) duration
+ +       0.9875 * (normalized) credit_history=no credits/all paid
+ +      -0.2385 * (normalized) credit_history=all paid
+ +      -0.449  * (normalized) credit_history=existing paid
+ +       0.3411 * (normalized) credit_history=delayed previously
+ +      -0.6411 * (normalized) credit_history=critical/other existing credit
+ +       3.3312 * (normalized) purpose=new car
+ +       0.9042 * (normalized) purpose=used car
+ +      -1.7726 * (normalized) purpose=furniture/equipment
+ +      -1.7537 * (normalized) purpose=radio/tv
+ +      -0.5926 * (normalized) purpose=domestic appliance
+ +      -0.0982 * (normalized) purpose=education
+ +       4.3084 * (normalized) purpose=business
+ +      -4.3268 * (normalized) purpose=other
+ +       3.091  * (normalized) credit_amount
+ +      -1.1984 * (normalized) savings_status=<100
+ +       1.4003 * (normalized) savings_status=100<=X<500
+ +       0.5871 * (normalized) savings_status=500<=X<1000
+ +       1.5716 * (normalized) savings_status=>=1000
+ +      -2.3605 * (normalized) savings_status=no known savings
+ +      -4.1852 * (normalized) employment=unemployed
+ +       2.9061 * (normalized) employment=<1
+ +       2.4244 * (normalized) employment=1<=X<4
+ +      -0.9803 * (normalized) employment=4<=X<7
+ +      -0.165  * (normalized) employment=>=7
+ +       3.5649 * (normalized) installment_commitment
+ +       2.4225 * (normalized) personal_status=male div/sep
+ +      -0.8861 * (normalized) personal_status=female div/dep/mar
+ +      -0.518  * (normalized) personal_status=male single
+ +      -1.0184 * (normalized) personal_status=male mar/wid
+ +       1.1561 * (normalized) other_parties=none
+ +      -0.3883 * (normalized) other_parties=co applicant
+ +      -0.7678 * (normalized) other_parties=guarantor
+ +       3.7159 * (normalized) residence_since
+ +      -1.2534 * (normalized) property_magnitude=real estate
+ +       1.2931 * (normalized) property_magnitude=life insurance
+ +      -0.7187 * (normalized) property_magnitude=car
+ +       0.679  * (normalized) property_magnitude=no known property
+ +      -5.6126 * (normalized) age
+ +       0.5574 * (normalized) other_payment_plans=bank
+ +       2.5591 * (normalized) other_payment_plans=stores
+ +      -3.1165 * (normalized) other_payment_plans=none
+ +       0.0762 * (normalized) housing=rent
+ +       0.1018 * (normalized) housing=own
+ +      -0.178  * (normalized) housing=for free
+ +      -5.5552 * (normalized) existing_credits
+ +       5.5975 * (normalized) job=unemp/unskilled non res
+ +      -2.9995 * (normalized) job=unskilled resident
+ +      -2.1878 * (normalized) job=skilled
+ +      -0.4102 * (normalized) job=high qualif/self emp/mgmt
+ +       2.2042 * (normalized) num_dependents
+ +      -1.4152 * (normalized) own_telephone=yes
+ +      -2.3492 * (normalized) foreign_worker=no
+ -       0.0153
+
+Number of kernel evaluations: 7915 (99.903% cached)
+

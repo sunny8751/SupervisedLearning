@@ -1,0 +1,756 @@
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO: No model built yet.
+
+
+Classifier for classes: 0, 2
+
+BinarySMO: No model built yet.
+
+
+Classifier for classes: 0, 3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 0, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 0, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 0, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 0, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 0, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 0, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 0, 10
+
+BinarySMO: No model built yet.
+
+
+Classifier for classes: 1, 2
+
+BinarySMO: No model built yet.
+
+
+Classifier for classes: 1, 3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 1, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 1, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 1, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 1, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 1, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 1, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 1, 10
+
+BinarySMO: No model built yet.
+
+
+Classifier for classes: 2, 3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 2, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 2, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 2, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 2, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 2, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 2, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ +       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 2, 10
+
+BinarySMO: No model built yet.
+
+
+Classifier for classes: 3, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.2443 * (normalized) fixedacid
+ +       0.4488 * (normalized) volacid
+ +       0.9082 * (normalized) citricacid
+ +      -1.2164 * (normalized) residualsugar
+ +      -0.6829 * (normalized) chlorides
+ +      -1.4893 * (normalized) freesulfur
+ +      -1.3294 * (normalized) totalsulfur
+ +      -0.4546 * (normalized) density
+ +      -0.1092 * (normalized) pH
+ +       0.7069 * (normalized) sulphates
+ +      -1.4743 * (normalized) alcohol
+ +       2.3791
+
+Number of kernel evaluations: 3350 (92.82% cached)
+
+Classifier for classes: 3, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0091 * (normalized) fixedacid
+ +      -0.0017 * (normalized) volacid
+ +      -0.002  * (normalized) citricacid
+ +      -0.0191 * (normalized) residualsugar
+ +      -0.0005 * (normalized) chlorides
+ +      -0.0045 * (normalized) freesulfur
+ +       0.0015 * (normalized) totalsulfur
+ +       0.0412 * (normalized) density
+ +      -0.0048 * (normalized) pH
+ +      -0.0009 * (normalized) sulphates
+ +       0.0055 * (normalized) alcohol
+ +       1.0004
+
+Number of kernel evaluations: 72543 (82.909% cached)
+
+Classifier for classes: 3, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0013 * (normalized) fixedacid
+ +      -0.0012 * (normalized) volacid
+ +       0.0005 * (normalized) citricacid
+ +       0.0143 * (normalized) residualsugar
+ +       0.0004 * (normalized) chlorides
+ +      -0.0059 * (normalized) freesulfur
+ +      -0.0018 * (normalized) totalsulfur
+ +      -0.0149 * (normalized) density
+ +       0.0002 * (normalized) pH
+ +       0.0009 * (normalized) sulphates
+ +      -0.0017 * (normalized) alcohol
+ +       1.0027
+
+Number of kernel evaluations: 192765 (75.27% cached)
+
+Classifier for classes: 3, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.6186 * (normalized) fixedacid
+ +      -1.1843 * (normalized) volacid
+ +       0.5474 * (normalized) citricacid
+ +       0.6487 * (normalized) residualsugar
+ +      -1.4114 * (normalized) chlorides
+ +      -1.9048 * (normalized) freesulfur
+ +      -0.8506 * (normalized) totalsulfur
+ +      -0.6562 * (normalized) density
+ +      -0.5582 * (normalized) pH
+ +       0.1697 * (normalized) sulphates
+ +       0.195  * (normalized) alcohol
+ +       2.6919
+
+Number of kernel evaluations: 24704 (75.004% cached)
+
+Classifier for classes: 3, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -3.1696 * (normalized) fixedacid
+ +      -1.641  * (normalized) volacid
+ +      -0.0376 * (normalized) citricacid
+ +       2.6615 * (normalized) residualsugar
+ +      -1.9081 * (normalized) chlorides
+ +      -1.2179 * (normalized) freesulfur
+ +      -1.5538 * (normalized) totalsulfur
+ +      -0.1273 * (normalized) density
+ +      -0.6733 * (normalized) pH
+ +      -0.2697 * (normalized) sulphates
+ +       0.4352 * (normalized) alcohol
+ +       3.3429
+
+Number of kernel evaluations: 3279 (93.745% cached)
+
+Classifier for classes: 3, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2602 * (normalized) fixedacid
+ +      -0.6869 * (normalized) volacid
+ +      -0.8937 * (normalized) citricacid
+ +       0.2249 * (normalized) residualsugar
+ +      -0.632  * (normalized) chlorides
+ +      -0.0813 * (normalized) freesulfur
+ +      -0.4433 * (normalized) totalsulfur
+ +      -0.6695 * (normalized) density
+ +      -0.0577 * (normalized) pH
+ +       2.3875 * (normalized) sulphates
+ +       1.7337 * (normalized) alcohol
+ -       1.946 
+
+Number of kernel evaluations: 116 (93.757% cached)
+
+Classifier for classes: 3, 10
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 4, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0058 * (normalized) fixedacid
+ +      -0.0004 * (normalized) volacid
+ +       0.0008 * (normalized) citricacid
+ +       0.0175 * (normalized) residualsugar
+ +       0.0016 * (normalized) chlorides
+ +      -0.0018 * (normalized) freesulfur
+ +       0.0021 * (normalized) totalsulfur
+ +      -0.0391 * (normalized) density
+ +       0.0027 * (normalized) pH
+ +      -0.0001 * (normalized) sulphates
+ +      -0.0053 * (normalized) alcohol
+ +       1.0026
+
+Number of kernel evaluations: 335064 (85.599% cached)
+
+Classifier for classes: 4, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0015 * (normalized) fixedacid
+ +      -0.0002 * (normalized) volacid
+ +       0.0029 * (normalized) citricacid
+ +       0.0141 * (normalized) residualsugar
+ +       0.0008 * (normalized) chlorides
+ +      -0.0004 * (normalized) freesulfur
+ +       0.0001 * (normalized) totalsulfur
+ +      -0.0168 * (normalized) density
+ +       0.0014 * (normalized) pH
+ +       0.0014 * (normalized) sulphates
+ +      -0.0002 * (normalized) alcohol
+ +       0.9993
+
+Number of kernel evaluations: 280066 (78.982% cached)
+
+Classifier for classes: 4, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.8213 * (normalized) fixedacid
+ +      -6.5492 * (normalized) volacid
+ +      -0.8214 * (normalized) citricacid
+ +       8.1692 * (normalized) residualsugar
+ +      -2.0099 * (normalized) chlorides
+ +       5.6292 * (normalized) freesulfur
+ +       1.5265 * (normalized) totalsulfur
+ +      -3.934  * (normalized) density
+ +       0.6473 * (normalized) pH
+ +       0.7556 * (normalized) sulphates
+ +       4.483  * (normalized) alcohol
+ -       0.1019
+
+Number of kernel evaluations: 47561 (75.148% cached)
+
+Classifier for classes: 4, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.7084 * (normalized) fixedacid
+ +      -5.5013 * (normalized) volacid
+ +      -3.4485 * (normalized) citricacid
+ +      10.4886 * (normalized) residualsugar
+ +      -1.1012 * (normalized) chlorides
+ +       5.6954 * (normalized) freesulfur
+ +       0.4466 * (normalized) totalsulfur
+ +      -0.4259 * (normalized) density
+ +       0.5294 * (normalized) pH
+ +      -0.567  * (normalized) sulphates
+ +       5.4703 * (normalized) alcohol
+ -       1.4954
+
+Number of kernel evaluations: 7490 (73.549% cached)
+
+Classifier for classes: 4, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.0991 * (normalized) fixedacid
+ +      -0.7055 * (normalized) volacid
+ +      -0.0429 * (normalized) citricacid
+ +       1.2639 * (normalized) residualsugar
+ +      -0.7799 * (normalized) chlorides
+ +       0.9306 * (normalized) freesulfur
+ +      -0.1243 * (normalized) totalsulfur
+ +       0.1233 * (normalized) density
+ +       1.6998 * (normalized) pH
+ +       0.4388 * (normalized) sulphates
+ +       1.9827 * (normalized) alcohol
+ -       3.614 
+
+Number of kernel evaluations: 673 (82.501% cached)
+
+Classifier for classes: 4, 10
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 5, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1453 * (normalized) fixedacid
+ +      -5.361  * (normalized) volacid
+ +      -0.5372 * (normalized) citricacid
+ +       4.7433 * (normalized) residualsugar
+ +      -0.7783 * (normalized) chlorides
+ +       2.6402 * (normalized) freesulfur
+ +      -1.4947 * (normalized) totalsulfur
+ +      -2.0749 * (normalized) density
+ +       0.9079 * (normalized) pH
+ +       1.038  * (normalized) sulphates
+ +       4.4022 * (normalized) alcohol
+ -       0.512 
+
+Number of kernel evaluations: 748708 (71.008% cached)
+
+Classifier for classes: 5, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1414 * (normalized) fixedacid
+ +      -4.8702 * (normalized) volacid
+ +       0.3899 * (normalized) citricacid
+ +       6.1526 * (normalized) residualsugar
+ +      -5.2505 * (normalized) chlorides
+ +       2.127  * (normalized) freesulfur
+ +      -0.5103 * (normalized) totalsulfur
+ +      -7.6607 * (normalized) density
+ +       0.9127 * (normalized) pH
+ +       1.5452 * (normalized) sulphates
+ +       5.4992 * (normalized) alcohol
+ -       1.621 
+
+Number of kernel evaluations: 286380 (71.85% cached)
+
+Classifier for classes: 5, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.8915 * (normalized) fixedacid
+ +      -0.9067 * (normalized) volacid
+ +      -0.209  * (normalized) citricacid
+ +       5.5472 * (normalized) residualsugar
+ +      -4.2571 * (normalized) chlorides
+ +       2.649  * (normalized) freesulfur
+ +      -0.3077 * (normalized) totalsulfur
+ +      -2.6168 * (normalized) density
+ +      -0.0482 * (normalized) pH
+ +       0.9318 * (normalized) sulphates
+ +       5.6494 * (normalized) alcohol
+ -       3.0714
+
+Number of kernel evaluations: 67083 (71.717% cached)
+
+Classifier for classes: 5, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6945 * (normalized) fixedacid
+ +       0.0837 * (normalized) volacid
+ +       0.1992 * (normalized) citricacid
+ +       0.216  * (normalized) residualsugar
+ +      -0.4513 * (normalized) chlorides
+ +       0.1716 * (normalized) freesulfur
+ +       0.1462 * (normalized) totalsulfur
+ +      -0.6197 * (normalized) density
+ +       0.4615 * (normalized) pH
+ +       0.0457 * (normalized) sulphates
+ +       0.2815 * (normalized) alcohol
+ -       1.7035
+
+Number of kernel evaluations: 9207 (85.006% cached)
+
+Classifier for classes: 5, 10
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 6, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0008 * (normalized) fixedacid
+ +      -0.0007 * (normalized) volacid
+ +      -0.0007 * (normalized) citricacid
+ +      -0.0076 * (normalized) residualsugar
+ +      -0.0038 * (normalized) chlorides
+ +       0.0017 * (normalized) freesulfur
+ +      -0.0001 * (normalized) totalsulfur
+ +       0.0094 * (normalized) density
+ +      -0.0005 * (normalized) pH
+ +      -0.0007 * (normalized) sulphates
+ +       0.0008 * (normalized) alcohol
+ -       0.9996
+
+Number of kernel evaluations: 818584 (78.915% cached)
+
+Classifier for classes: 6, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0007 * (normalized) fixedacid
+ +      -0.0003 * (normalized) volacid
+ +       0.0008 * (normalized) citricacid
+ +       0.0117 * (normalized) residualsugar
+ +       0.0009 * (normalized) chlorides
+ +      -0.0011 * (normalized) freesulfur
+ +       0.0008 * (normalized) totalsulfur
+ +      -0.0267 * (normalized) density
+ +       0.0009 * (normalized) pH
+ +      -0      * (normalized) sulphates
+ +      -0.0038 * (normalized) alcohol
+ -       0.9968
+
+Number of kernel evaluations: 365961 (83.32% cached)
+
+Classifier for classes: 6, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.003  * (normalized) fixedacid
+ +       0.0008 * (normalized) volacid
+ +      -0.0007 * (normalized) citricacid
+ +      -0.0007 * (normalized) residualsugar
+ +      -0.0282 * (normalized) chlorides
+ +       0.0021 * (normalized) freesulfur
+ +       0.0012 * (normalized) totalsulfur
+ +       0.0049 * (normalized) density
+ +       0.0009 * (normalized) pH
+ +       0.0003 * (normalized) sulphates
+ +       0.0022 * (normalized) alcohol
+ -       1.0024
+
+Number of kernel evaluations: 45623 (76.287% cached)
+
+Classifier for classes: 6, 10
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 7, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0061 * (normalized) fixedacid
+ +       0.0023 * (normalized) volacid
+ +       0.0016 * (normalized) citricacid
+ +       0.0188 * (normalized) residualsugar
+ +       0.0012 * (normalized) chlorides
+ +       0.0018 * (normalized) freesulfur
+ +       0.0017 * (normalized) totalsulfur
+ +      -0.0396 * (normalized) density
+ +       0.0023 * (normalized) pH
+ +       0.0017 * (normalized) sulphates
+ +      -0.0047 * (normalized) alcohol
+ -       0.9994
+
+Number of kernel evaluations: 86098 (87.111% cached)
+
+Classifier for classes: 7, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1365 * (normalized) fixedacid
+ +      -0.005  * (normalized) volacid
+ +       0.0359 * (normalized) citricacid
+ +       0.1158 * (normalized) residualsugar
+ +      -0.185  * (normalized) chlorides
+ +       0.068  * (normalized) freesulfur
+ +       0.002  * (normalized) totalsulfur
+ +      -0.2195 * (normalized) density
+ +       0.0615 * (normalized) pH
+ +       0.0011 * (normalized) sulphates
+ +      -0.0029 * (normalized) alcohol
+ -       1.0686
+
+Number of kernel evaluations: 14008 (87.921% cached)
+
+Classifier for classes: 7, 10
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 8, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.433  * (normalized) fixedacid
+ +       0.0285 * (normalized) volacid
+ +      -0.0303 * (normalized) citricacid
+ +       0.0026 * (normalized) residualsugar
+ +      -0.616  * (normalized) chlorides
+ +      -0.2752 * (normalized) freesulfur
+ +       0.0532 * (normalized) totalsulfur
+ +       0.0157 * (normalized) density
+ +       0.2438 * (normalized) pH
+ +      -0.0393 * (normalized) sulphates
+ +       0.0294 * (normalized) alcohol
+ -       1.224 
+
+Number of kernel evaluations: 1787 (86.51% cached)
+
+Classifier for classes: 8, 10
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+
+Classifier for classes: 9, 10
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+ -       1     
+
+Number of kernel evaluations: -1
+

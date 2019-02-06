@@ -1,0 +1,341 @@
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -5.281302423950905
+    Node 11    -1.1608681392923301
+    Node 12    -1.065464382585393
+    Node 13    -1.0593577394754343
+    Node 14    -1.1275058225273302
+    Node 15    -0.9801723748138319
+    Node 16    -1.5944565867804825
+    Node 17    -1.2418381459495273
+    Node 18    -0.9639457766887257
+    Node 19    -1.2631148992281773
+    Node 20    -1.117468643554164
+    Node 21    -1.849517952448419
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -5.276974862214356
+    Node 11    -1.1606218473835797
+    Node 12    -1.1271844554200166
+    Node 13    -0.9769205947323573
+    Node 14    -1.2058681759678458
+    Node 15    -0.9719569645796924
+    Node 16    -1.6634348916634185
+    Node 17    -1.1906916363808835
+    Node 18    -0.9494604022547454
+    Node 19    -1.210968231613962
+    Node 20    -1.1507702242248539
+    Node 21    -1.8640433459871177
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -5.276367178188873
+    Node 11    -1.1853928480893523
+    Node 12    -1.1262112478438349
+    Node 13    -0.982578999363981
+    Node 14    -1.1661126718263741
+    Node 15    -0.9742212425482416
+    Node 16    -1.6460718853953444
+    Node 17    -1.1992315820234756
+    Node 18    -0.9327554291530478
+    Node 19    -1.2679799348102208
+    Node 20    -1.1431620726243499
+    Node 21    -1.8536702913565892
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -4.088678948167965
+    Node 11    -0.8036463599952538
+    Node 12    -0.650199708227843
+    Node 13    -0.8142673518635961
+    Node 14    -0.9085568785098089
+    Node 15    -0.992645220183068
+    Node 16    -1.4554720597957345
+    Node 17    -1.1943308171831841
+    Node 18    -0.7019663272454316
+    Node 19    -1.4812490224842982
+    Node 20    -0.5666301066124019
+    Node 21    -1.749250904321268
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -4.04648495958645
+    Node 11    1.0970739063349264
+    Node 12    0.0869290341336263
+    Node 13    -1.754972643258685
+    Node 14    -0.2980956465040949
+    Node 15    0.40480197024117215
+    Node 16    1.0049682804606108
+    Node 17    -2.7728102225347793
+    Node 18    -4.22781169614167
+    Node 19    -0.6319356470253115
+    Node 20    5.892121872853702
+    Node 21    -4.658837378498331
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -2.9689690334033005
+    Node 11    -2.4969912512514147
+    Node 12    0.4110514448975054
+    Node 13    -1.5698447070207624
+    Node 14    1.4569557873009105
+    Node 15    -1.6650157624693565
+    Node 16    -1.9520083487971245
+    Node 17    -1.7811262314004375
+    Node 18    1.9362456786083462
+    Node 19    -1.825584196056697
+    Node 20    2.564602269312118
+    Node 21    1.8582739070193728
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.1341870735792587
+    Node 11    3.269635728254631
+    Node 12    -4.4950883810695315
+    Node 13    5.388613049764963
+    Node 14    -4.524731764978314
+    Node 15    3.8722304601674455
+    Node 16    1.466256900885847
+    Node 17    3.244006262970793
+    Node 18    -2.090330520447342
+    Node 19    -3.3182620740032207
+    Node 20    -2.5401017787539195
+    Node 21    0.8038780803555939
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.09305391788858211
+    Node 11    -7.901418649054479
+    Node 12    5.885412197435003
+    Node 13    -7.4002019123737215
+    Node 14    4.1577986299394745
+    Node 15    -6.137907886195893
+    Node 16    0.5892259657422744
+    Node 17    -9.402238191726347
+    Node 18    -1.9056209434385476
+    Node 19    3.2787990218245606
+    Node 20    -6.127347924872713
+    Node 21    -2.4219827045530886
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -5.5053920612916
+    Node 11    1.2959850356030365
+    Node 12    9.182411292720063
+    Node 13    -7.727522419438304
+    Node 14    6.736988958017235
+    Node 15    -1.0414011108452794
+    Node 16    4.955237500041523
+    Node 17    2.38799547833022
+    Node 18    5.124604906313974
+    Node 19    -0.01901163338154488
+    Node 20    -6.3898627225919595
+    Node 21    -9.630912411116482
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -4.848799500863771
+    Node 11    -1.1370517604707409
+    Node 12    -1.1763826354459395
+    Node 13    -0.9988987923869945
+    Node 14    -1.2207227815275692
+    Node 15    -1.005559027655605
+    Node 16    -1.5422112753534625
+    Node 17    -1.2344623999409696
+    Node 18    -0.9436299597679463
+    Node 19    -0.6007069544413149
+    Node 20    -1.204886159627031
+    Node 21    -2.039270527258987
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -5.284830062382896
+    Node 11    -1.113521781304802
+    Node 12    -1.1273035063999364
+    Node 13    -0.9952253763460761
+    Node 14    -1.2026887658365428
+    Node 15    -0.9516034937955665
+    Node 16    -1.6073391795186467
+    Node 17    -1.243196652177989
+    Node 18    -0.9437674313752935
+    Node 19    -1.2178656743564285
+    Node 20    -1.09763466112254
+    Node 21    -1.8283132782266658
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -6.49577569315925
+    Attrib fixedacid    3.8624891328422546
+    Attrib volacid    2.3768010288900983
+    Attrib citricacid    -3.6175032863922
+    Attrib residualsugar    -14.814859742639827
+    Attrib chlorides    17.57078493289238
+    Attrib freesulfur    2.7478443502940024
+    Attrib totalsulfur    -5.995553670157102
+    Attrib density    -6.435440519938397
+    Attrib pH    -1.2723934355278252
+    Attrib sulphates    -1.4235962781111386
+    Attrib alcohol    0.9402062413894193
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -9.174928630310752
+    Attrib fixedacid    3.301239714178155
+    Attrib volacid    -8.96572006174483
+    Attrib citricacid    3.5911461296178553
+    Attrib residualsugar    1.723177920843143
+    Attrib chlorides    -1.2185766496284303
+    Attrib freesulfur    4.083688922104029
+    Attrib totalsulfur    -0.16509897777427887
+    Attrib density    1.7790060216157793
+    Attrib pH    -6.621771146174996
+    Attrib sulphates    -9.376879092155136
+    Attrib alcohol    2.8921144459459525
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -6.745142704194482
+    Attrib fixedacid    6.759265068963119
+    Attrib volacid    -3.507430339340061
+    Attrib citricacid    11.649873281517511
+    Attrib residualsugar    2.161996411362823
+    Attrib chlorides    -6.467452875084389
+    Attrib freesulfur    11.998980235118657
+    Attrib totalsulfur    6.6325191674923705
+    Attrib density    -0.29529559602296546
+    Attrib pH    -0.9046933558258657
+    Attrib sulphates    -18.408164736005222
+    Attrib alcohol    0.6207394726292847
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    1.4870750339751815
+    Attrib fixedacid    2.449521581617661
+    Attrib volacid    5.819669729794013
+    Attrib citricacid    2.606044998162523
+    Attrib residualsugar    6.179128025283106
+    Attrib chlorides    2.1846273744067735
+    Attrib freesulfur    5.358894743920839
+    Attrib totalsulfur    3.505096043392207
+    Attrib density    -5.9054024097741795
+    Attrib pH    7.118667405877918
+    Attrib sulphates    -13.697984947131363
+    Attrib alcohol    -0.33121843657977373
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -7.7849313596708365
+    Attrib fixedacid    -1.8247538600660378
+    Attrib volacid    0.4652399833948379
+    Attrib citricacid    -7.054521612940408
+    Attrib residualsugar    8.69583030100559
+    Attrib chlorides    4.523678203872887
+    Attrib freesulfur    12.923793400571629
+    Attrib totalsulfur    -7.812539950950926
+    Attrib density    0.8301828767639292
+    Attrib pH    1.3063930347239228
+    Attrib sulphates    -17.671181200702545
+    Attrib alcohol    3.64353764088535
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -11.440047242132405
+    Attrib fixedacid    -0.6328267564239956
+    Attrib volacid    -11.690213776957446
+    Attrib citricacid    3.844313771034909
+    Attrib residualsugar    0.6266613559384552
+    Attrib chlorides    -2.8186236050648765
+    Attrib freesulfur    0.008773048325944627
+    Attrib totalsulfur    0.35075434373563913
+    Attrib density    -2.9656800380824335
+    Attrib pH    -10.216411091519854
+    Attrib sulphates    7.193571366378112
+    Attrib alcohol    -6.840605223414217
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -8.14086248086382
+    Attrib fixedacid    -17.949191551713096
+    Attrib volacid    -5.974643719123549
+    Attrib citricacid    6.618884244416562
+    Attrib residualsugar    1.4261694464378136
+    Attrib chlorides    2.453061311468055
+    Attrib freesulfur    0.14213705369237709
+    Attrib totalsulfur    -6.636402485675285
+    Attrib density    5.125875681960363
+    Attrib pH    1.6506276994667315
+    Attrib sulphates    3.494900945765171
+    Attrib alcohol    3.0385043541038885
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    3.7568799222363873
+    Attrib fixedacid    -8.830150468693589
+    Attrib volacid    7.300894323941109
+    Attrib citricacid    -4.188485280078298
+    Attrib residualsugar    6.287620793837637
+    Attrib chlorides    6.3828596910164
+    Attrib freesulfur    11.880768870017077
+    Attrib totalsulfur    7.839248425257843
+    Attrib density    -4.715907940453586
+    Attrib pH    -1.2355514426930745
+    Attrib sulphates    2.678163202122803
+    Attrib alcohol    -12.328906566526683
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -6.064972419958926
+    Attrib fixedacid    7.395881286779834
+    Attrib volacid    -0.7870776988709425
+    Attrib citricacid    -4.182473590520256
+    Attrib residualsugar    4.343426436923121
+    Attrib chlorides    -4.991370597283457
+    Attrib freesulfur    8.290272789430077
+    Attrib totalsulfur    -0.8248313858719152
+    Attrib density    -12.779786659225179
+    Attrib pH    2.370437109573137
+    Attrib sulphates    6.804653135586527
+    Attrib alcohol    -1.1690621574784203
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -2.522058621722985
+    Attrib fixedacid    -1.1164405610938952
+    Attrib volacid    7.130830422715105
+    Attrib citricacid    3.7221731970500636
+    Attrib residualsugar    -8.845142646976067
+    Attrib chlorides    11.87020761058513
+    Attrib freesulfur    -15.1203730578611
+    Attrib totalsulfur    -2.6321483847931226
+    Attrib density    11.851194720010412
+    Attrib pH    -6.4439531633740215
+    Attrib sulphates    0.5606280780273296
+    Attrib alcohol    -1.9763031511899607
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -3.5009149559552353
+    Attrib fixedacid    -3.369478992919276
+    Attrib volacid    -7.07863836263511
+    Attrib citricacid    3.0055123716341576
+    Attrib residualsugar    -6.449780549615462
+    Attrib chlorides    0.5183720097805561
+    Attrib freesulfur    -4.69965382988795
+    Attrib totalsulfur    9.511008145200112
+    Attrib density    9.757664898540694
+    Attrib pH    -11.258667728880669
+    Attrib sulphates    -0.2307281834797898
+    Attrib alcohol    -5.133595843493781
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+Class 2
+    Input
+    Node 2
+Class 3
+    Input
+    Node 3
+Class 4
+    Input
+    Node 4
+Class 5
+    Input
+    Node 5
+Class 6
+    Input
+    Node 6
+Class 7
+    Input
+    Node 7
+Class 8
+    Input
+    Node 8
+Class 9
+    Input
+    Node 9
+Class 10
+    Input
+    Node 10

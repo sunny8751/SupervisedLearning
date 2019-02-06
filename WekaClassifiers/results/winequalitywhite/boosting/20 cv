@@ -1,0 +1,1757 @@
+AdaBoostM1: Base classifiers and their weights: 
+
+J48 pruned tree
+------------------
+
+alcohol <= 10.3
+|   pH <= 2.98
+|   |   volacid <= 0.16
+|   |   |   fixedacid <= 7.9: 7 (7.0)
+|   |   |   fixedacid > 7.9: 5 (2.0)
+|   |   volacid > 0.16
+|   |   |   alcohol <= 8.8
+|   |   |   |   fixedacid <= 6.8: 6 (2.0)
+|   |   |   |   fixedacid > 6.8: 8 (3.0)
+|   |   |   alcohol > 8.8
+|   |   |   |   pH <= 2.97
+|   |   |   |   |   fixedacid <= 9.7
+|   |   |   |   |   |   totalsulfur <= 174
+|   |   |   |   |   |   |   chlorides <= 0.076: 6 (7.0)
+|   |   |   |   |   |   |   chlorides > 0.076: 5 (1.0)
+|   |   |   |   |   |   totalsulfur > 174: 5 (2.0)
+|   |   |   |   |   fixedacid > 9.7: 3 (1.0)
+|   |   |   |   pH > 2.97: 7 (1.0)
+|   pH > 2.98
+|   |   sulphates <= 0.74
+|   |   |   fixedacid <= 8.8
+|   |   |   |   volacid <= 0.25
+|   |   |   |   |   freesulfur <= 39
+|   |   |   |   |   |   fixedacid <= 7.3: 6 (40.0/2.0)
+|   |   |   |   |   |   fixedacid > 7.3
+|   |   |   |   |   |   |   citricacid <= 0.35
+|   |   |   |   |   |   |   |   chlorides <= 0.056
+|   |   |   |   |   |   |   |   |   alcohol <= 10.2: 6 (5.0)
+|   |   |   |   |   |   |   |   |   alcohol > 10.2: 5 (1.0)
+|   |   |   |   |   |   |   |   chlorides > 0.056: 5 (1.0)
+|   |   |   |   |   |   |   citricacid > 0.35: 5 (3.0)
+|   |   |   |   |   freesulfur > 39
+|   |   |   |   |   |   fixedacid <= 6.7: 5 (23.0/8.0)
+|   |   |   |   |   |   fixedacid > 6.7
+|   |   |   |   |   |   |   alcohol <= 9.1
+|   |   |   |   |   |   |   |   sulphates <= 0.45: 5 (4.0)
+|   |   |   |   |   |   |   |   sulphates > 0.45
+|   |   |   |   |   |   |   |   |   volacid <= 0.21: 8 (1.0)
+|   |   |   |   |   |   |   |   |   volacid > 0.21: 6 (4.0)
+|   |   |   |   |   |   |   alcohol > 9.1
+|   |   |   |   |   |   |   |   freesulfur <= 56: 6 (14.0)
+|   |   |   |   |   |   |   |   freesulfur > 56
+|   |   |   |   |   |   |   |   |   pH <= 3.13: 5 (2.0)
+|   |   |   |   |   |   |   |   |   pH > 3.13
+|   |   |   |   |   |   |   |   |   |   totalsulfur <= 181: 5 (1.0)
+|   |   |   |   |   |   |   |   |   |   totalsulfur > 181: 6 (5.0)
+|   |   |   |   volacid > 0.25
+|   |   |   |   |   volacid <= 0.29
+|   |   |   |   |   |   volacid <= 0.255: 4 (1.0)
+|   |   |   |   |   |   volacid > 0.255
+|   |   |   |   |   |   |   citricacid <= 0.5
+|   |   |   |   |   |   |   |   citricacid <= 0.45
+|   |   |   |   |   |   |   |   |   totalsulfur <= 135: 5 (5.0)
+|   |   |   |   |   |   |   |   |   totalsulfur > 135
+|   |   |   |   |   |   |   |   |   |   freesulfur <= 40
+|   |   |   |   |   |   |   |   |   |   |   residualsugar <= 8.1: 6 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   residualsugar > 8.1
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.36: 7 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.36: 6 (1.0)
+|   |   |   |   |   |   |   |   |   |   freesulfur > 40
+|   |   |   |   |   |   |   |   |   |   |   residualsugar <= 7.1
+|   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.136: 6 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.136: 5 (1.0)
+|   |   |   |   |   |   |   |   |   |   |   residualsugar > 7.1: 5 (11.0/2.0)
+|   |   |   |   |   |   |   |   citricacid > 0.45: 6 (5.0)
+|   |   |   |   |   |   |   citricacid > 0.5
+|   |   |   |   |   |   |   |   fixedacid <= 6.4: 4 (1.0)
+|   |   |   |   |   |   |   |   fixedacid > 6.4: 5 (1.0)
+|   |   |   |   |   volacid > 0.29
+|   |   |   |   |   |   volacid <= 0.51
+|   |   |   |   |   |   |   chlorides <= 0.035: 6 (3.0)
+|   |   |   |   |   |   |   chlorides > 0.035: 5 (92.0/26.0)
+|   |   |   |   |   |   volacid > 0.51
+|   |   |   |   |   |   |   totalsulfur <= 81: 4 (2.0)
+|   |   |   |   |   |   |   totalsulfur > 81
+|   |   |   |   |   |   |   |   sulphates <= 0.56: 5 (8.0/1.0)
+|   |   |   |   |   |   |   |   sulphates > 0.56
+|   |   |   |   |   |   |   |   |   fixedacid <= 6: 6 (1.0)
+|   |   |   |   |   |   |   |   |   fixedacid > 6: 4 (1.0)
+|   |   |   fixedacid > 8.8
+|   |   |   |   density <= 0.99538: 4 (3.0)
+|   |   |   |   density > 0.99538: 5 (5.0)
+|   |   sulphates > 0.74
+|   |   |   residualsugar <= 3: 7 (2.0)
+|   |   |   residualsugar > 3
+|   |   |   |   residualsugar <= 13.3: 6 (6.0)
+|   |   |   |   residualsugar > 13.3: 8 (1.0)
+alcohol > 10.3
+|   freesulfur <= 11
+|   |   density <= 0.99146
+|   |   |   freesulfur <= 7
+|   |   |   |   volacid <= 0.28: 5 (3.0)
+|   |   |   |   volacid > 0.28
+|   |   |   |   |   alcohol <= 11.633333: 4 (3.0)
+|   |   |   |   |   alcohol > 11.633333: 6 (2.0)
+|   |   |   freesulfur > 7: 6 (7.0)
+|   |   density > 0.99146
+|   |   |   chlorides <= 0.028: 3 (1.0)
+|   |   |   chlorides > 0.028: 5 (5.0)
+|   freesulfur > 11
+|   |   alcohol <= 11.55
+|   |   |   volacid <= 0.15
+|   |   |   |   volacid <= 0.14
+|   |   |   |   |   chlorides <= 0.041: 7 (2.0)
+|   |   |   |   |   chlorides > 0.041: 6 (4.0)
+|   |   |   |   volacid > 0.14
+|   |   |   |   |   freesulfur <= 51: 8 (3.0)
+|   |   |   |   |   freesulfur > 51: 6 (1.0)
+|   |   |   volacid > 0.15
+|   |   |   |   volacid <= 0.44
+|   |   |   |   |   freesulfur <= 21
+|   |   |   |   |   |   sulphates <= 0.48
+|   |   |   |   |   |   |   volacid <= 0.29
+|   |   |   |   |   |   |   |   fixedacid <= 6: 5 (1.0)
+|   |   |   |   |   |   |   |   fixedacid > 6: 7 (4.0)
+|   |   |   |   |   |   |   volacid > 0.29: 5 (5.0)
+|   |   |   |   |   |   sulphates > 0.48
+|   |   |   |   |   |   |   fixedacid <= 6.8: 6 (6.0)
+|   |   |   |   |   |   |   fixedacid > 6.8
+|   |   |   |   |   |   |   |   totalsulfur <= 149: 5 (9.0/2.0)
+|   |   |   |   |   |   |   |   totalsulfur > 149
+|   |   |   |   |   |   |   |   |   fixedacid <= 7: 5 (1.0)
+|   |   |   |   |   |   |   |   |   fixedacid > 7: 6 (2.0)
+|   |   |   |   |   freesulfur > 21
+|   |   |   |   |   |   citricacid <= 0.22
+|   |   |   |   |   |   |   freesulfur <= 30: 4 (2.0)
+|   |   |   |   |   |   |   freesulfur > 30
+|   |   |   |   |   |   |   |   freesulfur <= 48: 6 (5.0)
+|   |   |   |   |   |   |   |   freesulfur > 48: 5 (1.0)
+|   |   |   |   |   |   citricacid > 0.22
+|   |   |   |   |   |   |   residualsugar <= 1.35
+|   |   |   |   |   |   |   |   citricacid <= 0.38: 6 (8.0)
+|   |   |   |   |   |   |   |   citricacid > 0.38
+|   |   |   |   |   |   |   |   |   fixedacid <= 7: 6 (3.0)
+|   |   |   |   |   |   |   |   |   fixedacid > 7
+|   |   |   |   |   |   |   |   |   |   residualsugar <= 1.1: 4 (1.0)
+|   |   |   |   |   |   |   |   |   |   residualsugar > 1.1: 5 (2.0)
+|   |   |   |   |   |   |   residualsugar > 1.35
+|   |   |   |   |   |   |   |   pH <= 3.21
+|   |   |   |   |   |   |   |   |   fixedacid <= 6.6
+|   |   |   |   |   |   |   |   |   |   residualsugar <= 8.7: 6 (7.0)
+|   |   |   |   |   |   |   |   |   |   residualsugar > 8.7
+|   |   |   |   |   |   |   |   |   |   |   alcohol <= 10.6: 6 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   alcohol > 10.6
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.2: 7 (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.2: 5 (2.0)
+|   |   |   |   |   |   |   |   |   fixedacid > 6.6
+|   |   |   |   |   |   |   |   |   |   fixedacid <= 6.8: 7 (3.0)
+|   |   |   |   |   |   |   |   |   |   fixedacid > 6.8: 6 (29.0/12.0)
+|   |   |   |   |   |   |   |   pH > 3.21
+|   |   |   |   |   |   |   |   |   volacid <= 0.255
+|   |   |   |   |   |   |   |   |   |   residualsugar <= 6.85
+|   |   |   |   |   |   |   |   |   |   |   freesulfur <= 35
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.3: 8 (1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.3: 5 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   freesulfur > 35: 7 (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   residualsugar > 6.85
+|   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 145: 8 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   totalsulfur > 145
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.34: 6 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.34: 7 (1.0)
+|   |   |   |   |   |   |   |   |   volacid > 0.255
+|   |   |   |   |   |   |   |   |   |   freesulfur <= 38
+|   |   |   |   |   |   |   |   |   |   |   residualsugar <= 8.3: 6 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   residualsugar > 8.3: 7 (1.0)
+|   |   |   |   |   |   |   |   |   |   freesulfur > 38
+|   |   |   |   |   |   |   |   |   |   |   pH <= 3.38: 7 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   pH > 3.38: 6 (1.0)
+|   |   |   |   volacid > 0.44
+|   |   |   |   |   citricacid <= 0.33: 4 (2.0)
+|   |   |   |   |   citricacid > 0.33: 6 (1.0)
+|   |   alcohol > 11.55
+|   |   |   pH <= 3.46
+|   |   |   |   residualsugar <= 1.2
+|   |   |   |   |   volacid <= 0.48: 6 (12.0/2.0)
+|   |   |   |   |   volacid > 0.48: 8 (1.0)
+|   |   |   |   residualsugar > 1.2
+|   |   |   |   |   sulphates <= 0.26: 8 (2.0)
+|   |   |   |   |   sulphates > 0.26
+|   |   |   |   |   |   chlorides <= 0.042
+|   |   |   |   |   |   |   density <= 0.99146
+|   |   |   |   |   |   |   |   alcohol <= 12.05
+|   |   |   |   |   |   |   |   |   chlorides <= 0.032: 6 (6.0)
+|   |   |   |   |   |   |   |   |   chlorides > 0.032
+|   |   |   |   |   |   |   |   |   |   alcohol <= 11.9: 7 (8.0/2.0)
+|   |   |   |   |   |   |   |   |   |   alcohol > 11.9: 6 (2.0)
+|   |   |   |   |   |   |   |   alcohol > 12.05: 7 (36.0/8.0)
+|   |   |   |   |   |   |   density > 0.99146
+|   |   |   |   |   |   |   |   pH <= 3.04: 6 (5.0)
+|   |   |   |   |   |   |   |   pH > 3.04
+|   |   |   |   |   |   |   |   |   density <= 0.99228
+|   |   |   |   |   |   |   |   |   |   citricacid <= 0.99
+|   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.27: 8 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   citricacid > 0.27
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.33: 7 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.33: 8 (1.0)
+|   |   |   |   |   |   |   |   |   |   citricacid > 0.99: 6 (1.0)
+|   |   |   |   |   |   |   |   |   density > 0.99228
+|   |   |   |   |   |   |   |   |   |   citricacid <= 0.34: 6 (6.0)
+|   |   |   |   |   |   |   |   |   |   citricacid > 0.34: 7 (2.0)
+|   |   |   |   |   |   chlorides > 0.042
+|   |   |   |   |   |   |   volacid <= 0.255: 8 (3.0)
+|   |   |   |   |   |   |   volacid > 0.255
+|   |   |   |   |   |   |   |   volacid <= 0.38: 6 (4.0)
+|   |   |   |   |   |   |   |   volacid > 0.38: 7 (1.0)
+|   |   |   pH > 3.46
+|   |   |   |   fixedacid <= 5.4: 8 (2.0)
+|   |   |   |   fixedacid > 5.4: 5 (1.0)
+
+Number of Leaves  : 	105
+
+Size of the tree : 	209
+
+
+Weight: 1.97
+
+J48 pruned tree
+------------------
+
+alcohol <= 10.1
+|   pH <= 2.98
+|   |   volacid <= 0.16
+|   |   |   fixedacid <= 7.9: 7 (3.99)
+|   |   |   fixedacid > 7.9: 5 (1.14)
+|   |   volacid > 0.16
+|   |   |   alcohol <= 8.8
+|   |   |   |   fixedacid <= 6.8: 6 (1.14)
+|   |   |   |   fixedacid > 6.8: 8 (1.71)
+|   |   |   alcohol > 8.8
+|   |   |   |   totalsulfur <= 174: 6 (4.56/1.14)
+|   |   |   |   totalsulfur > 174: 5 (1.71/0.57)
+|   pH > 2.98
+|   |   fixedacid <= 7.5
+|   |   |   alcohol <= 10
+|   |   |   |   pH <= 3.44
+|   |   |   |   |   volacid <= 0.225
+|   |   |   |   |   |   sulphates <= 0.82: 6 (42.09/3.99)
+|   |   |   |   |   |   sulphates > 0.82: 7 (1.14)
+|   |   |   |   |   volacid > 0.225
+|   |   |   |   |   |   alcohol <= 9.9
+|   |   |   |   |   |   |   fixedacid <= 5.9: 5 (6.84/1.71)
+|   |   |   |   |   |   |   fixedacid > 5.9: 6 (148.75/42.15)
+|   |   |   |   |   |   alcohol > 9.9: 5 (3.99)
+|   |   |   |   pH > 3.44: 5 (5.23/0.57)
+|   |   |   alcohol > 10: 6 (20.35/0.57)
+|   |   fixedacid > 7.5
+|   |   |   citricacid <= 0.24
+|   |   |   |   residualsugar <= 5.8: 5 (1.14/0.57)
+|   |   |   |   residualsugar > 5.8: 4 (4.66)
+|   |   |   citricacid > 0.24
+|   |   |   |   fixedacid <= 8.8
+|   |   |   |   |   fixedacid <= 7.6: 5 (4.56/1.14)
+|   |   |   |   |   fixedacid > 7.6
+|   |   |   |   |   |   volacid <= 0.185: 5 (1.14/0.57)
+|   |   |   |   |   |   volacid > 0.185: 6 (24.23/3.99)
+|   |   |   |   fixedacid > 8.8
+|   |   |   |   |   density <= 0.99538: 4 (1.14)
+|   |   |   |   |   density > 0.99538: 5 (2.28)
+alcohol > 10.1
+|   freesulfur <= 11
+|   |   residualsugar <= 1.2
+|   |   |   alcohol <= 11.633333: 4 (1.71)
+|   |   |   alcohol > 11.633333: 6 (2.28)
+|   |   residualsugar > 1.2: 5 (9.11/3.99)
+|   freesulfur > 11
+|   |   alcohol <= 11.9
+|   |   |   fixedacid <= 7
+|   |   |   |   citricacid <= 0.37
+|   |   |   |   |   pH <= 3.33
+|   |   |   |   |   |   fixedacid <= 6.8
+|   |   |   |   |   |   |   fixedacid <= 6.7
+|   |   |   |   |   |   |   |   alcohol <= 11.7: 6 (36.76/7.98)
+|   |   |   |   |   |   |   |   alcohol > 11.7: 7 (1.14)
+|   |   |   |   |   |   |   fixedacid > 6.7: 7 (2.85/0.57)
+|   |   |   |   |   |   fixedacid > 6.8
+|   |   |   |   |   |   |   citricacid <= 0.3: 8 (1.71)
+|   |   |   |   |   |   |   citricacid > 0.3: 6 (4.56/0.57)
+|   |   |   |   |   pH > 3.33
+|   |   |   |   |   |   density <= 0.99196
+|   |   |   |   |   |   |   citricacid <= 0.27: 6 (1.14/0.57)
+|   |   |   |   |   |   |   citricacid > 0.27: 5 (9.32/0.57)
+|   |   |   |   |   |   density > 0.99196
+|   |   |   |   |   |   |   sulphates <= 0.45
+|   |   |   |   |   |   |   |   fixedacid <= 5.9: 7 (1.14)
+|   |   |   |   |   |   |   |   fixedacid > 5.9: 5 (1.14)
+|   |   |   |   |   |   |   sulphates > 0.45
+|   |   |   |   |   |   |   |   chlorides <= 0.048: 6 (5.13/0.57)
+|   |   |   |   |   |   |   |   chlorides > 0.048: 4 (1.14/0.57)
+|   |   |   |   citricacid > 0.37
+|   |   |   |   |   residualsugar <= 1.6: 6 (3.42/0.57)
+|   |   |   |   |   residualsugar > 1.6
+|   |   |   |   |   |   sulphates <= 0.4: 8 (1.71/0.57)
+|   |   |   |   |   |   sulphates > 0.4
+|   |   |   |   |   |   |   pH <= 3.07: 6 (2.85/0.57)
+|   |   |   |   |   |   |   pH > 3.07: 7 (11.03)
+|   |   |   fixedacid > 7
+|   |   |   |   pH <= 3
+|   |   |   |   |   freesulfur <= 27: 5 (4.66)
+|   |   |   |   |   freesulfur > 27
+|   |   |   |   |   |   chlorides <= 0.035: 6 (2.28)
+|   |   |   |   |   |   chlorides > 0.035: 4 (1.14)
+|   |   |   |   pH > 3
+|   |   |   |   |   residualsugar <= 1.05: 5 (4.66)
+|   |   |   |   |   residualsugar > 1.05
+|   |   |   |   |   |   chlorides <= 0.049
+|   |   |   |   |   |   |   alcohol <= 10.4
+|   |   |   |   |   |   |   |   freesulfur <= 18
+|   |   |   |   |   |   |   |   |   citricacid <= 0.27: 7 (4.09)
+|   |   |   |   |   |   |   |   |   citricacid > 0.27: 4 (1.14)
+|   |   |   |   |   |   |   |   freesulfur > 18
+|   |   |   |   |   |   |   |   |   volacid <= 0.255: 6 (1.71)
+|   |   |   |   |   |   |   |   |   volacid > 0.255: 5 (5.8)
+|   |   |   |   |   |   |   alcohol > 10.4
+|   |   |   |   |   |   |   |   residualsugar <= 2.1
+|   |   |   |   |   |   |   |   |   totalsulfur <= 79: 7 (4.66)
+|   |   |   |   |   |   |   |   |   totalsulfur > 79
+|   |   |   |   |   |   |   |   |   |   totalsulfur <= 118
+|   |   |   |   |   |   |   |   |   |   |   density <= 0.99175: 6 (1.14/0.57)
+|   |   |   |   |   |   |   |   |   |   |   density > 0.99175: 5 (1.71)
+|   |   |   |   |   |   |   |   |   |   totalsulfur > 118: 6 (4.56/1.14)
+|   |   |   |   |   |   |   |   residualsugar > 2.1
+|   |   |   |   |   |   |   |   |   sulphates <= 0.6: 7 (40.79/2.85)
+|   |   |   |   |   |   |   |   |   sulphates > 0.6
+|   |   |   |   |   |   |   |   |   |   totalsulfur <= 118: 7 (1.71/0.57)
+|   |   |   |   |   |   |   |   |   |   totalsulfur > 118: 6 (2.28)
+|   |   |   |   |   |   chlorides > 0.049
+|   |   |   |   |   |   |   residualsugar <= 1.7: 5 (2.28/0.57)
+|   |   |   |   |   |   |   residualsugar > 1.7: 6 (7.41/1.71)
+|   |   alcohol > 11.9
+|   |   |   pH <= 3.46
+|   |   |   |   volacid <= 0.16: 7 (5.23/0.57)
+|   |   |   |   volacid > 0.16
+|   |   |   |   |   citricacid <= 0.24: 7 (3.42/0.57)
+|   |   |   |   |   citricacid > 0.24
+|   |   |   |   |   |   freesulfur <= 21
+|   |   |   |   |   |   |   sulphates <= 0.44: 7 (2.28/0.57)
+|   |   |   |   |   |   |   sulphates > 0.44: 6 (18.64/0.57)
+|   |   |   |   |   |   freesulfur > 21
+|   |   |   |   |   |   |   sulphates <= 0.55
+|   |   |   |   |   |   |   |   chlorides <= 0.029
+|   |   |   |   |   |   |   |   |   density <= 0.99188
+|   |   |   |   |   |   |   |   |   |   citricacid <= 0.42: 7 (3.42/1.14)
+|   |   |   |   |   |   |   |   |   |   citricacid > 0.42: 6 (1.14/0.57)
+|   |   |   |   |   |   |   |   |   density > 0.99188: 8 (1.71)
+|   |   |   |   |   |   |   |   chlorides > 0.029
+|   |   |   |   |   |   |   |   |   citricacid <= 0.39
+|   |   |   |   |   |   |   |   |   |   alcohol <= 12.6: 6 (19.67/0.57)
+|   |   |   |   |   |   |   |   |   |   alcohol > 12.6
+|   |   |   |   |   |   |   |   |   |   |   residualsugar <= 5.1: 7 (2.85)
+|   |   |   |   |   |   |   |   |   |   |   residualsugar > 5.1: 6 (5.23)
+|   |   |   |   |   |   |   |   |   citricacid > 0.39
+|   |   |   |   |   |   |   |   |   |   fixedacid <= 7.6: 7 (2.28/0.57)
+|   |   |   |   |   |   |   |   |   |   fixedacid > 7.6: 6 (1.14)
+|   |   |   |   |   |   |   sulphates > 0.55: 7 (7.41/0.57)
+|   |   |   pH > 3.46: 8 (1.71/0.57)
+
+Number of Leaves  : 	69
+
+Size of the tree : 	137
+
+
+Weight: 1.66
+
+J48 pruned tree
+------------------
+
+alcohol <= 10.3
+|   pH <= 2.98
+|   |   totalsulfur <= 124
+|   |   |   chlorides <= 0.038: 3 (1.78)
+|   |   |   chlorides > 0.038: 6 (3.14)
+|   |   totalsulfur > 124
+|   |   |   residualsugar <= 13
+|   |   |   |   volacid <= 0.25: 5 (2.8)
+|   |   |   |   volacid > 0.25: 6 (1.02)
+|   |   |   residualsugar > 13: 7 (5.85/1.7)
+|   pH > 2.98
+|   |   density <= 0.9983
+|   |   |   sulphates <= 0.56
+|   |   |   |   residualsugar <= 1.7
+|   |   |   |   |   residualsugar <= 1.6
+|   |   |   |   |   |   freesulfur <= 13
+|   |   |   |   |   |   |   freesulfur <= 9: 4 (2.12)
+|   |   |   |   |   |   |   freesulfur > 9: 5 (3.9)
+|   |   |   |   |   |   freesulfur > 13
+|   |   |   |   |   |   |   citricacid <= 0.24
+|   |   |   |   |   |   |   |   totalsulfur <= 123: 6 (4.21)
+|   |   |   |   |   |   |   |   totalsulfur > 123: 5 (6.02/0.34)
+|   |   |   |   |   |   |   citricacid > 0.24: 6 (19.04/1.02)
+|   |   |   |   |   residualsugar > 1.6: 4 (1.78)
+|   |   |   |   residualsugar > 1.7
+|   |   |   |   |   residualsugar <= 6.9
+|   |   |   |   |   |   sulphates <= 0.4
+|   |   |   |   |   |   |   alcohol <= 9.1: 6 (2.43)
+|   |   |   |   |   |   |   alcohol > 9.1
+|   |   |   |   |   |   |   |   pH <= 3.3: 5 (12.71/1.7)
+|   |   |   |   |   |   |   |   pH > 3.3: 6 (1.36)
+|   |   |   |   |   |   sulphates > 0.4: 5 (38.87/1.7)
+|   |   |   |   |   residualsugar > 6.9
+|   |   |   |   |   |   sulphates <= 0.48
+|   |   |   |   |   |   |   volacid <= 0.44
+|   |   |   |   |   |   |   |   alcohol <= 9.5
+|   |   |   |   |   |   |   |   |   volacid <= 0.42
+|   |   |   |   |   |   |   |   |   |   volacid <= 0.2: 6 (5.89)
+|   |   |   |   |   |   |   |   |   |   volacid > 0.2
+|   |   |   |   |   |   |   |   |   |   |   fixedacid <= 7.6
+|   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 230
+|   |   |   |   |   |   |   |   |   |   |   |   |   volacid <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar <= 7.95: 6 (3.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar > 7.95
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   alcohol <= 8.7: 6 (2.43)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   alcohol > 8.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   freesulfur <= 43: 6 (2.8/0.34)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   freesulfur > 43: 5 (11.69/0.34)
+|   |   |   |   |   |   |   |   |   |   |   |   |   volacid > 0.29: 5 (20.59)
+|   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 230: 6 (4.87)
+|   |   |   |   |   |   |   |   |   |   |   fixedacid > 7.6: 6 (4.87)
+|   |   |   |   |   |   |   |   |   volacid > 0.42: 6 (7.3)
+|   |   |   |   |   |   |   |   alcohol > 9.5: 6 (19.35/0.68)
+|   |   |   |   |   |   |   volacid > 0.44: 5 (7.46/0.34)
+|   |   |   |   |   |   sulphates > 0.48
+|   |   |   |   |   |   |   totalsulfur <= 140: 6 (4.81/0.34)
+|   |   |   |   |   |   |   totalsulfur > 140
+|   |   |   |   |   |   |   |   sulphates <= 0.53: 5 (36.18/2.37)
+|   |   |   |   |   |   |   |   sulphates > 0.53
+|   |   |   |   |   |   |   |   |   sulphates <= 0.54: 4 (1.78)
+|   |   |   |   |   |   |   |   |   sulphates > 0.54
+|   |   |   |   |   |   |   |   |   |   fixedacid <= 6.5: 6 (4.87)
+|   |   |   |   |   |   |   |   |   |   fixedacid > 6.5: 5 (5.34)
+|   |   |   sulphates > 0.56
+|   |   |   |   freesulfur <= 15: 5 (6.35/0.34)
+|   |   |   |   freesulfur > 15
+|   |   |   |   |   alcohol <= 9.4: 5 (3.56)
+|   |   |   |   |   alcohol > 9.4
+|   |   |   |   |   |   alcohol <= 10.1
+|   |   |   |   |   |   |   chlorides <= 0.032: 7 (2.12/0.34)
+|   |   |   |   |   |   |   chlorides > 0.032
+|   |   |   |   |   |   |   |   pH <= 3.16
+|   |   |   |   |   |   |   |   |   pH <= 3.09: 6 (3.45/0.34)
+|   |   |   |   |   |   |   |   |   pH > 3.09: 5 (5.93/1.02)
+|   |   |   |   |   |   |   |   pH > 3.16: 6 (18.78/1.02)
+|   |   |   |   |   |   alcohol > 10.1
+|   |   |   |   |   |   |   freesulfur <= 29: 7 (3.11/0.68)
+|   |   |   |   |   |   |   freesulfur > 29: 5 (3.56)
+|   |   density > 0.9983
+|   |   |   density <= 0.9984: 4 (4.21)
+|   |   |   density > 0.9984
+|   |   |   |   volacid <= 0.2
+|   |   |   |   |   residualsugar <= 14.05: 6 (2.77)
+|   |   |   |   |   residualsugar > 14.05: 8 (3.56)
+|   |   |   |   volacid > 0.2
+|   |   |   |   |   freesulfur <= 35
+|   |   |   |   |   |   freesulfur <= 34: 6 (3.11)
+|   |   |   |   |   |   freesulfur > 34: 7 (1.78)
+|   |   |   |   |   freesulfur > 35
+|   |   |   |   |   |   totalsulfur <= 218
+|   |   |   |   |   |   |   totalsulfur <= 138: 6 (1.36)
+|   |   |   |   |   |   |   totalsulfur > 138: 5 (13.81/0.34)
+|   |   |   |   |   |   totalsulfur > 218: 6 (3.45)
+alcohol > 10.3
+|   freesulfur <= 11
+|   |   totalsulfur <= 19: 3 (1.78)
+|   |   totalsulfur > 19
+|   |   |   density <= 0.9921: 6 (12.29/2.03)
+|   |   |   density > 0.9921: 5 (1.7)
+|   freesulfur > 11
+|   |   density <= 0.99086
+|   |   |   density <= 0.98934
+|   |   |   |   freesulfur <= 31: 8 (5.68)
+|   |   |   |   freesulfur > 31: 7 (1.7/0.68)
+|   |   |   density > 0.98934
+|   |   |   |   chlorides <= 0.044
+|   |   |   |   |   citricacid <= 0.43
+|   |   |   |   |   |   density <= 0.98958: 7 (4.13/0.34)
+|   |   |   |   |   |   density > 0.98958
+|   |   |   |   |   |   |   sulphates <= 0.62: 6 (29.76/3.73)
+|   |   |   |   |   |   |   sulphates > 0.62: 7 (2.46)
+|   |   |   |   |   citricacid > 0.43: 7 (3.11)
+|   |   |   |   chlorides > 0.044
+|   |   |   |   |   residualsugar <= 1.5: 6 (1.36)
+|   |   |   |   |   residualsugar > 1.5: 8 (3.9/0.34)
+|   |   density > 0.99086
+|   |   |   totalsulfur <= 92
+|   |   |   |   density <= 0.99154: 6 (2.03)
+|   |   |   |   density > 0.99154
+|   |   |   |   |   residualsugar <= 9.6: 5 (14.02/1.02)
+|   |   |   |   |   residualsugar > 9.6: 6 (1.36/0.34)
+|   |   |   totalsulfur > 92
+|   |   |   |   sulphates <= 0.31
+|   |   |   |   |   citricacid <= 0.25
+|   |   |   |   |   |   fixedacid <= 5.9: 7 (1.78)
+|   |   |   |   |   |   fixedacid > 5.9: 4 (1.78)
+|   |   |   |   |   citricacid > 0.25: 6 (6.69/0.34)
+|   |   |   |   sulphates > 0.31
+|   |   |   |   |   residualsugar <= 1.4
+|   |   |   |   |   |   residualsugar <= 1.35
+|   |   |   |   |   |   |   density <= 0.99134: 5 (3.45/0.34)
+|   |   |   |   |   |   |   density > 0.99134: 6 (2.03/0.34)
+|   |   |   |   |   |   residualsugar > 1.35
+|   |   |   |   |   |   |   chlorides <= 0.043: 5 (4.55)
+|   |   |   |   |   |   |   chlorides > 0.043
+|   |   |   |   |   |   |   |   sulphates <= 0.41: 5 (2.12)
+|   |   |   |   |   |   |   |   sulphates > 0.41: 7 (5.99)
+|   |   |   |   |   residualsugar > 1.4
+|   |   |   |   |   |   chlorides <= 0.05
+|   |   |   |   |   |   |   alcohol <= 11.55
+|   |   |   |   |   |   |   |   volacid <= 0.425
+|   |   |   |   |   |   |   |   |   fixedacid <= 6.6
+|   |   |   |   |   |   |   |   |   |   sulphates <= 0.56
+|   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.3: 6 (5.09/1.36)
+|   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.3: 5 (8.45/0.68)
+|   |   |   |   |   |   |   |   |   |   sulphates > 0.56: 7 (6.35/0.34)
+|   |   |   |   |   |   |   |   |   fixedacid > 6.6
+|   |   |   |   |   |   |   |   |   |   freesulfur <= 24
+|   |   |   |   |   |   |   |   |   |   |   freesulfur <= 16: 5 (2.12/0.34)
+|   |   |   |   |   |   |   |   |   |   |   freesulfur > 16
+|   |   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.49: 5 (1.02/0.34)
+|   |   |   |   |   |   |   |   |   |   |   |   sulphates > 0.49: 6 (3.14)
+|   |   |   |   |   |   |   |   |   |   freesulfur > 24
+|   |   |   |   |   |   |   |   |   |   |   residualsugar <= 1.6
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.31: 8 (1.78)
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.31: 6 (2.12)
+|   |   |   |   |   |   |   |   |   |   |   residualsugar > 1.6
+|   |   |   |   |   |   |   |   |   |   |   |   residualsugar <= 10.7: 7 (32.36/5.85)
+|   |   |   |   |   |   |   |   |   |   |   |   residualsugar > 10.7: 6 (2.8/0.34)
+|   |   |   |   |   |   |   |   volacid > 0.425: 7 (6.99/0.34)
+|   |   |   |   |   |   |   alcohol > 11.55
+|   |   |   |   |   |   |   |   freesulfur <= 23: 6 (8.68/1.02)
+|   |   |   |   |   |   |   |   freesulfur > 23
+|   |   |   |   |   |   |   |   |   alcohol <= 12.2
+|   |   |   |   |   |   |   |   |   |   volacid <= 0.44
+|   |   |   |   |   |   |   |   |   |   |   volacid <= 0.25: 6 (2.03/0.68)
+|   |   |   |   |   |   |   |   |   |   |   volacid > 0.25: 7 (6.27/0.68)
+|   |   |   |   |   |   |   |   |   |   volacid > 0.44: 6 (2.43)
+|   |   |   |   |   |   |   |   |   alcohol > 12.2
+|   |   |   |   |   |   |   |   |   |   citricacid <= 0.28: 8 (2.8/0.34)
+|   |   |   |   |   |   |   |   |   |   citricacid > 0.28: 7 (1.7/0.34)
+|   |   |   |   |   |   chlorides > 0.05
+|   |   |   |   |   |   |   density <= 0.99261: 5 (3.9/0.34)
+|   |   |   |   |   |   |   density > 0.99261: 6 (2.37/0.34)
+
+Number of Leaves  : 	88
+
+Size of the tree : 	175
+
+
+Weight: 2.6
+
+J48 pruned tree
+------------------
+
+alcohol <= 10.3
+|   pH <= 2.94
+|   |   density <= 0.99815: 8 (8.12/0.73)
+|   |   density > 0.99815: 3 (1.5/0.55)
+|   pH > 2.94
+|   |   sulphates <= 0.88
+|   |   |   fixedacid <= 8.8
+|   |   |   |   totalsulfur <= 81
+|   |   |   |   |   volacid <= 0.49: 5 (2.82/0.73)
+|   |   |   |   |   volacid > 0.49: 4 (3.42)
+|   |   |   |   totalsulfur > 81
+|   |   |   |   |   alcohol <= 10
+|   |   |   |   |   |   residualsugar <= 14.05
+|   |   |   |   |   |   |   chlorides <= 0.048
+|   |   |   |   |   |   |   |   totalsulfur <= 187
+|   |   |   |   |   |   |   |   |   sulphates <= 0.67
+|   |   |   |   |   |   |   |   |   |   sulphates <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   freesulfur <= 15: 5 (2.09)
+|   |   |   |   |   |   |   |   |   |   |   freesulfur > 15: 6 (10.27/0.73)
+|   |   |   |   |   |   |   |   |   |   sulphates > 0.39
+|   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.035: 6 (4.56/0.96)
+|   |   |   |   |   |   |   |   |   |   |   chlorides > 0.035: 5 (39.91/11.56)
+|   |   |   |   |   |   |   |   |   sulphates > 0.67: 6 (5.81)
+|   |   |   |   |   |   |   |   totalsulfur > 187
+|   |   |   |   |   |   |   |   |   alcohol <= 8.9: 5 (2.09/0.18)
+|   |   |   |   |   |   |   |   |   alcohol > 8.9
+|   |   |   |   |   |   |   |   |   |   alcohol <= 9.9: 6 (34.56/3.82)
+|   |   |   |   |   |   |   |   |   |   alcohol > 9.9: 5 (1.5)
+|   |   |   |   |   |   |   chlorides > 0.048
+|   |   |   |   |   |   |   |   volacid <= 0.255
+|   |   |   |   |   |   |   |   |   citricacid <= 0.25: 6 (5.88)
+|   |   |   |   |   |   |   |   |   citricacid > 0.25
+|   |   |   |   |   |   |   |   |   |   freesulfur <= 26: 6 (3.74)
+|   |   |   |   |   |   |   |   |   |   freesulfur > 26: 5 (14.6/4.86)
+|   |   |   |   |   |   |   |   volacid > 0.255
+|   |   |   |   |   |   |   |   |   density <= 0.99772: 5 (44.63/8.04)
+|   |   |   |   |   |   |   |   |   density > 0.99772
+|   |   |   |   |   |   |   |   |   |   freesulfur <= 25: 4 (2.26)
+|   |   |   |   |   |   |   |   |   |   freesulfur > 25
+|   |   |   |   |   |   |   |   |   |   |   volacid <= 0.43: 6 (4.88/0.96)
+|   |   |   |   |   |   |   |   |   |   |   volacid > 0.43: 5 (1.91)
+|   |   |   |   |   |   residualsugar > 14.05
+|   |   |   |   |   |   |   residualsugar <= 14.4
+|   |   |   |   |   |   |   |   chlorides <= 0.057: 8 (2.27/0.36)
+|   |   |   |   |   |   |   |   chlorides > 0.057: 7 (1.91)
+|   |   |   |   |   |   |   residualsugar > 14.4
+|   |   |   |   |   |   |   |   freesulfur <= 52
+|   |   |   |   |   |   |   |   |   fixedacid <= 6.2: 6 (2.04/0.18)
+|   |   |   |   |   |   |   |   |   fixedacid > 6.2
+|   |   |   |   |   |   |   |   |   |   freesulfur <= 30: 7 (1.09/0.36)
+|   |   |   |   |   |   |   |   |   |   freesulfur > 30: 5 (11.2/0.55)
+|   |   |   |   |   |   |   |   freesulfur > 52: 6 (5.11)
+|   |   |   |   |   alcohol > 10
+|   |   |   |   |   |   density <= 0.99691
+|   |   |   |   |   |   |   chlorides <= 0.039
+|   |   |   |   |   |   |   |   totalsulfur <= 127: 6 (1.87/0.18)
+|   |   |   |   |   |   |   |   totalsulfur > 127: 5 (2.87)
+|   |   |   |   |   |   |   chlorides > 0.039: 6 (35.46/2.44)
+|   |   |   |   |   |   density > 0.99691: 5 (3.78/0.36)
+|   |   |   fixedacid > 8.8
+|   |   |   |   density <= 0.99538: 4 (5.11)
+|   |   |   |   density > 0.99538: 5 (6.43)
+|   |   sulphates > 0.88: 7 (4.93)
+alcohol > 10.3
+|   freesulfur <= 7
+|   |   residualsugar <= 1.1: 4 (7.39)
+|   |   residualsugar > 1.1
+|   |   |   totalsulfur <= 24: 3 (1.91/0.96)
+|   |   |   totalsulfur > 24: 5 (7.94/0.18)
+|   freesulfur > 7
+|   |   volacid <= 0.15
+|   |   |   volacid <= 0.14
+|   |   |   |   residualsugar <= 3.5: 6 (2.27/0.96)
+|   |   |   |   residualsugar > 3.5: 7 (6.25/0.36)
+|   |   |   volacid > 0.14: 8 (7.57/0.18)
+|   |   volacid > 0.15
+|   |   |   volacid <= 0.44
+|   |   |   |   pH <= 3
+|   |   |   |   |   fixedacid <= 8.4: 6 (6.93/0.91)
+|   |   |   |   |   fixedacid > 8.4
+|   |   |   |   |   |   freesulfur <= 27: 5 (1.85/0.18)
+|   |   |   |   |   |   freesulfur > 27: 4 (5.11/0.18)
+|   |   |   |   pH > 3
+|   |   |   |   |   alcohol <= 10.9
+|   |   |   |   |   |   sulphates <= 0.37
+|   |   |   |   |   |   |   chlorides <= 0.045: 6 (7.79/0.96)
+|   |   |   |   |   |   |   chlorides > 0.045: 5 (1.14)
+|   |   |   |   |   |   sulphates > 0.37
+|   |   |   |   |   |   |   chlorides <= 0.039
+|   |   |   |   |   |   |   |   volacid <= 0.21
+|   |   |   |   |   |   |   |   |   citricacid <= 0.3: 7 (2.09)
+|   |   |   |   |   |   |   |   |   citricacid > 0.3: 5 (1.5/0.36)
+|   |   |   |   |   |   |   |   volacid > 0.21
+|   |   |   |   |   |   |   |   |   pH <= 3.09: 6 (2.27/0.18)
+|   |   |   |   |   |   |   |   |   pH > 3.09: 5 (9.63/0.73)
+|   |   |   |   |   |   |   chlorides > 0.039
+|   |   |   |   |   |   |   |   totalsulfur <= 170
+|   |   |   |   |   |   |   |   |   density <= 0.99188: 5 (2.27/0.36)
+|   |   |   |   |   |   |   |   |   density > 0.99188: 7 (15.65/0.91)
+|   |   |   |   |   |   |   |   totalsulfur > 170: 6 (3.01/0.18)
+|   |   |   |   |   alcohol > 10.9
+|   |   |   |   |   |   pH <= 3.33
+|   |   |   |   |   |   |   freesulfur <= 43
+|   |   |   |   |   |   |   |   alcohol <= 11
+|   |   |   |   |   |   |   |   |   pH <= 3.2: 6 (13.65/0.18)
+|   |   |   |   |   |   |   |   |   pH > 3.2
+|   |   |   |   |   |   |   |   |   |   freesulfur <= 31: 5 (3.05/0.96)
+|   |   |   |   |   |   |   |   |   |   freesulfur > 31: 7 (1.32/0.18)
+|   |   |   |   |   |   |   |   alcohol > 11
+|   |   |   |   |   |   |   |   |   residualsugar <= 2.35
+|   |   |   |   |   |   |   |   |   |   volacid <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.3: 6 (4.5)
+|   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.3
+|   |   |   |   |   |   |   |   |   |   |   |   density <= 0.99091: 7 (11.14)
+|   |   |   |   |   |   |   |   |   |   |   |   density > 0.99091
+|   |   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 7.7: 6 (1.5/0.18)
+|   |   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 7.7: 5 (1.31)
+|   |   |   |   |   |   |   |   |   |   volacid > 0.21: 6 (19.0/2.09)
+|   |   |   |   |   |   |   |   |   residualsugar > 2.35
+|   |   |   |   |   |   |   |   |   |   chlorides <= 0.049
+|   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.33: 7 (6.84/0.96)
+|   |   |   |   |   |   |   |   |   |   |   |   sulphates > 0.33
+|   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.036: 6 (5.09/0.18)
+|   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.036: 8 (2.46)
+|   |   |   |   |   |   |   |   |   |   |   sulphates > 0.36
+|   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 95
+|   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 86
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.8: 7 (8.34)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.8: 5 (1.14)
+|   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 86
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.033: 6 (2.98)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.033: 8 (1.32/0.36)
+|   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 95: 7 (25.02/0.36)
+|   |   |   |   |   |   |   |   |   |   chlorides > 0.049
+|   |   |   |   |   |   |   |   |   |   |   pH <= 3.2: 6 (2.83)
+|   |   |   |   |   |   |   |   |   |   |   pH > 3.2: 8 (2.46)
+|   |   |   |   |   |   |   freesulfur > 43
+|   |   |   |   |   |   |   |   fixedacid <= 7.15: 6 (16.63/0.36)
+|   |   |   |   |   |   |   |   fixedacid > 7.15
+|   |   |   |   |   |   |   |   |   volacid <= 0.21: 7 (2.46)
+|   |   |   |   |   |   |   |   |   volacid > 0.21
+|   |   |   |   |   |   |   |   |   |   volacid <= 0.3: 6 (9.65/1.31)
+|   |   |   |   |   |   |   |   |   |   volacid > 0.3: 7 (1.49)
+|   |   |   |   |   |   pH > 3.33
+|   |   |   |   |   |   |   citricacid <= 0.33
+|   |   |   |   |   |   |   |   residualsugar <= 2.6
+|   |   |   |   |   |   |   |   |   residualsugar <= 1.7: 7 (1.68/0.36)
+|   |   |   |   |   |   |   |   |   residualsugar > 1.7: 5 (4.91)
+|   |   |   |   |   |   |   |   residualsugar > 2.6: 6 (3.01)
+|   |   |   |   |   |   |   citricacid > 0.33
+|   |   |   |   |   |   |   |   citricacid <= 0.37: 8 (3.42)
+|   |   |   |   |   |   |   |   citricacid > 0.37: 7 (3.19/0.55)
+|   |   |   volacid > 0.44
+|   |   |   |   chlorides <= 0.042
+|   |   |   |   |   citricacid <= 0.27: 7 (5.29/0.18)
+|   |   |   |   |   citricacid > 0.27
+|   |   |   |   |   |   citricacid <= 0.35: 6 (2.8)
+|   |   |   |   |   |   citricacid > 0.35: 8 (3.42)
+|   |   |   |   chlorides > 0.042: 4 (4.93)
+
+Number of Leaves  : 	81
+
+Size of the tree : 	161
+
+
+Weight: 2.23
+
+J48 pruned tree
+------------------
+
+alcohol <= 10.3
+|   pH <= 2.94
+|   |   alcohol <= 8.8
+|   |   |   fixedacid <= 7.3: 8 (4.09)
+|   |   |   fixedacid > 7.3: 7 (2.8)
+|   |   alcohol > 8.8: 6 (4.27/0.53)
+|   pH > 2.94
+|   |   freesulfur <= 96
+|   |   |   sulphates <= 0.56
+|   |   |   |   totalsulfur <= 188
+|   |   |   |   |   fixedacid <= 7.4
+|   |   |   |   |   |   citricacid <= 0.23
+|   |   |   |   |   |   |   chlorides <= 0.041: 5 (4.64/0.53)
+|   |   |   |   |   |   |   chlorides > 0.041
+|   |   |   |   |   |   |   |   sulphates <= 0.5
+|   |   |   |   |   |   |   |   |   freesulfur <= 27: 5 (2.52)
+|   |   |   |   |   |   |   |   |   freesulfur > 27: 6 (16.6/2.09)
+|   |   |   |   |   |   |   |   sulphates > 0.5: 5 (2.85)
+|   |   |   |   |   |   citricacid > 0.23
+|   |   |   |   |   |   |   volacid <= 0.46
+|   |   |   |   |   |   |   |   fixedacid <= 6.4
+|   |   |   |   |   |   |   |   |   alcohol <= 9.7: 5 (9.68/2.92)
+|   |   |   |   |   |   |   |   |   alcohol > 9.7: 6 (13.76/0.53)
+|   |   |   |   |   |   |   |   fixedacid > 6.4: 6 (122.01/13.5)
+|   |   |   |   |   |   |   volacid > 0.46: 5 (2.65)
+|   |   |   |   |   fixedacid > 7.4
+|   |   |   |   |   |   pH <= 3.11
+|   |   |   |   |   |   |   freesulfur <= 18: 4 (2.83)
+|   |   |   |   |   |   |   freesulfur > 18: 5 (6.36/0.1)
+|   |   |   |   |   |   pH > 3.11
+|   |   |   |   |   |   |   volacid <= 0.26: 6 (8.69/0.63)
+|   |   |   |   |   |   |   volacid > 0.26
+|   |   |   |   |   |   |   |   pH <= 3.24: 5 (5.85/0.72)
+|   |   |   |   |   |   |   |   pH > 3.24: 6 (1.45)
+|   |   |   |   totalsulfur > 188
+|   |   |   |   |   freesulfur <= 35
+|   |   |   |   |   |   volacid <= 0.32: 4 (5.43/0.53)
+|   |   |   |   |   |   volacid > 0.32: 6 (1.99/0.63)
+|   |   |   |   |   freesulfur > 35
+|   |   |   |   |   |   fixedacid <= 7: 5 (35.56/6.86)
+|   |   |   |   |   |   fixedacid > 7
+|   |   |   |   |   |   |   pH <= 3.01: 5 (2.95/0.53)
+|   |   |   |   |   |   |   pH > 3.01: 6 (7.85/1.06)
+|   |   |   sulphates > 0.56
+|   |   |   |   citricacid <= 0.41
+|   |   |   |   |   volacid <= 0.28
+|   |   |   |   |   |   alcohol <= 9.633333: 6 (6.66)
+|   |   |   |   |   |   alcohol > 9.633333
+|   |   |   |   |   |   |   pH <= 3.13: 6 (3.03/0.63)
+|   |   |   |   |   |   |   pH > 3.13
+|   |   |   |   |   |   |   |   pH <= 3.41: 7 (14.54/0.2)
+|   |   |   |   |   |   |   |   pH > 3.41: 6 (2.19)
+|   |   |   |   |   volacid > 0.28
+|   |   |   |   |   |   chlorides <= 0.076
+|   |   |   |   |   |   |   citricacid <= 0.29: 6 (10.11/0.2)
+|   |   |   |   |   |   |   citricacid > 0.29
+|   |   |   |   |   |   |   |   sulphates <= 0.58: 6 (2.09)
+|   |   |   |   |   |   |   |   sulphates > 0.58: 5 (2.42)
+|   |   |   |   |   |   chlorides > 0.076: 5 (1.59/0.53)
+|   |   |   |   citricacid > 0.41
+|   |   |   |   |   citricacid <= 0.45: 4 (1.89/0.53)
+|   |   |   |   |   citricacid > 0.45
+|   |   |   |   |   |   sulphates <= 0.58: 5 (5.43)
+|   |   |   |   |   |   sulphates > 0.58
+|   |   |   |   |   |   |   fixedacid <= 8.8: 6 (4.62)
+|   |   |   |   |   |   |   fixedacid > 8.8: 5 (1.99)
+|   |   freesulfur > 96: 4 (4.9)
+alcohol > 10.3
+|   citricacid <= 0.22
+|   |   freesulfur <= 30: 4 (8.56/0.93)
+|   |   freesulfur > 30
+|   |   |   residualsugar <= 6.9: 6 (3.96/0.53)
+|   |   |   residualsugar > 6.9: 7 (2.3/0.93)
+|   citricacid > 0.22
+|   |   sulphates <= 0.26: 8 (6.27)
+|   |   sulphates > 0.26
+|   |   |   freesulfur <= 11
+|   |   |   |   residualsugar <= 1.1: 4 (2.93/0.2)
+|   |   |   |   residualsugar > 1.1
+|   |   |   |   |   volacid <= 0.29
+|   |   |   |   |   |   freesulfur <= 8: 5 (4.29)
+|   |   |   |   |   |   freesulfur > 8: 6 (1.59)
+|   |   |   |   |   volacid > 0.29: 6 (8.13/0.83)
+|   |   |   freesulfur > 11
+|   |   |   |   volacid <= 0.255
+|   |   |   |   |   alcohol <= 12.7
+|   |   |   |   |   |   pH <= 3.01
+|   |   |   |   |   |   |   volacid <= 0.2: 4 (2.2/0.83)
+|   |   |   |   |   |   |   volacid > 0.2: 6 (5.23/0.1)
+|   |   |   |   |   |   pH > 3.01
+|   |   |   |   |   |   |   sulphates <= 0.33
+|   |   |   |   |   |   |   |   sulphates <= 0.3: 6 (1.06)
+|   |   |   |   |   |   |   |   sulphates > 0.3: 7 (8.6)
+|   |   |   |   |   |   |   sulphates > 0.33
+|   |   |   |   |   |   |   |   citricacid <= 0.29
+|   |   |   |   |   |   |   |   |   fixedacid <= 6.8
+|   |   |   |   |   |   |   |   |   |   citricacid <= 0.27: 7 (4.19/0.3)
+|   |   |   |   |   |   |   |   |   |   citricacid > 0.27: 6 (4.69/0.83)
+|   |   |   |   |   |   |   |   |   fixedacid > 6.8
+|   |   |   |   |   |   |   |   |   |   citricacid <= 0.25: 7 (1.16/0.1)
+|   |   |   |   |   |   |   |   |   |   citricacid > 0.25: 8 (10.86/0.93)
+|   |   |   |   |   |   |   |   citricacid > 0.29
+|   |   |   |   |   |   |   |   |   citricacid <= 0.34
+|   |   |   |   |   |   |   |   |   |   citricacid <= 0.33
+|   |   |   |   |   |   |   |   |   |   |   freesulfur <= 41
+|   |   |   |   |   |   |   |   |   |   |   |   pH <= 3.37
+|   |   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.31: 7 (4.79/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.31
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.9: 7 (1.99/0.53)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.9: 6 (2.19)
+|   |   |   |   |   |   |   |   |   |   |   |   pH > 3.37: 5 (3.98/0.53)
+|   |   |   |   |   |   |   |   |   |   |   freesulfur > 41: 6 (5.43/0.53)
+|   |   |   |   |   |   |   |   |   |   citricacid > 0.33
+|   |   |   |   |   |   |   |   |   |   |   freesulfur <= 31: 5 (1.56/0.1)
+|   |   |   |   |   |   |   |   |   |   |   freesulfur > 31: 7 (3.98/0.53)
+|   |   |   |   |   |   |   |   |   citricacid > 0.34
+|   |   |   |   |   |   |   |   |   |   fixedacid <= 7.4
+|   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.44
+|   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 104
+|   |   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.9: 6 (2.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.9: 8 (2.83/0.1)
+|   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 104: 6 (9.49/0.1)
+|   |   |   |   |   |   |   |   |   |   |   citricacid > 0.44
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.3: 8 (1.36)
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.3: 7 (1.46/0.63)
+|   |   |   |   |   |   |   |   |   |   fixedacid > 7.4
+|   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.44: 5 (3.12)
+|   |   |   |   |   |   |   |   |   |   |   citricacid > 0.44: 6 (1.76/0.72)
+|   |   |   |   |   alcohol > 12.7
+|   |   |   |   |   |   freesulfur <= 34: 8 (10.74)
+|   |   |   |   |   |   freesulfur > 34: 7 (2.83)
+|   |   |   |   volacid > 0.255
+|   |   |   |   |   volacid <= 0.44
+|   |   |   |   |   |   alcohol <= 11.633333
+|   |   |   |   |   |   |   totalsulfur <= 92
+|   |   |   |   |   |   |   |   chlorides <= 0.026: 7 (1.36)
+|   |   |   |   |   |   |   |   chlorides > 0.026: 5 (4.7/0.2)
+|   |   |   |   |   |   |   totalsulfur > 92
+|   |   |   |   |   |   |   |   freesulfur <= 15: 5 (1.46)
+|   |   |   |   |   |   |   |   freesulfur > 15
+|   |   |   |   |   |   |   |   |   freesulfur <= 38: 6 (23.71/3.73)
+|   |   |   |   |   |   |   |   |   freesulfur > 38
+|   |   |   |   |   |   |   |   |   |   residualsugar <= 4.1: 6 (5.03/0.93)
+|   |   |   |   |   |   |   |   |   |   residualsugar > 4.1: 7 (5.64)
+|   |   |   |   |   |   alcohol > 11.633333
+|   |   |   |   |   |   |   chlorides <= 0.041: 7 (35.37/9.88)
+|   |   |   |   |   |   |   chlorides > 0.041: 6 (2.3/0.63)
+|   |   |   |   |   volacid > 0.44
+|   |   |   |   |   |   pH <= 3.21
+|   |   |   |   |   |   |   citricacid <= 0.27: 7 (1.36)
+|   |   |   |   |   |   |   citricacid > 0.27: 6 (1.55)
+|   |   |   |   |   |   pH > 3.21: 4 (3.26/0.53)
+
+Number of Leaves  : 	77
+
+Size of the tree : 	153
+
+
+Weight: 2.1
+
+J48 pruned tree
+------------------
+
+alcohol <= 10.3
+|   pH <= 2.98
+|   |   fixedacid <= 7.7
+|   |   |   density <= 0.99784: 6 (3.68/0.76)
+|   |   |   density > 0.99784
+|   |   |   |   residualsugar <= 14.05
+|   |   |   |   |   residualsugar <= 13.8: 6 (1.05/0.52)
+|   |   |   |   |   residualsugar > 13.8: 8 (2.3)
+|   |   |   |   residualsugar > 14.05: 7 (6.61/1.29)
+|   |   fixedacid > 7.7
+|   |   |   chlorides <= 0.035: 3 (2.42)
+|   |   |   chlorides > 0.035: 5 (1.35)
+|   pH > 2.98
+|   |   residualsugar <= 14.05
+|   |   |   sulphates <= 0.56
+|   |   |   |   pH <= 3.52
+|   |   |   |   |   freesulfur <= 20
+|   |   |   |   |   |   citricacid <= 0.27
+|   |   |   |   |   |   |   alcohol <= 9.4: 5 (1.3)
+|   |   |   |   |   |   |   alcohol > 9.4: 4 (8.08/1.58)
+|   |   |   |   |   |   citricacid > 0.27
+|   |   |   |   |   |   |   fixedacid <= 8.5: 6 (8.43/0.3)
+|   |   |   |   |   |   |   fixedacid > 8.5: 4 (1.64/0.82)
+|   |   |   |   |   freesulfur > 20
+|   |   |   |   |   |   residualsugar <= 1.4
+|   |   |   |   |   |   |   freesulfur <= 54: 6 (19.65/0.3)
+|   |   |   |   |   |   |   freesulfur > 54: 5 (1.06)
+|   |   |   |   |   |   residualsugar > 1.4
+|   |   |   |   |   |   |   residualsugar <= 10.1
+|   |   |   |   |   |   |   |   sulphates <= 0.51
+|   |   |   |   |   |   |   |   |   volacid <= 0.335
+|   |   |   |   |   |   |   |   |   |   residualsugar <= 8.75
+|   |   |   |   |   |   |   |   |   |   |   residualsugar <= 7.95
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.049: 6 (17.77/1.66)
+|   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.049: 5 (4.14/0.06)
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar <= 7.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 129: 6 (2.99/0.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 129: 5 (24.65/2.3)
+|   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar > 7.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   freesulfur <= 65: 6 (9.73/0.59)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   freesulfur > 65: 5 (2.72)
+|   |   |   |   |   |   |   |   |   |   |   residualsugar > 7.95: 5 (10.82/0.17)
+|   |   |   |   |   |   |   |   |   |   residualsugar > 8.75: 6 (6.64)
+|   |   |   |   |   |   |   |   |   volacid > 0.335
+|   |   |   |   |   |   |   |   |   |   totalsulfur <= 148: 6 (1.22)
+|   |   |   |   |   |   |   |   |   |   totalsulfur > 148: 5 (16.19)
+|   |   |   |   |   |   |   |   sulphates > 0.51
+|   |   |   |   |   |   |   |   |   citricacid <= 0.49
+|   |   |   |   |   |   |   |   |   |   freesulfur <= 27: 6 (1.59)
+|   |   |   |   |   |   |   |   |   |   freesulfur > 27: 5 (14.04)
+|   |   |   |   |   |   |   |   |   citricacid > 0.49: 4 (2.75)
+|   |   |   |   |   |   |   residualsugar > 10.1
+|   |   |   |   |   |   |   |   pH <= 3.33
+|   |   |   |   |   |   |   |   |   fixedacid <= 6.7: 6 (39.14/1.24)
+|   |   |   |   |   |   |   |   |   fixedacid > 6.7
+|   |   |   |   |   |   |   |   |   |   sulphates <= 0.44: 5 (12.44/0.81)
+|   |   |   |   |   |   |   |   |   |   sulphates > 0.44
+|   |   |   |   |   |   |   |   |   |   |   residualsugar <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 7: 5 (5.5/0.06)
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 7: 6 (8.47/1.36)
+|   |   |   |   |   |   |   |   |   |   |   residualsugar > 13: 6 (13.06/0.3)
+|   |   |   |   |   |   |   |   pH > 3.33: 5 (5.04)
+|   |   |   |   pH > 3.52: 4 (3.33/0.58)
+|   |   |   sulphates > 0.56
+|   |   |   |   chlorides <= 0.211
+|   |   |   |   |   density <= 0.99642
+|   |   |   |   |   |   citricacid <= 0.39
+|   |   |   |   |   |   |   chlorides <= 0.032: 7 (2.75)
+|   |   |   |   |   |   |   chlorides > 0.032: 6 (11.04/2.45)
+|   |   |   |   |   |   citricacid > 0.39
+|   |   |   |   |   |   |   density <= 0.99486: 7 (5.3)
+|   |   |   |   |   |   |   density > 0.99486: 4 (1.47/0.7)
+|   |   |   |   |   density > 0.99642
+|   |   |   |   |   |   freesulfur <= 54
+|   |   |   |   |   |   |   fixedacid <= 8.8: 6 (4.93/0.3)
+|   |   |   |   |   |   |   fixedacid > 8.8: 5 (1.06)
+|   |   |   |   |   |   freesulfur > 54: 5 (5.47)
+|   |   |   |   chlorides > 0.211: 4 (2.42)
+|   |   residualsugar > 14.05
+|   |   |   fixedacid <= 7.5
+|   |   |   |   chlorides <= 0.066
+|   |   |   |   |   volacid <= 0.25
+|   |   |   |   |   |   alcohol <= 8.7: 5 (2.42)
+|   |   |   |   |   |   alcohol > 8.7: 6 (4.02)
+|   |   |   |   |   volacid > 0.25: 5 (7.72/0.41)
+|   |   |   |   chlorides > 0.066: 7 (2.83/0.41)
+|   |   |   fixedacid > 7.5: 8 (5.48/0.64)
+alcohol > 10.3
+|   freesulfur <= 11
+|   |   totalsulfur <= 19: 3 (2.42)
+|   |   totalsulfur > 19
+|   |   |   residualsugar <= 1.1: 4 (3.22/0.92)
+|   |   |   residualsugar > 1.1: 6 (8.79/3.8)
+|   freesulfur > 11
+|   |   volacid <= 0.44
+|   |   |   citricacid <= 0.22
+|   |   |   |   residualsugar <= 1.5
+|   |   |   |   |   volacid <= 0.29: 5 (2.48/0.06)
+|   |   |   |   |   volacid > 0.29: 7 (3.78)
+|   |   |   |   residualsugar > 1.5
+|   |   |   |   |   freesulfur <= 30: 4 (3.52)
+|   |   |   |   |   freesulfur > 30: 6 (1.87)
+|   |   |   citricacid > 0.22
+|   |   |   |   alcohol <= 11.5
+|   |   |   |   |   residualsugar <= 1.5
+|   |   |   |   |   |   residualsugar <= 1.1: 6 (5.67/2.35)
+|   |   |   |   |   |   residualsugar > 1.1: 5 (8.77/2.45)
+|   |   |   |   |   residualsugar > 1.5
+|   |   |   |   |   |   fixedacid <= 6.6
+|   |   |   |   |   |   |   pH <= 3.17: 6 (5.62/1.29)
+|   |   |   |   |   |   |   pH > 3.17
+|   |   |   |   |   |   |   |   sulphates <= 0.53
+|   |   |   |   |   |   |   |   |   fixedacid <= 6.3
+|   |   |   |   |   |   |   |   |   |   density <= 0.9921: 7 (2.54/0.41)
+|   |   |   |   |   |   |   |   |   |   density > 0.9921: 6 (4.15/1.06)
+|   |   |   |   |   |   |   |   |   fixedacid > 6.3: 5 (8.46)
+|   |   |   |   |   |   |   |   sulphates > 0.53: 7 (7.3)
+|   |   |   |   |   |   fixedacid > 6.6
+|   |   |   |   |   |   |   residualsugar <= 1.6: 8 (3.58/0.82)
+|   |   |   |   |   |   |   residualsugar > 1.6
+|   |   |   |   |   |   |   |   citricacid <= 0.26
+|   |   |   |   |   |   |   |   |   chlorides <= 0.041: 5 (1.57/0.7)
+|   |   |   |   |   |   |   |   |   chlorides > 0.041: 6 (4.48)
+|   |   |   |   |   |   |   |   citricacid > 0.26
+|   |   |   |   |   |   |   |   |   citricacid <= 0.28
+|   |   |   |   |   |   |   |   |   |   pH <= 3.21: 7 (7.96/0.46)
+|   |   |   |   |   |   |   |   |   |   pH > 3.21: 8 (2.3)
+|   |   |   |   |   |   |   |   |   citricacid > 0.28
+|   |   |   |   |   |   |   |   |   |   citricacid <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 149
+|   |   |   |   |   |   |   |   |   |   |   |   freesulfur <= 31
+|   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 112
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   density <= 0.99254: 7 (1.17)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   density > 0.99254: 5 (1.36)
+|   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 112: 6 (3.23)
+|   |   |   |   |   |   |   |   |   |   |   |   freesulfur > 31
+|   |   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.36: 7 (8.72/0.77)
+|   |   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.36: 6 (1.05)
+|   |   |   |   |   |   |   |   |   |   |   totalsulfur > 149: 6 (4.64)
+|   |   |   |   |   |   |   |   |   |   citricacid > 0.37: 7 (17.16/3.11)
+|   |   |   |   alcohol > 11.5
+|   |   |   |   |   pH <= 3.46
+|   |   |   |   |   |   chlorides <= 0.043
+|   |   |   |   |   |   |   sulphates <= 0.26: 8 (2.75)
+|   |   |   |   |   |   |   sulphates > 0.26
+|   |   |   |   |   |   |   |   density <= 0.99146
+|   |   |   |   |   |   |   |   |   citricacid <= 0.24: 7 (4.04)
+|   |   |   |   |   |   |   |   |   citricacid > 0.24
+|   |   |   |   |   |   |   |   |   |   volacid <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   alcohol <= 12.05: 6 (2.68/0.41)
+|   |   |   |   |   |   |   |   |   |   |   alcohol > 12.05: 7 (7.61/0.41)
+|   |   |   |   |   |   |   |   |   |   volacid > 0.21
+|   |   |   |   |   |   |   |   |   |   |   density <= 0.991
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 5.9: 7 (2.93/0.52)
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 5.9: 6 (32.54/3.52)
+|   |   |   |   |   |   |   |   |   |   |   density > 0.991: 7 (4.55/0.87)
+|   |   |   |   |   |   |   |   density > 0.99146
+|   |   |   |   |   |   |   |   |   citricacid <= 0.27: 8 (3.87/0.92)
+|   |   |   |   |   |   |   |   |   citricacid > 0.27: 6 (20.24/3.23)
+|   |   |   |   |   |   chlorides > 0.043
+|   |   |   |   |   |   |   residualsugar <= 3.5: 8 (8.21/0.28)
+|   |   |   |   |   |   |   residualsugar > 3.5: 6 (1.23/0.46)
+|   |   |   |   |   pH > 3.46: 5 (2.95/0.52)
+|   |   volacid > 0.44
+|   |   |   chlorides <= 0.033: 8 (7.87/0.41)
+|   |   |   chlorides > 0.033
+|   |   |   |   density <= 0.99106: 7 (1.99)
+|   |   |   |   density > 0.99106: 4 (1.99/0.46)
+
+Number of Leaves  : 	86
+
+Size of the tree : 	171
+
+
+Weight: 2.29
+
+J48 pruned tree
+------------------
+
+alcohol <= 10.3
+|   density <= 0.9988
+|   |   residualsugar <= 13.5
+|   |   |   density <= 0.9983
+|   |   |   |   sulphates <= 0.56
+|   |   |   |   |   volacid <= 0.46
+|   |   |   |   |   |   sulphates <= 0.52
+|   |   |   |   |   |   |   fixedacid <= 8.2
+|   |   |   |   |   |   |   |   volacid <= 0.34
+|   |   |   |   |   |   |   |   |   chlorides <= 0.063
+|   |   |   |   |   |   |   |   |   |   alcohol <= 8.8: 5 (7.53)
+|   |   |   |   |   |   |   |   |   |   alcohol > 8.8
+|   |   |   |   |   |   |   |   |   |   |   fixedacid <= 8.1
+|   |   |   |   |   |   |   |   |   |   |   |   pH <= 3.21
+|   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 143: 6 (5.73/0.5)
+|   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 143
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   volacid <= 0.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.4: 5 (2.96)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sulphates > 0.4: 6 (9.24/0.33)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   volacid > 0.3: 5 (4.11)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   sulphates > 0.45: 5 (24.23/2.52)
+|   |   |   |   |   |   |   |   |   |   |   |   pH > 3.21
+|   |   |   |   |   |   |   |   |   |   |   |   |   pH <= 3.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.52: 6 (16.79/0.29)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.52: 5 (1.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pH > 3.28: 5 (16.92/7.01)
+|   |   |   |   |   |   |   |   |   |   |   fixedacid > 8.1: 6 (4.6)
+|   |   |   |   |   |   |   |   |   chlorides > 0.063
+|   |   |   |   |   |   |   |   |   |   chlorides <= 0.069: 6 (14.02/0.16)
+|   |   |   |   |   |   |   |   |   |   chlorides > 0.069
+|   |   |   |   |   |   |   |   |   |   |   alcohol <= 8.8: 6 (4.29)
+|   |   |   |   |   |   |   |   |   |   |   alcohol > 8.8: 5 (3.77/0.06)
+|   |   |   |   |   |   |   |   volacid > 0.34
+|   |   |   |   |   |   |   |   |   density <= 0.99727: 5 (17.42/0.87)
+|   |   |   |   |   |   |   |   |   density > 0.99727
+|   |   |   |   |   |   |   |   |   |   volacid <= 0.42
+|   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.41: 6 (1.82)
+|   |   |   |   |   |   |   |   |   |   |   sulphates > 0.41: 5 (4.51/0.22)
+|   |   |   |   |   |   |   |   |   |   volacid > 0.42: 6 (4.15)
+|   |   |   |   |   |   |   fixedacid > 8.2: 5 (11.04/0.45)
+|   |   |   |   |   |   sulphates > 0.52
+|   |   |   |   |   |   |   residualsugar <= 9.8
+|   |   |   |   |   |   |   |   totalsulfur <= 145: 6 (6.97/0.62)
+|   |   |   |   |   |   |   |   totalsulfur > 145
+|   |   |   |   |   |   |   |   |   alcohol <= 9.7
+|   |   |   |   |   |   |   |   |   |   density <= 0.9955: 4 (3.03)
+|   |   |   |   |   |   |   |   |   |   density > 0.9955: 5 (1.5)
+|   |   |   |   |   |   |   |   |   alcohol > 9.7: 5 (4.35)
+|   |   |   |   |   |   |   residualsugar > 9.8: 6 (9.66)
+|   |   |   |   |   volacid > 0.46
+|   |   |   |   |   |   citricacid <= 0.17: 4 (2.4/0.64)
+|   |   |   |   |   |   citricacid > 0.17: 5 (9.38)
+|   |   |   |   sulphates > 0.56
+|   |   |   |   |   volacid <= 0.43
+|   |   |   |   |   |   volacid <= 0.3
+|   |   |   |   |   |   |   fixedacid <= 7.3
+|   |   |   |   |   |   |   |   alcohol <= 9.4: 5 (1.51)
+|   |   |   |   |   |   |   |   alcohol > 9.4: 7 (7.06/2.63)
+|   |   |   |   |   |   |   fixedacid > 7.3: 5 (7.9/1.97)
+|   |   |   |   |   |   volacid > 0.3
+|   |   |   |   |   |   |   chlorides <= 0.038: 6 (1.23)
+|   |   |   |   |   |   |   chlorides > 0.038: 5 (12.79)
+|   |   |   |   |   volacid > 0.43: 6 (4.02)
+|   |   |   density > 0.9983
+|   |   |   |   residualsugar <= 12.6: 5 (3.14)
+|   |   |   |   residualsugar > 12.6: 4 (3.16)
+|   |   residualsugar > 13.5
+|   |   |   residualsugar <= 14.7
+|   |   |   |   alcohol <= 9.1: 7 (8.39/1.84)
+|   |   |   |   alcohol > 9.1: 6 (8.44/0.16)
+|   |   |   residualsugar > 14.7: 5 (4.34/1.22)
+|   density > 0.9988
+|   |   residualsugar <= 14.7: 8 (4.77/2.1)
+|   |   residualsugar > 14.7
+|   |   |   sulphates <= 0.41: 5 (1.59)
+|   |   |   sulphates > 0.41: 6 (12.05/1.53)
+alcohol > 10.3
+|   freesulfur <= 11
+|   |   residualsugar <= 1.2
+|   |   |   alcohol <= 11.633333: 4 (1.26)
+|   |   |   alcohol > 11.633333: 6 (5.62)
+|   |   residualsugar > 1.2
+|   |   |   totalsulfur <= 45
+|   |   |   |   volacid <= 0.38: 6 (1.68)
+|   |   |   |   volacid > 0.38: 3 (1.33)
+|   |   |   totalsulfur > 45: 5 (21.22/0.49)
+|   freesulfur > 11
+|   |   fixedacid <= 5.7
+|   |   |   freesulfur <= 16: 5 (1.62)
+|   |   |   freesulfur > 16
+|   |   |   |   sulphates <= 0.53: 8 (12.98/2.06)
+|   |   |   |   sulphates > 0.53: 6 (3.23)
+|   |   fixedacid > 5.7
+|   |   |   fixedacid <= 8.4
+|   |   |   |   pH <= 3.43
+|   |   |   |   |   sulphates <= 0.31
+|   |   |   |   |   |   sulphates <= 0.26: 8 (1.94)
+|   |   |   |   |   |   sulphates > 0.26
+|   |   |   |   |   |   |   sulphates <= 0.3: 6 (5.49)
+|   |   |   |   |   |   |   sulphates > 0.3: 4 (1.55/0.03)
+|   |   |   |   |   sulphates > 0.31
+|   |   |   |   |   |   alcohol <= 11.9
+|   |   |   |   |   |   |   alcohol <= 10.4
+|   |   |   |   |   |   |   |   volacid <= 0.175: 8 (4.6)
+|   |   |   |   |   |   |   |   volacid > 0.175
+|   |   |   |   |   |   |   |   |   sulphates <= 0.54: 6 (1.83/0.65)
+|   |   |   |   |   |   |   |   |   sulphates > 0.54: 7 (4.43/0.25)
+|   |   |   |   |   |   |   alcohol > 10.4
+|   |   |   |   |   |   |   |   residualsugar <= 1.05: 5 (6.33/1.25)
+|   |   |   |   |   |   |   |   residualsugar > 1.05
+|   |   |   |   |   |   |   |   |   chlorides <= 0.058
+|   |   |   |   |   |   |   |   |   |   chlorides <= 0.027: 6 (8.55/0.39)
+|   |   |   |   |   |   |   |   |   |   chlorides > 0.027
+|   |   |   |   |   |   |   |   |   |   |   alcohol <= 10.9
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.5: 5 (8.24/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.054
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   alcohol <= 10.8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar <= 10.2: 7 (10.63/0.96)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar > 10.2: 6 (1.16)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.05: 6 (3.29/0.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   alcohol > 10.8: 6 (5.93/0.54)
+|   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.054: 5 (1.88)
+|   |   |   |   |   |   |   |   |   |   |   alcohol > 10.9
+|   |   |   |   |   |   |   |   |   |   |   |   pH <= 3.21
+|   |   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.42
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   freesulfur <= 22: 7 (2.5/0.25)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   freesulfur > 22: 6 (4.54)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   sulphates > 0.42: 7 (8.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.28: 6 (12.34/1.74)
+|   |   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.37: 7 (10.0/1.02)
+|   |   |   |   |   |   |   |   |   |   |   |   pH > 3.21
+|   |   |   |   |   |   |   |   |   |   |   |   |   volacid <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   volacid <= 0.16: 7 (1.65/0.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   volacid > 0.16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   density <= 0.9917: 8 (3.5/0.65)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   density > 0.9917
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   density <= 0.99316: 5 (4.42/0.67)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   density > 0.99316: 8 (1.1/0.25)
+|   |   |   |   |   |   |   |   |   |   |   |   |   volacid > 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar <= 2.2: 6 (3.09/0.25)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar > 2.2: 7 (2.88/0.71)
+|   |   |   |   |   |   |   |   |   chlorides > 0.058: 6 (7.41)
+|   |   |   |   |   |   alcohol > 11.9
+|   |   |   |   |   |   |   fixedacid <= 6.1
+|   |   |   |   |   |   |   |   chlorides <= 0.037: 6 (11.55/0.03)
+|   |   |   |   |   |   |   |   chlorides > 0.037: 7 (1.15)
+|   |   |   |   |   |   |   fixedacid > 6.1
+|   |   |   |   |   |   |   |   pH <= 3.32
+|   |   |   |   |   |   |   |   |   totalsulfur <= 161
+|   |   |   |   |   |   |   |   |   |   volacid <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.042: 7 (35.65/2.35)
+|   |   |   |   |   |   |   |   |   |   |   chlorides > 0.042
+|   |   |   |   |   |   |   |   |   |   |   |   alcohol <= 12.7: 6 (1.35)
+|   |   |   |   |   |   |   |   |   |   |   |   alcohol > 12.7: 8 (1.51)
+|   |   |   |   |   |   |   |   |   |   volacid > 0.39
+|   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.033: 6 (6.67/0.29)
+|   |   |   |   |   |   |   |   |   |   |   chlorides > 0.033
+|   |   |   |   |   |   |   |   |   |   |   |   volacid <= 0.41: 8 (1.33)
+|   |   |   |   |   |   |   |   |   |   |   |   volacid > 0.41: 7 (3.2)
+|   |   |   |   |   |   |   |   |   totalsulfur > 161: 6 (5.98/0.29)
+|   |   |   |   |   |   |   |   pH > 3.32
+|   |   |   |   |   |   |   |   |   citricacid <= 0.32: 7 (1.62)
+|   |   |   |   |   |   |   |   |   citricacid > 0.32: 8 (5.52)
+|   |   |   |   pH > 3.43
+|   |   |   |   |   freesulfur <= 35: 5 (6.09)
+|   |   |   |   |   freesulfur > 35: 7 (3.63/0.51)
+|   |   |   fixedacid > 8.4
+|   |   |   |   fixedacid <= 8.7: 4 (4.6)
+|   |   |   |   fixedacid > 8.7
+|   |   |   |   |   density <= 0.9931: 6 (4.29)
+|   |   |   |   |   density > 0.9931
+|   |   |   |   |   |   fixedacid <= 8.9: 7 (2.25)
+|   |   |   |   |   |   fixedacid > 8.9: 5 (2.64/0.16)
+
+Number of Leaves  : 	90
+
+Size of the tree : 	179
+
+
+Weight: 2.48
+
+J48 pruned tree
+------------------
+
+fixedacid <= 9.1
+|   alcohol <= 10.3
+|   |   pH <= 2.94
+|   |   |   volacid <= 0.175: 7 (5.28)
+|   |   |   volacid > 0.175
+|   |   |   |   chlorides <= 0.051: 6 (4.04)
+|   |   |   |   chlorides > 0.051: 8 (8.17)
+|   |   pH > 2.94
+|   |   |   volacid <= 0.29
+|   |   |   |   citricacid <= 0.2
+|   |   |   |   |   volacid <= 0.235: 6 (2.02)
+|   |   |   |   |   volacid > 0.235: 5 (9.21/0.2)
+|   |   |   |   citricacid > 0.2
+|   |   |   |   |   pH <= 3.29
+|   |   |   |   |   |   density <= 0.9982
+|   |   |   |   |   |   |   totalsulfur <= 151
+|   |   |   |   |   |   |   |   totalsulfur <= 148
+|   |   |   |   |   |   |   |   |   fixedacid <= 7.3
+|   |   |   |   |   |   |   |   |   |   fixedacid <= 6.6
+|   |   |   |   |   |   |   |   |   |   |   residualsugar <= 1.7: 6 (1.78)
+|   |   |   |   |   |   |   |   |   |   |   residualsugar > 1.7: 5 (5.76/0.37)
+|   |   |   |   |   |   |   |   |   |   fixedacid > 6.6: 6 (6.28)
+|   |   |   |   |   |   |   |   |   fixedacid > 7.3: 5 (9.31/0.88)
+|   |   |   |   |   |   |   |   totalsulfur > 148: 7 (1.76/0.09)
+|   |   |   |   |   |   |   totalsulfur > 151
+|   |   |   |   |   |   |   |   freesulfur <= 39: 6 (15.71/0.82)
+|   |   |   |   |   |   |   |   freesulfur > 39
+|   |   |   |   |   |   |   |   |   residualsugar <= 7.5: 6 (11.21/0.18)
+|   |   |   |   |   |   |   |   |   residualsugar > 7.5
+|   |   |   |   |   |   |   |   |   |   residualsugar <= 9.05: 5 (6.49/0.99)
+|   |   |   |   |   |   |   |   |   |   residualsugar > 9.05
+|   |   |   |   |   |   |   |   |   |   |   residualsugar <= 10.5: 6 (9.62)
+|   |   |   |   |   |   |   |   |   |   |   residualsugar > 10.5
+|   |   |   |   |   |   |   |   |   |   |   |   density <= 0.997: 5 (3.15)
+|   |   |   |   |   |   |   |   |   |   |   |   density > 0.997
+|   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.036: 5 (1.6)
+|   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.036
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pH <= 3: 5 (3.15/0.72)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pH > 3: 6 (10.22/0.72)
+|   |   |   |   |   |   density > 0.9982
+|   |   |   |   |   |   |   chlorides <= 0.055: 6 (13.97/0.72)
+|   |   |   |   |   |   |   chlorides > 0.055: 7 (1.45/0.72)
+|   |   |   |   |   pH > 3.29
+|   |   |   |   |   |   residualsugar <= 12.85: 6 (63.45/3.23)
+|   |   |   |   |   |   residualsugar > 12.85: 5 (2.2/0.23)
+|   |   |   volacid > 0.29
+|   |   |   |   freesulfur <= 34
+|   |   |   |   |   freesulfur <= 24
+|   |   |   |   |   |   density <= 0.9956: 5 (15.17/1.31)
+|   |   |   |   |   |   density > 0.9956
+|   |   |   |   |   |   |   citricacid <= 0.35
+|   |   |   |   |   |   |   |   density <= 0.9976: 5 (1.21/0.09)
+|   |   |   |   |   |   |   |   density > 0.9976: 4 (1.71)
+|   |   |   |   |   |   |   citricacid > 0.35: 6 (5.21/0.09)
+|   |   |   |   |   freesulfur > 24
+|   |   |   |   |   |   sulphates <= 0.58: 6 (23.09/4.1)
+|   |   |   |   |   |   sulphates > 0.58: 5 (2.25)
+|   |   |   |   freesulfur > 34
+|   |   |   |   |   freesulfur <= 62: 5 (33.61/5.29)
+|   |   |   |   |   freesulfur > 62: 6 (3.87/0.44)
+|   alcohol > 10.3
+|   |   volacid <= 0.44
+|   |   |   freesulfur <= 11
+|   |   |   |   residualsugar <= 1.2: 6 (3.73/0.69)
+|   |   |   |   residualsugar > 1.2
+|   |   |   |   |   citricacid <= 0.33: 6 (3.02)
+|   |   |   |   |   citricacid > 0.33
+|   |   |   |   |   |   sulphates <= 0.61: 5 (10.59/0.72)
+|   |   |   |   |   |   sulphates > 0.61: 6 (1.06)
+|   |   |   freesulfur > 11
+|   |   |   |   residualsugar <= 1.4
+|   |   |   |   |   density <= 0.9907: 6 (17.81/1.23)
+|   |   |   |   |   density > 0.9907
+|   |   |   |   |   |   density <= 0.9922
+|   |   |   |   |   |   |   density <= 0.99091: 7 (2.28/0.2)
+|   |   |   |   |   |   |   density > 0.99091
+|   |   |   |   |   |   |   |   pH <= 3.23: 5 (13.84/4.11)
+|   |   |   |   |   |   |   |   pH > 3.23
+|   |   |   |   |   |   |   |   |   pH <= 3.38: 6 (6.31)
+|   |   |   |   |   |   |   |   |   pH > 3.38: 5 (1.6)
+|   |   |   |   |   |   density > 0.9922: 7 (4.99/0.86)
+|   |   |   |   residualsugar > 1.4
+|   |   |   |   |   chlorides <= 0.05
+|   |   |   |   |   |   volacid <= 0.235
+|   |   |   |   |   |   |   fixedacid <= 5.8
+|   |   |   |   |   |   |   |   chlorides <= 0.028: 7 (1.21/0.16)
+|   |   |   |   |   |   |   |   chlorides > 0.028: 8 (5.36)
+|   |   |   |   |   |   |   fixedacid > 5.8
+|   |   |   |   |   |   |   |   fixedacid <= 6.1: 6 (6.45)
+|   |   |   |   |   |   |   |   fixedacid > 6.1
+|   |   |   |   |   |   |   |   |   citricacid <= 0.44
+|   |   |   |   |   |   |   |   |   |   sulphates <= 0.67
+|   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.028: 8 (4.27/0.14)
+|   |   |   |   |   |   |   |   |   |   |   chlorides > 0.028
+|   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 97: 8 (2.49/0.23)
+|   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 97: 7 (19.16/4.37)
+|   |   |   |   |   |   |   |   |   |   sulphates > 0.67: 6 (3.23/0.09)
+|   |   |   |   |   |   |   |   |   citricacid > 0.44: 6 (6.85/0.72)
+|   |   |   |   |   |   volacid > 0.235
+|   |   |   |   |   |   |   alcohol <= 11.55
+|   |   |   |   |   |   |   |   chlorides <= 0.04
+|   |   |   |   |   |   |   |   |   citricacid <= 0.22: 4 (1.05)
+|   |   |   |   |   |   |   |   |   citricacid > 0.22
+|   |   |   |   |   |   |   |   |   |   totalsulfur <= 146
+|   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.63
+|   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 93: 5 (5.83/0.37)
+|   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 93
+|   |   |   |   |   |   |   |   |   |   |   |   |   alcohol <= 10.4: 5 (2.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   alcohol > 10.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar <= 2: 5 (2.86/0.23)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   freesulfur <= 16: 5 (1.06)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   freesulfur > 16: 6 (11.51/0.32)
+|   |   |   |   |   |   |   |   |   |   |   sulphates > 0.63: 7 (1.64)
+|   |   |   |   |   |   |   |   |   |   totalsulfur > 146
+|   |   |   |   |   |   |   |   |   |   |   volacid <= 0.275: 6 (2.93)
+|   |   |   |   |   |   |   |   |   |   |   volacid > 0.275: 7 (5.24/0.32)
+|   |   |   |   |   |   |   |   chlorides > 0.04
+|   |   |   |   |   |   |   |   |   totalsulfur <= 159
+|   |   |   |   |   |   |   |   |   |   citricacid <= 0.26: 6 (1.78)
+|   |   |   |   |   |   |   |   |   |   citricacid > 0.26: 7 (13.14/0.02)
+|   |   |   |   |   |   |   |   |   totalsulfur > 159: 6 (4.82)
+|   |   |   |   |   |   |   alcohol > 11.55
+|   |   |   |   |   |   |   |   residualsugar <= 7
+|   |   |   |   |   |   |   |   |   alcohol <= 11.633333: 6 (4.06/0.14)
+|   |   |   |   |   |   |   |   |   alcohol > 11.633333: 7 (38.97/13.76)
+|   |   |   |   |   |   |   |   residualsugar > 7
+|   |   |   |   |   |   |   |   |   citricacid <= 0.31: 6 (11.9)
+|   |   |   |   |   |   |   |   |   citricacid > 0.31
+|   |   |   |   |   |   |   |   |   |   sulphates <= 0.42: 6 (2.39/0.16)
+|   |   |   |   |   |   |   |   |   |   sulphates > 0.42: 7 (2.43)
+|   |   |   |   |   chlorides > 0.05: 6 (11.01/1.76)
+|   |   volacid > 0.44
+|   |   |   chlorides <= 0.042
+|   |   |   |   freesulfur <= 28
+|   |   |   |   |   citricacid <= 0.27: 5 (1.73/0.37)
+|   |   |   |   |   citricacid > 0.27: 6 (2.57)
+|   |   |   |   freesulfur > 28: 8 (2.46/0.23)
+|   |   |   chlorides > 0.042: 4 (5.45)
+fixedacid > 9.1
+|   freesulfur <= 15: 3 (8.61)
+|   freesulfur > 15: 4 (6.07/0.63)
+
+Number of Leaves  : 	72
+
+Size of the tree : 	143
+
+
+Weight: 2.23
+
+J48 pruned tree
+------------------
+
+fixedacid <= 8.3
+|   freesulfur <= 6
+|   |   residualsugar <= 1.1: 4 (6.1)
+|   |   residualsugar > 1.1
+|   |   |   totalsulfur <= 19: 3 (3.74)
+|   |   |   totalsulfur > 19: 5 (5.06/0.54)
+|   freesulfur > 6
+|   |   density <= 0.99132
+|   |   |   sulphates <= 0.26: 8 (4.25)
+|   |   |   sulphates > 0.26
+|   |   |   |   chlorides <= 0.043
+|   |   |   |   |   density <= 0.98958
+|   |   |   |   |   |   citricacid <= 0.38
+|   |   |   |   |   |   |   totalsulfur <= 91: 6 (1.59)
+|   |   |   |   |   |   |   totalsulfur > 91: 7 (7.5/0.13)
+|   |   |   |   |   |   citricacid > 0.38: 8 (1.26)
+|   |   |   |   |   density > 0.98958
+|   |   |   |   |   |   citricacid <= 0.24: 7 (3.17/0.11)
+|   |   |   |   |   |   citricacid > 0.24
+|   |   |   |   |   |   |   sulphates <= 0.52: 6 (64.18/6.55)
+|   |   |   |   |   |   |   sulphates > 0.52
+|   |   |   |   |   |   |   |   residualsugar <= 3.8: 7 (10.68/2.96)
+|   |   |   |   |   |   |   |   residualsugar > 3.8: 6 (6.03/0.25)
+|   |   |   |   chlorides > 0.043
+|   |   |   |   |   density <= 0.99044: 8 (5.29/0.19)
+|   |   |   |   |   density > 0.99044: 6 (7.45/1.52)
+|   |   density > 0.99132
+|   |   |   totalsulfur <= 192
+|   |   |   |   pH <= 2.94
+|   |   |   |   |   chlorides <= 0.056
+|   |   |   |   |   |   totalsulfur <= 123: 6 (2.86/0.09)
+|   |   |   |   |   |   totalsulfur > 123: 7 (6.83/0.17)
+|   |   |   |   |   chlorides > 0.056: 8 (4.52)
+|   |   |   |   pH > 2.94
+|   |   |   |   |   chlorides <= 0.035
+|   |   |   |   |   |   totalsulfur <= 165
+|   |   |   |   |   |   |   fixedacid <= 6.8
+|   |   |   |   |   |   |   |   residualsugar <= 6.5
+|   |   |   |   |   |   |   |   |   volacid <= 0.22: 6 (4.43/0.4)
+|   |   |   |   |   |   |   |   |   volacid > 0.22
+|   |   |   |   |   |   |   |   |   |   fixedacid <= 6.6: 5 (3.94/0.57)
+|   |   |   |   |   |   |   |   |   |   fixedacid > 6.6: 6 (1.3)
+|   |   |   |   |   |   |   |   residualsugar > 6.5
+|   |   |   |   |   |   |   |   |   citricacid <= 0.31: 6 (10.96/0.71)
+|   |   |   |   |   |   |   |   |   citricacid > 0.31
+|   |   |   |   |   |   |   |   |   |   density <= 0.9936: 7 (2.16)
+|   |   |   |   |   |   |   |   |   |   density > 0.9936
+|   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.2: 8 (1.25)
+|   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.2: 6 (1.03)
+|   |   |   |   |   |   |   fixedacid > 6.8
+|   |   |   |   |   |   |   |   citricacid <= 0.36
+|   |   |   |   |   |   |   |   |   totalsulfur <= 125
+|   |   |   |   |   |   |   |   |   |   pH <= 3.2
+|   |   |   |   |   |   |   |   |   |   |   fixedacid <= 7.1: 8 (1.11/0.08)
+|   |   |   |   |   |   |   |   |   |   |   fixedacid > 7.1: 5 (2.56/0.14)
+|   |   |   |   |   |   |   |   |   |   pH > 3.2: 8 (10.42)
+|   |   |   |   |   |   |   |   |   totalsulfur > 125: 7 (1.63/0.25)
+|   |   |   |   |   |   |   |   citricacid > 0.36: 6 (4.02/0.58)
+|   |   |   |   |   |   totalsulfur > 165: 7 (4.91)
+|   |   |   |   |   chlorides > 0.035
+|   |   |   |   |   |   density <= 1.0004
+|   |   |   |   |   |   |   volacid <= 0.44
+|   |   |   |   |   |   |   |   alcohol <= 10.3
+|   |   |   |   |   |   |   |   |   totalsulfur <= 191
+|   |   |   |   |   |   |   |   |   |   sulphates <= 0.82
+|   |   |   |   |   |   |   |   |   |   |   volacid <= 0.3
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.041
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pH <= 3.17: 5 (3.58/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   pH > 3.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 167: 6 (5.06/0.49)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 167: 5 (1.11)
+|   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.041: 6 (60.63/7.93)
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.35
+|   |   |   |   |   |   |   |   |   |   |   |   |   alcohol <= 9.4: 6 (16.33/3.3)
+|   |   |   |   |   |   |   |   |   |   |   |   |   alcohol > 9.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   alcohol <= 10: 5 (16.16/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   alcohol > 10: 6 (2.48/0.62)
+|   |   |   |   |   |   |   |   |   |   |   volacid > 0.3
+|   |   |   |   |   |   |   |   |   |   |   |   volacid <= 0.425
+|   |   |   |   |   |   |   |   |   |   |   |   |   pH <= 3.23: 5 (32.15/4.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pH > 3.23
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   freesulfur <= 33: 6 (5.37/1.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   freesulfur > 33: 5 (1.17)
+|   |   |   |   |   |   |   |   |   |   |   |   volacid > 0.425: 6 (7.23)
+|   |   |   |   |   |   |   |   |   |   sulphates > 0.82: 7 (2.36)
+|   |   |   |   |   |   |   |   |   totalsulfur > 191: 7 (4.32/0.58)
+|   |   |   |   |   |   |   |   alcohol > 10.3
+|   |   |   |   |   |   |   |   |   chlorides <= 0.053
+|   |   |   |   |   |   |   |   |   |   totalsulfur <= 70: 6 (7.07)
+|   |   |   |   |   |   |   |   |   |   totalsulfur > 70
+|   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.39: 5 (1.87/0.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   sulphates > 0.39
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar <= 1.5: 7 (1.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar > 1.5: 6 (5.22)
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar <= 6.8: 7 (7.52)
+|   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar > 6.8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar <= 9.4: 8 (2.36)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar > 9.4: 7 (1.46)
+|   |   |   |   |   |   |   |   |   |   |   citricacid > 0.29
+|   |   |   |   |   |   |   |   |   |   |   |   alcohol <= 10.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.7: 7 (1.11)
+|   |   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.7: 8 (1.34/0.09)
+|   |   |   |   |   |   |   |   |   |   |   |   alcohol > 10.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   pH <= 3.18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 90: 5 (2.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 90
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pH <= 3.05: 6 (4.5)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   pH > 3.05
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.33
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 110: 7 (1.19)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   totalsulfur > 110: 6 (5.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.33: 7 (6.45/0.86)
+|   |   |   |   |   |   |   |   |   |   |   |   |   pH > 3.18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   alcohol <= 10.6: 6 (3.65/0.08)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   alcohol > 10.6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.037: 6 (3.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.037
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar <= 1.1: 7 (1.25)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   residualsugar > 1.1: 5 (17.54/2.02)
+|   |   |   |   |   |   |   |   |   chlorides > 0.053
+|   |   |   |   |   |   |   |   |   |   chlorides <= 0.058: 5 (9.1/0.1)
+|   |   |   |   |   |   |   |   |   |   chlorides > 0.058: 6 (2.91/0.81)
+|   |   |   |   |   |   |   volacid > 0.44
+|   |   |   |   |   |   |   |   alcohol <= 10.2
+|   |   |   |   |   |   |   |   |   fixedacid <= 7.6
+|   |   |   |   |   |   |   |   |   |   density <= 0.996: 6 (10.79/2.11)
+|   |   |   |   |   |   |   |   |   |   density > 0.996: 5 (2.49)
+|   |   |   |   |   |   |   |   |   fixedacid > 7.6: 4 (1.18)
+|   |   |   |   |   |   |   |   alcohol > 10.2: 4 (3.11/0.09)
+|   |   |   |   |   |   density > 1.0004: 8 (3.74)
+|   |   |   totalsulfur > 192
+|   |   |   |   chlorides <= 0.055
+|   |   |   |   |   density <= 0.99548
+|   |   |   |   |   |   volacid <= 0.275: 4 (9.4/0.91)
+|   |   |   |   |   |   volacid > 0.275
+|   |   |   |   |   |   |   residualsugar <= 6.3: 5 (1.73)
+|   |   |   |   |   |   |   residualsugar > 6.3: 6 (2.41/0.13)
+|   |   |   |   |   density > 0.99548: 6 (29.22/6.77)
+|   |   |   |   chlorides > 0.055
+|   |   |   |   |   sulphates <= 0.46: 8 (3.74)
+|   |   |   |   |   sulphates > 0.46: 5 (3.16/0.4)
+fixedacid > 8.3
+|   fixedacid <= 9.2
+|   |   residualsugar <= 2
+|   |   |   alcohol <= 9.6: 5 (1.35)
+|   |   |   alcohol > 9.6
+|   |   |   |   pH <= 3.13
+|   |   |   |   |   chlorides <= 0.031: 6 (1.21)
+|   |   |   |   |   chlorides > 0.031: 4 (17.04/0.09)
+|   |   |   |   pH > 3.13: 6 (1.63/0.09)
+|   |   residualsugar > 2
+|   |   |   sulphates <= 0.47
+|   |   |   |   pH <= 3: 5 (1.91)
+|   |   |   |   pH > 3: 7 (1.73)
+|   |   |   sulphates > 0.47: 6 (9.94/0.22)
+|   fixedacid > 9.2
+|   |   density <= 0.99884: 5 (2.44)
+|   |   density > 0.99884: 3 (4.77)
+
+Number of Leaves  : 	82
+
+Size of the tree : 	163
+
+
+Weight: 2.31
+
+J48 pruned tree
+------------------
+
+alcohol <= 10.8
+|   pH <= 2.94
+|   |   volacid <= 0.175: 7 (3.66)
+|   |   volacid > 0.175
+|   |   |   fixedacid <= 10.3
+|   |   |   |   chlorides <= 0.051: 6 (2.54)
+|   |   |   |   chlorides > 0.051: 8 (2.49)
+|   |   |   fixedacid > 10.3: 3 (2.62)
+|   pH > 2.94
+|   |   fixedacid <= 8.4
+|   |   |   alcohol <= 8.9
+|   |   |   |   fixedacid <= 7.5
+|   |   |   |   |   chlorides <= 0.043: 5 (10.59/0.38)
+|   |   |   |   |   chlorides > 0.043
+|   |   |   |   |   |   density <= 0.9969
+|   |   |   |   |   |   |   chlorides <= 0.049: 6 (1.01)
+|   |   |   |   |   |   |   chlorides > 0.049: 5 (7.94/0.34)
+|   |   |   |   |   |   density > 0.9969: 6 (17.4/0.99)
+|   |   |   |   fixedacid > 7.5
+|   |   |   |   |   residualsugar <= 14.05: 6 (1.4/0.27)
+|   |   |   |   |   residualsugar > 14.05: 8 (4.11)
+|   |   |   alcohol > 8.9
+|   |   |   |   alcohol <= 10.3
+|   |   |   |   |   volacid <= 0.51
+|   |   |   |   |   |   freesulfur <= 96
+|   |   |   |   |   |   |   sulphates <= 0.56
+|   |   |   |   |   |   |   |   density <= 0.99784
+|   |   |   |   |   |   |   |   |   residualsugar <= 12
+|   |   |   |   |   |   |   |   |   |   residualsugar <= 10.8
+|   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |   pH <= 3.12: 5 (27.54/2.05)
+|   |   |   |   |   |   |   |   |   |   |   |   pH > 3.12
+|   |   |   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.043: 5 (20.13/3.29)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.043
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.05: 6 (20.43/1.31)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   density <= 0.9953
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   volacid <= 0.15: 6 (1.04)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   volacid > 0.15: 5 (9.1/0.69)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   density > 0.9953: 6 (4.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   sulphates > 0.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.043: 6 (2.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.043
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.054: 5 (18.05/0.5)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   chlorides > 0.054: 6 (1.83/0.5)
+|   |   |   |   |   |   |   |   |   |   |   citricacid > 0.48
+|   |   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |   |   density <= 0.99578: 6 (9.64/0.74)
+|   |   |   |   |   |   |   |   |   |   |   |   |   density > 0.99578: 5 (3.21)
+|   |   |   |   |   |   |   |   |   |   |   |   sulphates > 0.53: 4 (2.33)
+|   |   |   |   |   |   |   |   |   |   residualsugar > 10.8: 6 (10.8/0.22)
+|   |   |   |   |   |   |   |   |   residualsugar > 12: 5 (31.34/1.93)
+|   |   |   |   |   |   |   |   density > 0.99784
+|   |   |   |   |   |   |   |   |   freesulfur <= 21: 4 (3.03)
+|   |   |   |   |   |   |   |   |   freesulfur > 21
+|   |   |   |   |   |   |   |   |   |   alcohol <= 9.1
+|   |   |   |   |   |   |   |   |   |   |   chlorides <= 0.05: 6 (1.19)
+|   |   |   |   |   |   |   |   |   |   |   chlorides > 0.05: 7 (6.2/0.25)
+|   |   |   |   |   |   |   |   |   |   alcohol > 9.1
+|   |   |   |   |   |   |   |   |   |   |   freesulfur <= 31: 6 (1.33)
+|   |   |   |   |   |   |   |   |   |   |   freesulfur > 31
+|   |   |   |   |   |   |   |   |   |   |   |   freesulfur <= 49: 5 (14.92)
+|   |   |   |   |   |   |   |   |   |   |   |   freesulfur > 49: 6 (1.18/0.32)
+|   |   |   |   |   |   |   sulphates > 0.56
+|   |   |   |   |   |   |   |   alcohol <= 9.633333
+|   |   |   |   |   |   |   |   |   alcohol <= 9.4: 5 (3.09/0.01)
+|   |   |   |   |   |   |   |   |   alcohol > 9.4
+|   |   |   |   |   |   |   |   |   |   freesulfur <= 25: 5 (2.96)
+|   |   |   |   |   |   |   |   |   |   freesulfur > 25: 6 (11.06)
+|   |   |   |   |   |   |   |   alcohol > 9.633333
+|   |   |   |   |   |   |   |   |   totalsulfur <= 172
+|   |   |   |   |   |   |   |   |   |   freesulfur <= 28: 6 (4.32/0.95)
+|   |   |   |   |   |   |   |   |   |   freesulfur > 28
+|   |   |   |   |   |   |   |   |   |   |   pH <= 3.13: 6 (1.4)
+|   |   |   |   |   |   |   |   |   |   |   pH > 3.13: 7 (7.13/0.06)
+|   |   |   |   |   |   |   |   |   totalsulfur > 172: 5 (5.16/1.28)
+|   |   |   |   |   |   freesulfur > 96: 4 (2.33)
+|   |   |   |   |   volacid > 0.51
+|   |   |   |   |   |   citricacid <= 0.31: 4 (6.79/1.87)
+|   |   |   |   |   |   citricacid > 0.31: 5 (5.9)
+|   |   |   |   alcohol > 10.3
+|   |   |   |   |   alcohol <= 10.6
+|   |   |   |   |   |   volacid <= 0.43
+|   |   |   |   |   |   |   volacid <= 0.16: 8 (2.6/0.57)
+|   |   |   |   |   |   |   volacid > 0.16: 6 (15.5/4.98)
+|   |   |   |   |   |   volacid > 0.43: 4 (1.66)
+|   |   |   |   |   alcohol > 10.6
+|   |   |   |   |   |   citricacid <= 0.22: 4 (2.56/0.05)
+|   |   |   |   |   |   citricacid > 0.22
+|   |   |   |   |   |   |   density <= 0.99335: 7 (4.01/0.74)
+|   |   |   |   |   |   |   density > 0.99335
+|   |   |   |   |   |   |   |   pH <= 3.16: 6 (1.16)
+|   |   |   |   |   |   |   |   pH > 3.16: 5 (8.59)
+|   |   fixedacid > 8.4
+|   |   |   totalsulfur <= 109: 4 (8.47/0.37)
+|   |   |   totalsulfur > 109: 5 (3.84/0.89)
+alcohol > 10.8
+|   totalsulfur <= 78
+|   |   citricacid <= 0.39
+|   |   |   citricacid <= 0.23: 4 (1.35)
+|   |   |   citricacid > 0.23
+|   |   |   |   freesulfur <= 4: 4 (1.3)
+|   |   |   |   freesulfur > 4: 6 (18.39/0.84)
+|   |   citricacid > 0.39
+|   |   |   volacid <= 0.35
+|   |   |   |   freesulfur <= 11: 5 (2.31)
+|   |   |   |   freesulfur > 11: 7 (1.02)
+|   |   |   volacid > 0.35: 3 (2.27/0.22)
+|   totalsulfur > 78
+|   |   pH <= 3.43
+|   |   |   volacid <= 0.41
+|   |   |   |   fixedacid <= 7.8
+|   |   |   |   |   freesulfur <= 16
+|   |   |   |   |   |   alcohol <= 12.05
+|   |   |   |   |   |   |   volacid <= 0.26: 5 (3.13)
+|   |   |   |   |   |   |   volacid > 0.26: 7 (1.71/0.32)
+|   |   |   |   |   |   alcohol > 12.05: 6 (10.1/0.96)
+|   |   |   |   |   freesulfur > 16
+|   |   |   |   |   |   fixedacid <= 6.1: 6 (25.85/3.61)
+|   |   |   |   |   |   fixedacid > 6.1
+|   |   |   |   |   |   |   volacid <= 0.36
+|   |   |   |   |   |   |   |   pH <= 3.29
+|   |   |   |   |   |   |   |   |   residualsugar <= 1.7
+|   |   |   |   |   |   |   |   |   |   volacid <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   sulphates <= 0.48: 7 (5.55)
+|   |   |   |   |   |   |   |   |   |   |   sulphates > 0.48
+|   |   |   |   |   |   |   |   |   |   |   |   volacid <= 0.175: 6 (1.26)
+|   |   |   |   |   |   |   |   |   |   |   |   volacid > 0.175: 7 (1.22/0.57)
+|   |   |   |   |   |   |   |   |   |   volacid > 0.22: 6 (15.2)
+|   |   |   |   |   |   |   |   |   residualsugar > 1.7
+|   |   |   |   |   |   |   |   |   |   density <= 0.99146
+|   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.39: 7 (26.97/0.12)
+|   |   |   |   |   |   |   |   |   |   |   citricacid > 0.39
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid <= 6.9: 8 (2.33)
+|   |   |   |   |   |   |   |   |   |   |   |   fixedacid > 6.9: 7 (5.27)
+|   |   |   |   |   |   |   |   |   |   density > 0.99146
+|   |   |   |   |   |   |   |   |   |   |   totalsulfur <= 115
+|   |   |   |   |   |   |   |   |   |   |   |   density <= 0.99176: 6 (1.65)
+|   |   |   |   |   |   |   |   |   |   |   |   density > 0.99176: 7 (6.14/0.36)
+|   |   |   |   |   |   |   |   |   |   |   totalsulfur > 115
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid <= 0.3: 8 (2.72/0.86)
+|   |   |   |   |   |   |   |   |   |   |   |   citricacid > 0.3: 6 (6.9/0.69)
+|   |   |   |   |   |   |   |   pH > 3.29
+|   |   |   |   |   |   |   |   |   residualsugar <= 1.4: 6 (1.81)
+|   |   |   |   |   |   |   |   |   residualsugar > 1.4
+|   |   |   |   |   |   |   |   |   |   chlorides <= 0.036: 8 (3.32/0.3)
+|   |   |   |   |   |   |   |   |   |   chlorides > 0.036: 5 (1.52/0.37)
+|   |   |   |   |   |   |   volacid > 0.36
+|   |   |   |   |   |   |   |   sulphates <= 0.52
+|   |   |   |   |   |   |   |   |   fixedacid <= 6.3: 8 (2.33)
+|   |   |   |   |   |   |   |   |   fixedacid > 6.3: 6 (9.86)
+|   |   |   |   |   |   |   |   sulphates > 0.52: 8 (2.96/0.9)
+|   |   |   |   fixedacid > 7.8
+|   |   |   |   |   fixedacid <= 7.9: 5 (6.99/0.39)
+|   |   |   |   |   fixedacid > 7.9: 6 (7.9/1.13)
+|   |   |   volacid > 0.41
+|   |   |   |   citricacid <= 0.29: 7 (18.26/0.85)
+|   |   |   |   citricacid > 0.29: 8 (1.13/0.43)
+|   |   pH > 3.43
+|   |   |   alcohol <= 12.4: 5 (2.66/0.12)
+|   |   |   alcohol > 12.4: 8 (4.38)
+
+Number of Leaves  : 	82
+
+Size of the tree : 	163
+
+
+Weight: 2.58
+
+Number of performed Iterations: 10

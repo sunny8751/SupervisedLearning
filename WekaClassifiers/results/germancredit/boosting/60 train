@@ -1,0 +1,283 @@
+AdaBoostM1: Base classifiers and their weights: 
+
+J48 pruned tree
+------------------
+
+checking_status = <0
+|   credit_history = no credits/all paid: bad (6.0/2.0)
+|   credit_history = all paid: bad (11.0/2.0)
+|   credit_history = existing paid
+|   |   installment_commitment <= 3: good (32.0/13.0)
+|   |   installment_commitment > 3: bad (40.0/15.0)
+|   credit_history = delayed previously: bad (5.0/2.0)
+|   credit_history = critical/other existing credit: good (32.0/6.0)
+checking_status = 0<=X<200
+|   property_magnitude = real estate: good (32.0/6.0)
+|   property_magnitude = life insurance: good (22.0/8.0)
+|   property_magnitude = car: good (39.0/15.0)
+|   property_magnitude = no known property: bad (18.0/7.0)
+checking_status = >=200: good (22.0/3.0)
+checking_status = no checking: good (161.0/17.0)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	16
+
+
+Weight: 1.22
+
+J48 pruned tree
+------------------
+
+other_parties = none
+|   savings_status = <100
+|   |   checking_status = <0
+|   |   |   installment_commitment <= 3: bad (47.48/15.15)
+|   |   |   installment_commitment > 3: good (46.99/17.09)
+|   |   checking_status = 0<=X<200: bad (74.54/27.55)
+|   |   checking_status = >=200: good (9.97/2.19)
+|   |   checking_status = no checking: good (56.79/15.31)
+|   savings_status = 100<=X<500: good (31.11/13.53)
+|   savings_status = 500<=X<1000: good (23.9/11.59)
+|   savings_status = >=1000: good (17.09/0.65)
+|   savings_status = no known savings: good (60.52/17.66)
+other_parties = co applicant: bad (28.36/8.26)
+other_parties = guarantor: good (23.25/5.02)
+
+Number of Leaves  : 	11
+
+Size of the tree : 	15
+
+
+Weight: 0.76
+
+J48 pruned tree
+------------------
+
+savings_status = <100
+|   purpose = new car
+|   |   duration <= 16: good (41.04/16.91)
+|   |   duration > 16: bad (40.52/5.84)
+|   purpose = used car: good (18.23/4.16)
+|   purpose = furniture/equipment
+|   |   age <= 30: bad (28.25/8.4)
+|   |   age > 30: good (28.93/11.55)
+|   purpose = radio/tv: good (63.25/20.06)
+|   purpose = domestic appliance: good (1.49)
+|   purpose = repairs: good (2.98/0.48)
+|   purpose = education: good (15.38/7.49)
+|   purpose = vacation: good (0.0)
+|   purpose = retraining: good (1.49)
+|   purpose = business: bad (28.69/12.97)
+|   purpose = other: good (5.24/1.61)
+savings_status = 100<=X<500: bad (37.62/13.86)
+savings_status = 500<=X<1000: bad (27.2/9.04)
+savings_status = >=1000: good (13.09/1.02)
+savings_status = no known savings
+|   residence_since <= 2: bad (28.84/13.09)
+|   residence_since > 2: good (37.74/11.93)
+
+Number of Leaves  : 	18
+
+Size of the tree : 	23
+
+
+Weight: 0.71
+
+J48 pruned tree
+------------------
+
+employment = unemployed: good (28.69/11.8)
+employment = <1
+|   installment_commitment <= 3: good (39.87/18.81)
+|   installment_commitment > 3: bad (43.22/12.76)
+employment = 1<=X<4
+|   housing = rent: bad (45.42/14.56)
+|   housing = own
+|   |   installment_commitment <= 2: good (28.87/8.75)
+|   |   installment_commitment > 2
+|   |   |   duration <= 16: good (31.89/13.12)
+|   |   |   duration > 16: bad (31.79/10.57)
+|   housing = for free: bad (11.5/2.14)
+employment = 4<=X<7: good (61.83/17.37)
+employment = >=7
+|   checking_status = <0: bad (40.66/12.47)
+|   checking_status = 0<=X<200: bad (23.03/11.12)
+|   checking_status = >=200: good (2.9)
+|   checking_status = no checking: good (30.32/7.67)
+
+Number of Leaves  : 	13
+
+Size of the tree : 	19
+
+
+Weight: 0.68
+
+J48 pruned tree
+------------------
+
+other_payment_plans = bank: bad (80.12/27.4)
+other_payment_plans = stores: bad (13.09/5.61)
+other_payment_plans = none
+|   credit_history = no credits/all paid: bad (12.22/3.71)
+|   credit_history = all paid: bad (10.54/2.45)
+|   credit_history = existing paid
+|   |   checking_status = <0: bad (81.58/31.41)
+|   |   checking_status = 0<=X<200: bad (59.9/26.45)
+|   |   checking_status = >=200: bad (12.82/5.08)
+|   |   checking_status = no checking: good (46.6/15.08)
+|   credit_history = delayed previously: good (29.75/11.16)
+|   credit_history = critical/other existing credit: good (73.37/20.33)
+
+Number of Leaves  : 	10
+
+Size of the tree : 	13
+
+
+Weight: 0.6
+
+J48 pruned tree
+------------------
+
+other_parties = none
+|   credit_history = no credits/all paid: good (17.66/6.59)
+|   credit_history = all paid: bad (20.3/4.14)
+|   credit_history = existing paid
+|   |   installment_commitment <= 3
+|   |   |   purpose = new car: bad (39.48/13.75)
+|   |   |   purpose = used car: bad (16.03/7.22)
+|   |   |   purpose = furniture/equipment: good (17.48/7.07)
+|   |   |   purpose = radio/tv: bad (37.13/13.36)
+|   |   |   purpose = domestic appliance: good (0.8)
+|   |   |   purpose = repairs: good (2.38)
+|   |   |   purpose = education: good (1.38)
+|   |   |   purpose = vacation: bad (0.0)
+|   |   |   purpose = retraining: bad (0.0)
+|   |   |   purpose = business: good (4.2/0.7)
+|   |   |   purpose = other: good (1.27)
+|   |   installment_commitment > 3: good (100.67/34.12)
+|   credit_history = delayed previously: bad (39.79/18.11)
+|   credit_history = critical/other existing credit
+|   |   own_telephone = none: bad (44.84/20.57)
+|   |   own_telephone = yes: good (27.49/4.56)
+other_parties = co applicant: bad (30.77/12.14)
+other_parties = guarantor: good (18.33/3.85)
+
+Number of Leaves  : 	19
+
+Size of the tree : 	24
+
+
+Weight: 0.63
+
+J48 pruned tree
+------------------
+
+purpose = new car
+|   residence_since <= 2: bad (47.91/12.6)
+|   residence_since > 2: good (64.31/25.81)
+purpose = used car: good (35.9/10.23)
+purpose = furniture/equipment
+|   residence_since <= 3: good (43.79/21.12)
+|   residence_since > 3: bad (30.21/10.96)
+purpose = radio/tv
+|   age <= 35
+|   |   age <= 27: good (35.06/11.13)
+|   |   age > 27: bad (36.15/14.48)
+|   age > 35: good (31.17/3.21)
+purpose = domestic appliance: good (2.82/1.25)
+purpose = repairs: good (4.25/0.6)
+purpose = education: good (26.09/12.72)
+purpose = vacation: good (0.0)
+purpose = retraining: good (1.39)
+purpose = business: good (52.83/23.22)
+purpose = other: good (8.13/2.84)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	20
+
+
+Weight: 0.59
+
+J48 pruned tree
+------------------
+
+purpose = new car
+|   installment_commitment <= 2: good (43.2/17.4)
+|   installment_commitment > 2: bad (67.95/21.79)
+purpose = used car: good (34.28/14.3)
+purpose = furniture/equipment: bad (77.49/32.97)
+purpose = radio/tv: good (97.55/36.91)
+purpose = domestic appliance: bad (2.97/1.22)
+purpose = repairs: good (3.68/0.85)
+purpose = education: bad (28.2/10.41)
+purpose = vacation: bad (0.0)
+purpose = retraining: good (1.08)
+purpose = business: bad (55.52/23.04)
+purpose = other: good (8.09/3.97)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	14
+
+
+Weight: 0.46
+
+J48 pruned tree
+------------------
+
+savings_status = <100
+|   residence_since <= 1: good (56.7/19.98)
+|   residence_since > 1
+|   |   other_payment_plans = bank: bad (46.29/10.62)
+|   |   other_payment_plans = stores: bad (8.66/1.72)
+|   |   other_payment_plans = none
+|   |   |   checking_status = <0
+|   |   |   |   duration <= 16: good (45.03/21.48)
+|   |   |   |   duration > 16: bad (32.76/9.91)
+|   |   |   checking_status = 0<=X<200: bad (49.31/21.26)
+|   |   |   checking_status = >=200: good (9.79/4.61)
+|   |   |   checking_status = no checking: good (27.83/6.97)
+savings_status = 100<=X<500: good (37.47/18.54)
+savings_status = 500<=X<1000: bad (27.25/12.77)
+savings_status = >=1000: good (11.96/1.44)
+savings_status = no known savings
+|   installment_commitment <= 3: good (27.4/9.47)
+|   installment_commitment > 3: bad (39.56/18.79)
+
+Number of Leaves  : 	13
+
+Size of the tree : 	19
+
+
+Weight: 0.51
+
+J48 pruned tree
+------------------
+
+age <= 29
+|   credit_amount <= 759: bad (31.49/3.47)
+|   credit_amount > 759
+|   |   employment = unemployed: good (3.53/0.98)
+|   |   employment = <1: bad (49.9/19.48)
+|   |   employment = 1<=X<4: bad (69.89/25.21)
+|   |   employment = 4<=X<7: good (14.5/3.37)
+|   |   employment = >=7: good (7.58/0.87)
+age > 29
+|   savings_status = <100
+|   |   installment_commitment <= 3: good (85.12/30.88)
+|   |   installment_commitment > 3: bad (63.78/25.01)
+|   savings_status = 100<=X<500: good (23.24/11.27)
+|   savings_status = 500<=X<1000: good (17.15/3.03)
+|   savings_status = >=1000: good (9.96/1.91)
+|   savings_status = no known savings: good (43.87/18.76)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	17
+
+
+Weight: 0.65
+
+Number of performed Iterations: 10
