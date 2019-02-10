@@ -34,7 +34,7 @@ public abstract class LearningAlgorithm {
 
     protected abstract String getName();
 
-    protected abstract GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train)
+    protected abstract GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train, StringBuilder result)
             throws Exception;
 
     public void findScores(String dataset) throws Exception {
@@ -45,18 +45,20 @@ public abstract class LearningAlgorithm {
     public void gridSearch(String dataset) throws Exception {
         Classifier model = getModel();
         Instances train = Utils.readDataFile("datasets/" + dataset + "/splits/100.arff");
-        GridSearchResult gridSearchResult = gridSearchHelper(model, dataset, train);
 
         StringBuilder result = new StringBuilder();
-
         result.append("Grid search results:\n");
-        result.append("Accuracy: " + gridSearchResult.bestAccuracy + "\n");
+
+        GridSearchResult gridSearchResult = gridSearchHelper(model, dataset, train, result);
+
+        result.append("\nBest Accuracy: " + gridSearchResult.bestAccuracy + "\n");
+        result.append("Best Parameters:\n");
         result.append(gridSearchResult.bestParameters + "\n");
 
         String resultStr = result.toString();
         System.out.print(resultStr);
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter(Utils.getDir(dataset, getName()) + "gridsearch"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(Utils.getDir(dataset, getName()) + "_gridsearch"));
         writer.write(resultStr);
         writer.close();
     }

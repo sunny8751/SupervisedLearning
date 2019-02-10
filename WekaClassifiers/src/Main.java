@@ -17,10 +17,17 @@ public class Main {
          * Decision Trees with Pruning
          */
 //        new DecisionTreeWithPruning().gridSearch(wineDataset);
-//        new DecisionTreeWithPruning(.2f, 1).findScores(wineDataset);
+//        new DecisionTreeWithPruning(.05f, 4).findScores(wineDataset);
 
 //        new DecisionTreeWithPruning().gridSearch(germanDataset);
 //        new DecisionTreeWithPruning(.2f, 26).findScores(germanDataset);
+
+        /**
+         * Decision Trees Unpruned
+         */
+//        new DecisionTreeUnpruned(1).findScores(wineDataset);
+
+//        new DecisionTreeUnpruned(1).findScores(germanDataset);
 
         /**
          * Neural Networks
@@ -35,16 +42,16 @@ public class Main {
          * Boosting
          */
 //        new Boosting().gridSearch(wineDataset);
-//        new Boosting(.15f, 1).findScores(wineDataset);
+//        new Boosting(.05f, 1, 15).findScores(wineDataset);
 
 //        new Boosting().gridSearch(germanDataset);
-//        new Boosting(.35f, 27).findScores(germanDataset);
+//        new Boosting(.05f, 5, 7).findScores(germanDataset);
 
         /**
          * SVM linear kernel
          */
 //        new svmLinear().gridSearch(wineDataset);
-//        new svmLinear(10).findScores(wineDataset); // c=1000 has very similar scores but a little lower
+//        new svmLinear(10).findScores(wineDataset);
 
 //        new svmLinear().gridSearch(germanDataset);
 //        new svmLinear(100).findScores(germanDataset);
@@ -54,16 +61,15 @@ public class Main {
          */
 //        new svmRbf().gridSearch(wineDataset);
 //        new svmRbf(10, 100).findScores(wineDataset);
-//
+
 //        new svmRbf().gridSearch(germanDataset);
-//        new svmRbf(1, 1f).findScores(germanDataset);
-//        new svmRbf(1, .1f).findScores(germanDataset); / ** not grid search results?
+//        new svmRbf(1, .1f).findScores(germanDataset);
 
         /**
          * kNN with uniform weighting
          */
 //        new knnUniform().gridSearch(wineDataset);
-//        new knnUniform(1).findScores(wineDataset);
+//        new knnUniform(21).findScores(wineDataset);
 //
 //        new knnUniform().gridSearch(germanDataset);
 //        new knnUniform(13).findScores(germanDataset);
@@ -72,7 +78,7 @@ public class Main {
          * kNN with distance weighting
          */
 //        new knnDistance().gridSearch(wineDataset);
-//        new knnDistance(29).findScores(wineDataset);
+//        new knnDistance(36).findScores(wineDataset);
 //
 //        new knnDistance().gridSearch(germanDataset);
 //        new knnDistance(13).findScores(germanDataset);

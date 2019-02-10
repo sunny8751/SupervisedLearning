@@ -1,7 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b86c36c2-8d71-4135-aad6-730660797c84" name="Default Changelist" comment="" />
+    <list default="true" id="b86c36c2-8d71-4135-aad6-730660797c84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DecisionTreeUnpruned.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plotConclusion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Boosting.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Boosting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/DecisionTreeWithPruning.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/DecisionTreeWithPruning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/LearningAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/LearningAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/NeuralNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/NeuralNetwork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/knnDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/knnDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/knnUniform.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/knnUniform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/svmLinear.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/svmLinear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/svmRbf.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/svmRbf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/100 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/100 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/100 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/100 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/100 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/100 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/20 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/20 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/20 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/20 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/20 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/20 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/40 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/40 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/40 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/40 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/40 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/40 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/60 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/60 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/60 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/60 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/60 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/60 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/80 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/80 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/80 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/80 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/80 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/80 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/boosting/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/boosting/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/100 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/100 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/100 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/100 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/100 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/100 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/20 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/20 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/20 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/20 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/20 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/20 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/40 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/40 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/40 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/40 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/40 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/40 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/60 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/60 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/60 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/60 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/60 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/60 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/80 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/80 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/80 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/80 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/80 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/80 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/germancredit/neuralNetwork/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/germancredit/neuralNetwork/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/100 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/100 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/100 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/100 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/100 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/100 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/20 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/20 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/20 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/20 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/20 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/20 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/40 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/40 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/40 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/40 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/40 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/40 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/60 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/60 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/60 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/60 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/60 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/60 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/80 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/80 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/80 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/80 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/80 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/80 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/boosting/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/boosting/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/100 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/100 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/100 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/100 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/100 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/100 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/20 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/20 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/20 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/20 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/20 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/20 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/40 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/40 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/40 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/40 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/40 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/40 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/60 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/60 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/60 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/60 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/60 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/60 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/80 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/80 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/80 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/80 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/80 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/80 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnDistance/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnDistance/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/100 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/100 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/100 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/100 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/100 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/100 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/20 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/20 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/20 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/20 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/20 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/20 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/40 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/40 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/40 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/40 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/40 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/40 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/60 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/60 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/60 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/60 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/60 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/60 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/80 cv" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/80 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/80 test" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/80 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/80 train" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/80 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/knnUniform/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/svmRbf/gridsearch" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/svmRbf/gridsearch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/winequalitywhite/svmRbf/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/winequalitywhite/svmRbf/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Boosting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boosting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecisionTreeWithPruning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecisionTreeWithPruning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearningAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearningAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knnDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knnDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knnUniform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knnUniform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svmLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/svmLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svmRbf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/svmRbf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../figures/germancredit/germancredit_boosting.png" beforeDir="false" afterPath="$PROJECT_DIR$/../figures/germancredit/germancredit_boosting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../figures/winequalitywhite/winequalitywhite_boosting.png" beforeDir="false" afterPath="$PROJECT_DIR$/../figures/winequalitywhite/winequalitywhite_boosting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../figures/winequalitywhite/winequalitywhite_decisionTreeWithPruning.png" beforeDir="false" afterPath="$PROJECT_DIR$/../figures/winequalitywhite/winequalitywhite_decisionTreeWithPruning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../figures/winequalitywhite/winequalitywhite_knnUniform.png" beforeDir="false" afterPath="$PROJECT_DIR$/../figures/winequalitywhite/winequalitywhite_knnUniform.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plotAllResults.py" beforeDir="false" afterPath="$PROJECT_DIR$/../plotAllResults.py" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +126,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2460">
+              <caret line="176" column="30" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results/winequalitywhite/svmRbf/result.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Boosting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2395#2396#0" expanded="true" />
+                <element signature="e#2428#2429#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DecisionTreeWithPruning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NeuralNetwork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/knnUniform.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/svmRbf.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -37,40 +229,50 @@
       <find>m_BestPerformance</find>
       <find>find</find>
       <find>Buffered</find>
+      <find># **</find>
     </findStrings>
+    <replaceStrings>
+      <replace>// **</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/DecisionTree.java" />
-        <option value="$PROJECT_DIR$/src/DecisionTreeWithPruning.java" />
-        <option value="$PROJECT_DIR$/src/NeuralNetwork.java" />
         <option value="$PROJECT_DIR$/src/kNN.java" />
         <option value="$PROJECT_DIR$/src/kNNUniform.java" />
+        <option value="$PROJECT_DIR$/src/SVM.java" />
+        <option value="$PROJECT_DIR$/src/DecisionTreeWithPruning.java" />
+        <option value="$PROJECT_DIR$/src/DecisionTreeUnpruned.java" />
+        <option value="$PROJECT_DIR$/src/NeuralNetwork.java" />
+        <option value="$PROJECT_DIR$/src/svmLinear.java" />
+        <option value="$PROJECT_DIR$/src/LearningAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/knnUniform.java" />
         <option value="$PROJECT_DIR$/src/knnDistance.java" />
-        <option value="$PROJECT_DIR$/src/SVM.java" />
-        <option value="$PROJECT_DIR$/src/svmLinear.java" />
+        <option value="$PROJECT_DIR$/results/winequalitywhite/boosting/gridsearch" />
+        <option value="$PROJECT_DIR$/results/germancredit/boosting/gridsearch" />
         <option value="$PROJECT_DIR$/src/svmRbf.java" />
-        <option value="$PROJECT_DIR$/src/Utils.java" />
-        <option value="$PROJECT_DIR$/src/LearningAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/Boosting.java" />
+        <option value="$PROJECT_DIR$/src/Utils.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
+    <option name="x" value="720" />
     <option name="y" value="23" />
-    <option name="width" value="820" />
+    <option name="width" value="720" />
     <option name="height" value="824" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -79,14 +281,38 @@
               <item name="WekaClassifiers" type="b2602c69:ProjectViewProjectNode" />
               <item name="WekaClassifiers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WekaClassifiers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WekaClassifiers" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WekaClassifiers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WekaClassifiers" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="germancredit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WekaClassifiers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WekaClassifiers" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="germancredit" type="462c0819:PsiDirectoryNode" />
+              <item name="neuralNetwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WekaClassifiers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WekaClassifiers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549472906146" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549740535812" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -141,9 +367,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="23" width="820" height="824" extended-state="0" />
+    <frame x="720" y="23" width="720" height="824" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36246786" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24082074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24935733" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -151,8 +378,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45218578" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5273224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -160,7 +387,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32968536" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3114754" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3101093" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -186,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/results/winequalitywhite/boosting/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/winequalitywhite/decisionTreeWithPruning/result.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -200,49 +420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/stable-3-8-2/weka/weka.jar!/weka/classifiers/functions/MultilayerPerceptron.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="309" column="16" selection-start-line="309" selection-start-column="16" selection-end-line="309" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/stable-3-8-2/weka/weka.jar!/weka/classifiers/Evaluation.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
           <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DecisionTreeWithPruning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/knnUniform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/knnDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -275,31 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NeuralNetwork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2332#2333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2729">
-          <caret line="196" column="16" selection-start-line="196" selection-start-column="8" selection-end-line="196" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LearningAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/germancredit/svmLinear/gridsearch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -311,38 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/svmLinear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Boosting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#1851#1852#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/germancredit/boosting/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="109" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/winequalitywhite/svmRbf/gridsearch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -370,21 +494,188 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/svmLinear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecisionTreeUnpruned.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/germancredit/knnDistance/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knnDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/winequalitywhite/boosting/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/winequalitywhite/knnUniform/20 cv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/winequalitywhite/knnUniform/gridsearch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/winequalitywhite/knnDistance/gridsearch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/germancredit/knnDistance/gridsearch">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/germancredit/knnUniform/gridsearch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/winequalitywhite/boosting/gridsearch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/winequalitywhite/svmRbf/gridsearch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/stable-3-8-2/weka/weka.jar!/weka/classifiers/functions/MultilayerPerceptron.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/germancredit/boosting/_gridsearch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LearningAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/germancredit/boosting/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/germancredit/neuralNetwork/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="176" column="30" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/winequalitywhite/svmRbf/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Boosting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
+            <element signature="e#2428#2429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DecisionTreeWithPruning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NeuralNetwork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knnUniform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/svmRbf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="e#1996#1997#0" expanded="true" />
-            <element signature="e#2027#2028#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="645">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

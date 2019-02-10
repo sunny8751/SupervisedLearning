@@ -1,0 +1,77 @@
+J48 unpruned tree
+------------------
+
+checking_status = <0
+|   savings_status = <100
+|   |   credit_history = no credits/all paid: bad (1.0)
+|   |   credit_history = all paid: bad (1.0)
+|   |   credit_history = existing paid
+|   |   |   other_parties = none
+|   |   |   |   other_payment_plans = bank
+|   |   |   |   |   credit_amount <= 1413: bad (1.0)
+|   |   |   |   |   credit_amount > 1413: good (2.0)
+|   |   |   |   other_payment_plans = stores: bad (0.0)
+|   |   |   |   other_payment_plans = none
+|   |   |   |   |   residence_since <= 3
+|   |   |   |   |   |   own_telephone = none
+|   |   |   |   |   |   |   property_magnitude = real estate: bad (4.0)
+|   |   |   |   |   |   |   property_magnitude = life insurance: bad (0.0)
+|   |   |   |   |   |   |   property_magnitude = car: good (1.0)
+|   |   |   |   |   |   |   property_magnitude = no known property: bad (0.0)
+|   |   |   |   |   |   own_telephone = yes: good (2.0)
+|   |   |   |   |   residence_since > 3: bad (4.0)
+|   |   |   other_parties = co applicant: bad (1.0)
+|   |   |   other_parties = guarantor: good (1.0)
+|   |   credit_history = delayed previously: bad (0.0)
+|   |   credit_history = critical/other existing credit
+|   |   |   other_parties = none
+|   |   |   |   personal_status = male div/sep: bad (1.0)
+|   |   |   |   personal_status = female div/dep/mar: good (0.0)
+|   |   |   |   personal_status = male single: good (6.0)
+|   |   |   |   personal_status = male mar/wid: good (1.0)
+|   |   |   |   personal_status = female single: good (0.0)
+|   |   |   other_parties = co applicant: good (0.0)
+|   |   |   other_parties = guarantor: bad (1.0)
+|   savings_status = 100<=X<500: good (1.0)
+|   savings_status = 500<=X<1000: bad (0.0)
+|   savings_status = >=1000: good (1.0)
+|   savings_status = no known savings: bad (2.0)
+checking_status = 0<=X<200
+|   savings_status = <100
+|   |   other_payment_plans = bank: bad (2.0)
+|   |   other_payment_plans = stores: good (0.0)
+|   |   other_payment_plans = none
+|   |   |   job = unemp/unskilled non res: good (2.0)
+|   |   |   job = unskilled resident: good (1.0)
+|   |   |   job = skilled
+|   |   |   |   installment_commitment <= 2: good (5.0)
+|   |   |   |   installment_commitment > 2
+|   |   |   |   |   other_parties = none: bad (4.0)
+|   |   |   |   |   other_parties = co applicant: good (1.0)
+|   |   |   |   |   other_parties = guarantor: bad (0.0)
+|   |   |   job = high qualif/self emp/mgmt: bad (1.0)
+|   savings_status = 100<=X<500: bad (2.0)
+|   savings_status = 500<=X<1000: good (2.0)
+|   savings_status = >=1000: bad (1.0)
+|   savings_status = no known savings: good (8.0)
+checking_status = >=200
+|   num_dependents <= 1
+|   |   duration <= 9: bad (1.0)
+|   |   duration > 9: good (8.0)
+|   num_dependents > 1: bad (1.0)
+checking_status = no checking
+|   age <= 28
+|   |   residence_since <= 1: good (1.0)
+|   |   residence_since > 1: bad (2.0)
+|   age > 28
+|   |   other_payment_plans = bank
+|   |   |   job = unemp/unskilled non res: good (0.0)
+|   |   |   job = unskilled resident: good (2.0)
+|   |   |   job = skilled: good (2.0)
+|   |   |   job = high qualif/self emp/mgmt: bad (1.0)
+|   |   other_payment_plans = stores: good (0.0)
+|   |   other_payment_plans = none: good (34.0)
+
+Number of Leaves  : 	49
+
+Size of the tree : 	71

@@ -12,7 +12,7 @@ public class NeuralNetwork extends LearningAlgorithm {
     Integer n = null;
 
     @Override
-    protected GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train) throws Exception {
+    protected GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train, StringBuilder result) throws Exception {
         GridSearchParameters p1 = new GridSearchParameters("learningRate", .1, 1, .1);
         GridSearchParameters p2 = new GridSearchParameters("momentum", .1, 1, .1);
         GridSearchParameters p3 = new GridSearchParameters("trainingTime", 300, 700, 100);
@@ -31,6 +31,8 @@ public class NeuralNetwork extends LearningAlgorithm {
                         bestAccuracy = accuracy;
                         bestParameters = String.format("%s: %f\t%s: %f\t%s: %d", p1.parameter, i, p2.parameter, j, p3.parameter, k);
                     }
+
+                    result.append(String.format("(%f,%f,%d,%f) ", i, j, k, accuracy));
                 }
             }
         }

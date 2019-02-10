@@ -122,7 +122,7 @@ public class Utils {
         // Collect every group of predictions for current model
         ArrayList<Prediction> predictions = new ArrayList<Prediction>();
 
-        // Do 5-split cross validation
+        // Do 5-fold cross validation split
         Instances[][] split = crossValidationSplit(train, 5);
 
         // Separate split into training and testing arrays
@@ -157,7 +157,7 @@ public class Utils {
         cvScores.add(CVTest(model, train, dir + split + " cv"));
     }
 
-    private static String getScoresString(ArrayList<Double> scores) {
+    public static String getScoresString(ArrayList<Double> scores) {
         StringBuilder builder = new StringBuilder();
         builder.append("[");
         for (int i = 0; i < scores.size(); i++) {

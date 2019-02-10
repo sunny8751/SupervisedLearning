@@ -1,0 +1,174 @@
+J48 unpruned tree
+------------------
+
+checking_status = <0
+|   num_dependents <= 1
+|   |   credit_history = no credits/all paid
+|   |   |   duration <= 21: bad (1.0)
+|   |   |   duration > 21: good (1.0)
+|   |   credit_history = all paid: bad (3.0)
+|   |   credit_history = existing paid
+|   |   |   foreign_worker = yes
+|   |   |   |   other_parties = none
+|   |   |   |   |   purpose = new car
+|   |   |   |   |   |   duration <= 36: bad (7.0)
+|   |   |   |   |   |   duration > 36: good (1.0)
+|   |   |   |   |   purpose = used car
+|   |   |   |   |   |   duration <= 18: bad (1.0)
+|   |   |   |   |   |   duration > 18: good (3.0)
+|   |   |   |   |   purpose = furniture/equipment
+|   |   |   |   |   |   savings_status = <100
+|   |   |   |   |   |   |   residence_since <= 2: good (1.0)
+|   |   |   |   |   |   |   residence_since > 2: bad (4.0)
+|   |   |   |   |   |   savings_status = 100<=X<500: bad (0.0)
+|   |   |   |   |   |   savings_status = 500<=X<1000: bad (0.0)
+|   |   |   |   |   |   savings_status = >=1000: good (1.0)
+|   |   |   |   |   |   savings_status = no known savings: bad (0.0)
+|   |   |   |   |   purpose = radio/tv
+|   |   |   |   |   |   job = unemp/unskilled non res: good (0.0)
+|   |   |   |   |   |   job = unskilled resident: good (3.0)
+|   |   |   |   |   |   job = skilled
+|   |   |   |   |   |   |   duration <= 15: good (1.0)
+|   |   |   |   |   |   |   duration > 15: bad (2.0)
+|   |   |   |   |   |   job = high qualif/self emp/mgmt: good (0.0)
+|   |   |   |   |   purpose = domestic appliance: bad (1.0)
+|   |   |   |   |   purpose = repairs: bad (0.0)
+|   |   |   |   |   purpose = education: bad (2.0)
+|   |   |   |   |   purpose = vacation: bad (0.0)
+|   |   |   |   |   purpose = retraining: bad (0.0)
+|   |   |   |   |   purpose = business: good (1.0)
+|   |   |   |   |   purpose = other: bad (0.0)
+|   |   |   |   other_parties = co applicant: bad (2.0)
+|   |   |   |   other_parties = guarantor: good (1.0)
+|   |   |   foreign_worker = no: good (2.0)
+|   |   credit_history = delayed previously: bad (1.0)
+|   |   credit_history = critical/other existing credit
+|   |   |   other_parties = none
+|   |   |   |   personal_status = male div/sep: bad (1.0)
+|   |   |   |   personal_status = female div/dep/mar: good (2.0)
+|   |   |   |   personal_status = male single
+|   |   |   |   |   purpose = new car: bad (1.0)
+|   |   |   |   |   purpose = used car: good (3.0)
+|   |   |   |   |   purpose = furniture/equipment: good (1.0)
+|   |   |   |   |   purpose = radio/tv: good (2.0)
+|   |   |   |   |   purpose = domestic appliance: good (0.0)
+|   |   |   |   |   purpose = repairs: good (0.0)
+|   |   |   |   |   purpose = education: good (0.0)
+|   |   |   |   |   purpose = vacation: good (0.0)
+|   |   |   |   |   purpose = retraining: good (0.0)
+|   |   |   |   |   purpose = business: good (0.0)
+|   |   |   |   |   purpose = other: good (0.0)
+|   |   |   |   personal_status = male mar/wid: good (2.0)
+|   |   |   |   personal_status = female single: good (0.0)
+|   |   |   other_parties = co applicant
+|   |   |   |   duration <= 21: good (1.0)
+|   |   |   |   duration > 21: bad (1.0)
+|   |   |   other_parties = guarantor: bad (1.0)
+|   num_dependents > 1
+|   |   residence_since <= 1: bad (1.0)
+|   |   residence_since > 1: good (9.0)
+checking_status = 0<=X<200
+|   other_parties = none
+|   |   savings_status = <100
+|   |   |   personal_status = male div/sep: bad (3.0)
+|   |   |   personal_status = female div/dep/mar
+|   |   |   |   purpose = new car: bad (1.0)
+|   |   |   |   purpose = used car: bad (1.0)
+|   |   |   |   purpose = furniture/equipment
+|   |   |   |   |   duration <= 21: good (4.0)
+|   |   |   |   |   duration > 21: bad (1.0)
+|   |   |   |   purpose = radio/tv: good (0.0)
+|   |   |   |   purpose = domestic appliance: good (0.0)
+|   |   |   |   purpose = repairs: good (0.0)
+|   |   |   |   purpose = education: good (1.0)
+|   |   |   |   purpose = vacation: good (0.0)
+|   |   |   |   purpose = retraining: good (0.0)
+|   |   |   |   purpose = business: good (1.0)
+|   |   |   |   purpose = other: good (0.0)
+|   |   |   personal_status = male single
+|   |   |   |   duration <= 28: good (9.0)
+|   |   |   |   duration > 28: bad (1.0)
+|   |   |   personal_status = male mar/wid
+|   |   |   |   num_dependents <= 1
+|   |   |   |   |   purpose = new car: bad (2.0)
+|   |   |   |   |   purpose = used car: bad (0.0)
+|   |   |   |   |   purpose = furniture/equipment: good (1.0)
+|   |   |   |   |   purpose = radio/tv: bad (2.0)
+|   |   |   |   |   purpose = domestic appliance: bad (0.0)
+|   |   |   |   |   purpose = repairs: bad (0.0)
+|   |   |   |   |   purpose = education: bad (0.0)
+|   |   |   |   |   purpose = vacation: bad (0.0)
+|   |   |   |   |   purpose = retraining: bad (0.0)
+|   |   |   |   |   purpose = business: bad (0.0)
+|   |   |   |   |   purpose = other: bad (0.0)
+|   |   |   |   num_dependents > 1: good (1.0)
+|   |   |   personal_status = female single: good (0.0)
+|   |   savings_status = 100<=X<500
+|   |   |   other_payment_plans = bank: good (1.0)
+|   |   |   other_payment_plans = stores: bad (1.0)
+|   |   |   other_payment_plans = none: bad (4.0)
+|   |   savings_status = 500<=X<1000
+|   |   |   housing = rent: bad (1.0)
+|   |   |   housing = own: good (2.0)
+|   |   |   housing = for free: good (0.0)
+|   |   savings_status = >=1000
+|   |   |   duration <= 12: bad (1.0)
+|   |   |   duration > 12: good (1.0)
+|   |   savings_status = no known savings: good (11.0)
+|   other_parties = co applicant: good (2.0)
+|   other_parties = guarantor: good (5.0)
+checking_status = >=200
+|   other_payment_plans = bank: bad (1.0)
+|   other_payment_plans = stores
+|   |   purpose = new car: good (0.0)
+|   |   purpose = used car: good (0.0)
+|   |   purpose = furniture/equipment: good (1.0)
+|   |   purpose = radio/tv: bad (1.0)
+|   |   purpose = domestic appliance: good (0.0)
+|   |   purpose = repairs: good (0.0)
+|   |   purpose = education: good (0.0)
+|   |   purpose = vacation: good (0.0)
+|   |   purpose = retraining: good (0.0)
+|   |   purpose = business: good (0.0)
+|   |   purpose = other: good (0.0)
+|   other_payment_plans = none
+|   |   duration <= 9: bad (1.0)
+|   |   duration > 9: good (12.0)
+checking_status = no checking
+|   other_parties = none
+|   |   other_payment_plans = bank
+|   |   |   own_telephone = none
+|   |   |   |   property_magnitude = real estate: good (2.0)
+|   |   |   |   property_magnitude = life insurance: bad (1.0)
+|   |   |   |   property_magnitude = car: good (2.0)
+|   |   |   |   property_magnitude = no known property: good (2.0)
+|   |   |   own_telephone = yes
+|   |   |   |   existing_credits <= 2: bad (3.0)
+|   |   |   |   existing_credits > 2: good (1.0)
+|   |   other_payment_plans = stores: good (2.0)
+|   |   other_payment_plans = none
+|   |   |   age <= 31
+|   |   |   |   employment = unemployed: good (0.0)
+|   |   |   |   employment = <1
+|   |   |   |   |   personal_status = male div/sep: good (0.0)
+|   |   |   |   |   personal_status = female div/dep/mar: good (3.0)
+|   |   |   |   |   personal_status = male single: bad (1.0)
+|   |   |   |   |   personal_status = male mar/wid: good (0.0)
+|   |   |   |   |   personal_status = female single: good (0.0)
+|   |   |   |   employment = 1<=X<4
+|   |   |   |   |   savings_status = <100
+|   |   |   |   |   |   residence_since <= 2: good (5.0)
+|   |   |   |   |   |   residence_since > 2: bad (1.0)
+|   |   |   |   |   savings_status = 100<=X<500: good (1.0)
+|   |   |   |   |   savings_status = 500<=X<1000: bad (1.0)
+|   |   |   |   |   savings_status = >=1000: good (0.0)
+|   |   |   |   |   savings_status = no known savings: good (0.0)
+|   |   |   |   employment = 4<=X<7: good (4.0)
+|   |   |   |   employment = >=7: bad (1.0)
+|   |   |   age > 31: good (52.0)
+|   other_parties = co applicant: bad (1.0)
+|   other_parties = guarantor: good (4.0)
+
+Number of Leaves  : 	126
+
+Size of the tree : 	168

@@ -8,7 +8,7 @@ public class knnDistance extends LearningAlgorithm {
     Integer k = null;
 
     @Override
-    protected GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train) throws Exception {
+    protected GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train, StringBuilder result) throws Exception {
         GridSearchParameters p1 = new GridSearchParameters("k", 1, 50, 1);
 
         double bestAccuracy = 0;
@@ -20,6 +20,8 @@ public class knnDistance extends LearningAlgorithm {
                 bestAccuracy = accuracy;
                 bestParameters = p1.parameter + ": " + i;
             }
+
+            result.append(String.format("(%d,%f) ", i, accuracy));
         }
         return new GridSearchResult(bestAccuracy, bestParameters);
     }

@@ -10,7 +10,7 @@ public class DecisionTreeWithPruning extends LearningAlgorithm {
     Integer m = null;
 
     @Override
-    protected GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train) throws Exception {
+    protected GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train, StringBuilder result) throws Exception {
 //        CVParameterSelection selection = new CVParameterSelection();
 //        selection.setNumFolds(5);
 //        selection.addCVParameter("C .05 .95 10");
@@ -33,6 +33,8 @@ public class DecisionTreeWithPruning extends LearningAlgorithm {
                     bestAccuracy = accuracy;
                     bestParameters = p1.parameter + ": " + i + "\t" + p2.parameter + ": " + j;
                 }
+
+                result.append(String.format("(%f,%f,%f) ", i, j, accuracy));
             }
         }
         return new GridSearchResult(bestAccuracy, bestParameters);

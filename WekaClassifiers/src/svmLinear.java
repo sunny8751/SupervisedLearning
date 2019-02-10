@@ -10,19 +10,21 @@ public class svmLinear extends LearningAlgorithm {
     Float c = null;
 
     @Override
-    protected GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train) throws Exception {
+    protected GridSearchResult gridSearchHelper(Classifier model, String dataset, Instances train, StringBuilder result) throws Exception {
         GridSearchParameters p1 = new GridSearchParameters("c", -3, 3, 1);
 
         double bestAccuracy = 0;
         String bestParameters = "";
         for (int i = (int) p1.low; i <= (int) p1.high; i += (int) p1.step) {
-            int c = (int) Math.pow(10, i);
-            ((SMO) model).setC(c);
+            int cTest = (int) Math.pow(10, i);
+            ((SMO) model).setC(cTest);
             double accuracy = Utils.CVTest(model, train, null);
             if (accuracy > bestAccuracy) {
                 bestAccuracy = accuracy;
-                bestParameters = p1.parameter + ": " + c;
+                bestParameters = p1.parameter + ": " + cTest;
             }
+
+            result.append(String.format("(%f,%f) ", cTest, accuracy));
         }
         return new GridSearchResult(bestAccuracy, bestParameters);
     }

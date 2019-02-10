@@ -1,0 +1,105 @@
+J48 unpruned tree
+------------------
+
+checking_status = <0
+|   credit_history = no credits/all paid: bad (1.0)
+|   credit_history = all paid: bad (2.0)
+|   credit_history = existing paid
+|   |   other_parties = none
+|   |   |   other_payment_plans = bank
+|   |   |   |   credit_amount <= 1413: bad (1.0)
+|   |   |   |   credit_amount > 1413: good (2.0)
+|   |   |   other_payment_plans = stores: bad (0.0)
+|   |   |   other_payment_plans = none
+|   |   |   |   purpose = new car
+|   |   |   |   |   own_telephone = none: bad (4.0)
+|   |   |   |   |   own_telephone = yes: good (1.0)
+|   |   |   |   purpose = used car
+|   |   |   |   |   duration <= 18: bad (1.0)
+|   |   |   |   |   duration > 18: good (2.0)
+|   |   |   |   purpose = furniture/equipment
+|   |   |   |   |   residence_since <= 2: good (1.0)
+|   |   |   |   |   residence_since > 2: bad (3.0)
+|   |   |   |   purpose = radio/tv: bad (1.0)
+|   |   |   |   purpose = domestic appliance: bad (1.0)
+|   |   |   |   purpose = repairs: bad (0.0)
+|   |   |   |   purpose = education: bad (2.0)
+|   |   |   |   purpose = vacation: bad (0.0)
+|   |   |   |   purpose = retraining: bad (0.0)
+|   |   |   |   purpose = business: bad (0.0)
+|   |   |   |   purpose = other: bad (0.0)
+|   |   other_parties = co applicant: bad (1.0)
+|   |   other_parties = guarantor: good (1.0)
+|   credit_history = delayed previously: bad (0.0)
+|   credit_history = critical/other existing credit
+|   |   other_payment_plans = bank: bad (1.0)
+|   |   other_payment_plans = stores: good (0.0)
+|   |   other_payment_plans = none
+|   |   |   personal_status = male div/sep: bad (1.0)
+|   |   |   personal_status = female div/dep/mar: good (2.0)
+|   |   |   personal_status = male single
+|   |   |   |   property_magnitude = real estate: good (5.0)
+|   |   |   |   property_magnitude = life insurance: good (0.0)
+|   |   |   |   property_magnitude = car
+|   |   |   |   |   duration <= 18: good (1.0)
+|   |   |   |   |   duration > 18: bad (1.0)
+|   |   |   |   property_magnitude = no known property: good (2.0)
+|   |   |   personal_status = male mar/wid: good (2.0)
+|   |   |   personal_status = female single: good (0.0)
+checking_status = 0<=X<200
+|   savings_status = <100
+|   |   personal_status = male div/sep: bad (2.0)
+|   |   personal_status = female div/dep/mar
+|   |   |   age <= 25: bad (2.0)
+|   |   |   age > 25: good (4.0)
+|   |   personal_status = male single
+|   |   |   duration <= 24: good (8.0)
+|   |   |   duration > 24: bad (1.0)
+|   |   personal_status = male mar/wid
+|   |   |   existing_credits <= 1
+|   |   |   |   purpose = new car: bad (1.0)
+|   |   |   |   purpose = used car: bad (0.0)
+|   |   |   |   purpose = furniture/equipment: good (1.0)
+|   |   |   |   purpose = radio/tv: bad (2.0)
+|   |   |   |   purpose = domestic appliance: bad (0.0)
+|   |   |   |   purpose = repairs: bad (0.0)
+|   |   |   |   purpose = education: bad (0.0)
+|   |   |   |   purpose = vacation: bad (0.0)
+|   |   |   |   purpose = retraining: bad (0.0)
+|   |   |   |   purpose = business: bad (0.0)
+|   |   |   |   purpose = other: bad (0.0)
+|   |   |   existing_credits > 1: good (2.0)
+|   |   personal_status = female single: good (0.0)
+|   savings_status = 100<=X<500: bad (2.0)
+|   savings_status = 500<=X<1000: good (2.0)
+|   savings_status = >=1000: bad (1.0)
+|   savings_status = no known savings: good (9.0)
+checking_status = >=200
+|   num_dependents <= 1
+|   |   property_magnitude = real estate
+|   |   |   housing = rent: good (2.0)
+|   |   |   housing = own: bad (2.0)
+|   |   |   housing = for free: good (0.0)
+|   |   property_magnitude = life insurance: good (1.0)
+|   |   property_magnitude = car: good (5.0)
+|   |   property_magnitude = no known property: good (1.0)
+|   num_dependents > 1: bad (1.0)
+checking_status = no checking
+|   credit_history = no credits/all paid: good (2.0)
+|   credit_history = all paid: bad (1.0)
+|   credit_history = existing paid
+|   |   personal_status = male div/sep: good (1.0)
+|   |   personal_status = female div/dep/mar
+|   |   |   duration <= 15: bad (1.0)
+|   |   |   duration > 15: good (1.0)
+|   |   personal_status = male single: good (14.0)
+|   |   personal_status = male mar/wid: good (2.0)
+|   |   personal_status = female single: good (0.0)
+|   credit_history = delayed previously
+|   |   age <= 28: bad (1.0)
+|   |   age > 28: good (7.0)
+|   credit_history = critical/other existing credit: good (22.0)
+
+Number of Leaves  : 	73
+
+Size of the tree : 	99

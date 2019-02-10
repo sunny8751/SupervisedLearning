@@ -2,13 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97ffdb81-b637-489e-9b51-34d52b9f792b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splitData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WekaClassifiers/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WekaClassifiers/src/DecisionTreeUnpruned.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plotConclusion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WekaClassifiers/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WekaClassifiers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WekaClassifiers/SupervisedLearning.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/bin/Boosting.class" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/bin/Boosting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/bin/DecisionTreeWithPruning.class" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/bin/DecisionTreeWithPruning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/bin/LearningAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/bin/LearningAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/bin/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/bin/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/bin/NeuralNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/bin/NeuralNetwork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/bin/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/bin/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/bin/knnDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/bin/knnDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/bin/knnUniform.class" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/bin/knnUniform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/bin/svmLinear.class" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/bin/svmLinear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/bin/svmRbf.class" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/bin/svmRbf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/100 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/100 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/100 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/100 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/100 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/100 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/20 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/20 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/20 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/20 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/20 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/20 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/40 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/40 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/40 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/40 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/40 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/40 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/60 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/60 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/60 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/60 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/60 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/60 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/80 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/80 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/80 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/80 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/80 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/80 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/boosting/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/100 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/100 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/100 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/100 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/100 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/100 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/20 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/20 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/20 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/20 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/20 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/20 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/40 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/40 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/40 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/40 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/40 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/40 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/60 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/60 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/60 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/60 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/60 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/60 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/80 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/80 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/80 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/80 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/80 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/80 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/germancredit/neuralNetwork/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/100 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/100 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/100 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/100 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/100 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/100 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/20 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/20 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/20 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/20 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/20 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/20 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/40 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/40 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/40 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/40 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/40 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/40 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/60 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/60 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/60 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/60 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/60 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/60 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/80 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/80 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/80 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/80 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/80 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/80 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/boosting/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/100 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/100 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/100 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/100 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/100 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/100 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/20 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/20 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/20 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/20 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/20 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/20 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/40 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/40 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/40 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/40 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/40 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/40 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/60 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/60 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/60 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/60 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/60 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/60 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/80 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/80 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/80 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/80 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/80 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/80 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/decisionTreeWithPruning/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnDistance/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnDistance/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/100 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/100 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/100 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/100 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/100 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/100 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/20 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/20 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/20 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/20 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/20 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/20 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/40 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/40 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/40 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/40 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/40 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/40 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/60 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/60 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/60 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/60 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/60 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/60 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/80 cv" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/80 cv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/80 test" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/80 test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/80 train" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/80 train" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/knnUniform/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/svmRbf/gridsearch" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/svmRbf/gridsearch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/svmRbf/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/results/winequalitywhite/svmRbf/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/src/Boosting.java" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/src/Boosting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/src/DecisionTreeWithPruning.java" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/src/DecisionTreeWithPruning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/src/LearningAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/src/LearningAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/src/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/src/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/src/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/src/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/src/knnDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/src/knnDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/src/knnUniform.java" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/src/knnUniform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/src/svmLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/src/svmLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WekaClassifiers/src/svmRbf.java" beforeDir="false" afterPath="$PROJECT_DIR$/WekaClassifiers/src/svmRbf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/germancredit/germancredit_boosting.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/germancredit/germancredit_boosting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/winequalitywhite/winequalitywhite_boosting.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/winequalitywhite/winequalitywhite_boosting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/winequalitywhite/winequalitywhite_decisionTreeWithPruning.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/winequalitywhite/winequalitywhite_decisionTreeWithPruning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/winequalitywhite/winequalitywhite_knnUniform.png" beforeDir="false" afterPath="$PROJECT_DIR$/figures/winequalitywhite/winequalitywhite_knnUniform.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotAllResults.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotAllResults.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +125,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plotAllResults.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+            <state relative-caret-position="150">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -30,11 +137,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/splitData.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plotConclusion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="780">
+              <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../OLD_SupervisedLearning/decision_tree_with_pruning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,9 +199,10 @@
         <option value="$PROJECT_DIR$/decision_tree_with_pruning.py" />
         <option value="$PROJECT_DIR$/consolidateWeka.py" />
         <option value="$PROJECT_DIR$/plot_data.py" />
-        <option value="$PROJECT_DIR$/plotAllResults.py" />
         <option value="$PROJECT_DIR$/split_data.py" />
         <option value="$PROJECT_DIR$/splitData.py" />
+        <option value="$PROJECT_DIR$/plotAllResults.py" />
+        <option value="$PROJECT_DIR$/plotConclusion.py" />
       </list>
     </option>
   </component>
@@ -94,18 +217,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SupervisedLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SupervisedLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,28 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.split_data">
-    <configuration name="consolidateWeka" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SupervisedLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/consolidateWeka.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.plotConclusion">
     <configuration name="decision_tree_with_pruning" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SupervisedLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,6 +278,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotAllResults.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plotConclusion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SupervisedLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotConclusion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,18 +350,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.plot_data" />
       <item itemvalue="Python.decision_tree_with_pruning" />
-      <item itemvalue="Python.consolidateWeka" />
       <item itemvalue="Python.plotAllResults" />
+      <item itemvalue="Python.plot_data" />
       <item itemvalue="Python.split_data" />
+      <item itemvalue="Python.plotConclusion" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.split_data" />
+        <item itemvalue="Python.plotConclusion" />
         <item itemvalue="Python.plotAllResults" />
+        <item itemvalue="Python.split_data" />
         <item itemvalue="Python.plot_data" />
-        <item itemvalue="Python.consolidateWeka" />
         <item itemvalue="Python.decision_tree_with_pruning" />
       </list>
     </recent_temporary>
@@ -268,14 +381,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="720" height="824" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28551912" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28551912" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,20 +446,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.txt" />
     <entry file="file://$PROJECT_DIR$/svm.py" />
-    <entry file="file://$PROJECT_DIR$/plotAllResults.py">
+    <entry file="file://$PROJECT_DIR$/splitData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/matplotlib/axes/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="236" column="32" lean-forward="true" selection-start-line="236" selection-start-column="32" selection-end-line="236" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OLD_SupervisedLearning/decision_tree_with_pruning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotConclusion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="18" lean-forward="true" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splitData.py">
+    <entry file="file://$PROJECT_DIR$/plotAllResults.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
